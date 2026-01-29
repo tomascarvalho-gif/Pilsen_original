@@ -907,10 +907,14 @@ def get_overview_file(link, years, quarter):
 
 
 # ----------------------------- INIT ----------------------------------------
-set_identity("Alfred AlfredNem@gmail.com")
-update_company_list()
+# NOTA: A configuração de identidade e atualização da lista de empresas
+# foram movidas para downloader.py
+# 
+# Para configurar manualmente, use:
+# set_identity("Seu Nome seu.email@example.com")
+# update_company_list()
 
-# Example:
+# Exemplo de uso:
 # test = CompanyIns("320193", "AAPL", "Apple Inc.")
 # saved_data = CompanyData({})
 # SecTools_export_important_data(test, saved_data, 2017)

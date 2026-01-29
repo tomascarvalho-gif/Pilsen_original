@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (don't commit downloaded data)
+xbrl_data_json/
+company_tickers.json
+*.log
+download_output.txt
+.cache_index_lists/
+
+# OS
+.DS_Store
+Thumbs.db
