@@ -28,6 +28,9 @@ company_tickers.json
 download_output.txt
 .cache_index_lists/
 
+# Environment / secrets
+.env
+
 # OS
 .DS_Store
 Thumbs.db

@@ -47,6 +47,9 @@ _REQUIRED_FOR_COMPUTED = {
     "us-gaap_LongTermDebtCurrent",
     "us-gaap_LongTermDebtNoncurrent",
 
+    # --- ROA needs Assets ---
+    "us-gaap_Assets",
+
     # --- Pretax Profit Margin needs pretax income and revenue ---
     "us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
     "us-gaap_IncomeBeforeEquityMethodInvestmentsIncomeTaxesExtraordinaryItemsNoncontrollingInterest",  # alt
@@ -63,6 +66,10 @@ _EQUITY_KEYS = [
     "us-gaap_StockholdersEquity",
 ]
 
+_ASSETS_KEYS = [
+    "us-gaap_Assets",
+]
+
 # Preferred EPS tags, then continuing-ops variants as fallback
 _EPS_KEYS = [
     "us-gaap_EarningsPerShareDiluted",
@@ -70,6 +77,27 @@ _EPS_KEYS = [
     "us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare",
     "us-gaap_IncomeLossFromContinuingOperationsPerBasicShare",
 ]
+
+# ---- Indicators -----------------------------------------------------------
+def calculate_ROE(variables: Dict[str, Any]) -> Optional[float]:
+    """
+    ROE = Net Income / Shareholders' Equity  (end-of-period only)
+    """
+    net_income = first_numeric(variables, _NET_INCOME_KEYS)
+    equity_end = first_numeric(variables, _EQUITY_KEYS)
+    return to_percent(safe_div(net_income, equity_end))
+
+
+def calculate_ROA(variables: Dict[str, Any]) -> Optional[float]:
+    """
+    ROA = Net Income / Total Assets (end-of-period only)
+    """
+    net_income = first_numeric(variables, _NET_INCOME_KEYS)
+    assets_end = first_numeric(variables, _ASSETS_KEYS)
+    return to_percent(safe_div(net_income, assets_end))
+
+
+
 
 # Weighted-average share count (diluted & basic) — multiple common variants
 _SHARES_DILUTED_KEYS = [
@@ -163,16 +191,6 @@ def calculate_EPS(variables: Dict[str, Any], stock_price=None) -> Optional[float
     shares = first_numeric(variables, _SHARES_BASIC_KEYS)
     eps = safe_div(net_income, shares)
     return eps
-
-
-# ---- Indicators -----------------------------------------------------------
-def calculate_ROE(variables: Dict[str, Any]) -> Optional[float]:
-    """
-    ROE = Net Income / Shareholders' Equity  (end-of-period only)
-    """
-    net_income = first_numeric(variables, _NET_INCOME_KEYS)
-    equity_end = first_numeric(variables, _EQUITY_KEYS)
-    return to_percent(safe_div(net_income, equity_end))
 
 
 def calculate_PE(
@@ -328,6 +346,7 @@ def compute_ratios(
     computed: Dict[str, Optional[float]] = {}
     try:
         computed["ROE"] = calculate_ROE(base)
+        computed["ROA"] = calculate_ROA(base)
         computed["P/E"] = calculate_PE(base, file_or_json=file, stock_price=stock_price)
         computed["P/FCF"] = calculate_PFCF(base, file_or_json=file, stock_price=stock_price)
         computed["P/CF"] = calculate_PCF(base, file_or_json=file, stock_price=stock_price)

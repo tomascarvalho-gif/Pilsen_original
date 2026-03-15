@@ -1,0 +1,44 @@
+Sector_A,Sector_B,rho_pre,rho_covid,delta_rho,z_stat,p_value
+Financials,Information Technology,0.7815,0.5664,-0.2151,6.4364,0.0
+Industrials,Utilities,0.1235,0.482,0.3585,-6.3483,0.0
+Financials,Utilities,0.1029,0.4358,0.3329,-5.7524,0.0
+Consumer Discretionary,Financials,0.7436,0.5346,-0.209,5.7231,0.0
+Industrials,Real Estate,0.3152,0.5955,0.2804,-5.691,0.0
+Financials,Real Estate,0.2751,0.5616,0.2865,-5.5789,0.0
+Materials,Utilities,0.1552,0.4659,0.3107,-5.5071,0.0
+Industrials,Information Technology,0.7419,0.5617,-0.1803,5.0516,0.0
+Energy,Information Technology,0.5563,0.3023,-0.254,4.9872,1e-06
+Consumer Discretionary,Industrials,0.7001,0.5082,-0.1919,4.8568,1e-06
+Materials,Real Estate,0.3102,0.5555,0.2453,-4.8311,1e-06
+Communication Services,Utilities,0.1318,0.4043,0.2725,-4.6836,3e-06
+Health Care,Utilities,0.2902,0.5322,0.2421,-4.6562,3e-06
+Consumer Staples,Utilities,0.5033,0.6749,0.1716,-4.2057,2.6e-05
+Consumer Discretionary,Energy,0.5166,0.2986,-0.218,4.1689,3.1e-05
+Energy,Real Estate,0.1461,0.365,0.2189,-3.723,0.000197
+Communication Services,Consumer Staples,0.3978,0.5703,0.1725,-3.5886,0.000332
+Communication Services,Real Estate,0.3392,0.5207,0.1815,-3.5438,0.000394
+Consumer Discretionary,Health Care,0.6384,0.4878,-0.1506,3.5156,0.000439
+Consumer Discretionary,Materials,0.6351,0.484,-0.1511,3.5066,0.000454
+Information Technology,Real Estate,0.3498,0.5266,0.1768,-3.4816,0.000499
+Consumer Discretionary,Utilities,0.1003,0.3035,0.2032,-3.3629,0.000771
+Energy,Utilities,0.0566,0.2576,0.201,-3.2711,0.001071
+Financials,Industrials,0.8106,0.8695,0.0588,-3.195,0.001398
+Consumer Staples,Materials,0.5014,0.6363,0.1349,-3.1733,0.001507
+Information Technology,Utilities,0.1378,0.3258,0.1879,-3.1521,0.001621
+Energy,Financials,0.597,0.7092,0.1122,-3.1157,0.001835
+Energy,Health Care,0.5068,0.3465,-0.1603,3.114,0.001846
+Financials,Materials,0.7144,0.7954,0.0811,-3.0042,0.002663
+Health Care,Information Technology,0.7098,0.6061,-0.1037,2.909,0.003626
+Health Care,Real Estate,0.4394,0.5726,0.1333,-2.8458,0.00443
+Information Technology,Materials,0.6562,0.5423,-0.1139,2.8255,0.004721
+Financials,Health Care,0.6827,0.5789,-0.1038,2.7411,0.006124
+Communication Services,Energy,0.5089,0.3747,-0.1341,2.6449,0.008171
+Consumer Staples,Industrials,0.4958,0.6079,0.1121,-2.5584,0.010516
+Consumer Staples,Financials,0.465,0.5785,0.1135,-2.4757,0.013296
+Consumer Staples,Health Care,0.5719,0.6639,0.0921,-2.3645,0.018053
+Health Care,Industrials,0.6686,0.5786,-0.09,2.3376,0.019406
+Real Estate,Utilities,0.5912,0.6789,0.0876,-2.3317,0.019719
+Consumer Discretionary,Real Estate,0.3373,0.4603,0.123,-2.3194,0.020375
+Communication Services,Financials,0.7023,0.6222,-0.0801,2.2635,0.023602
+Consumer Staples,Information Technology,0.4278,0.5356,0.1078,-2.2255,0.026046
+Energy,Industrials,0.6214,0.6941,0.0727,-2.0312,0.042233

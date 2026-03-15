@@ -1,0 +1,13 @@
+Comparison,Indicator,Mean_1,Mean_2,n_1,n_2,t_stat,p_value,df_welch,Significant
+"Oil Glut
+(2014–2016)  vs.  Pandemic Shock
+(2020–2021)",P/E Spread,-128.2738,18.2152,1,7,,,,False
+"Oil Glut
+(2014–2016)  vs.  Pandemic Shock
+(2020–2021)",ROE Spread,10.7592,38.5974,1,7,,,,False
+"Pandemic Shock
+(2020–2021)  vs.  Rate Hikes
+(2022–2023)",P/E Spread,18.2152,71.0053,7,4,-2.6050,0.0306,8.2321,True
+"Pandemic Shock
+(2020–2021)  vs.  Rate Hikes
+(2022–2023)",ROE Spread,38.5974,31.2751,7,4,0.4851,0.6450,5.9478,False

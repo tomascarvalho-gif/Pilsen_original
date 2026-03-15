@@ -1,0 +1,8 @@
+Variable,Coefficient,Std_Error_HC3,t_statistic,p_value,CI_lower_95,CI_upper_95
+const (β₀),12.674479,12.72517,0.996,0.319242,-12.2664,37.6154
+Δ CAPEX Intensity (β₁),39.936976,117.118528,0.341,0.733106,-189.6111,269.4851
+R_squared,0.008225,,,,,
+Adj_R_squared,-0.043974,,,,,
+F_statistic,0.1163,,,,,
+F_p_value,0.736848,,,,,
+n_observations,21.0,,,,,

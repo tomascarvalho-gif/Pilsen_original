@@ -37,6 +37,9 @@ from datetime import datetime, timedelta
 from typing import List, Dict, Optional, Tuple
 import traceback
 
+from dotenv import load_dotenv
+load_dotenv()
+
 # Importar funções necessárias do módulo info_picker_2
 from info_picker_2 import (
     set_identity,
@@ -178,10 +181,17 @@ def setup_sec_identity():
     """
     Configure identity for SEC API access.
     SEC requires identification (name and email) to access their data.
+    Reads SEC_IDENTITY from the environment (or .env file).
     """
     logging.info("Setting up SEC identity...")
+    identity = os.environ.get("SEC_IDENTITY")
+    if not identity:
+        raise EnvironmentError(
+            "SEC_IDENTITY is not set. Add it to your .env file:\n"
+            "  SEC_IDENTITY=Your Name your@email.com"
+        )
     try:
-        set_identity("Tomas Carvalho tomasdfc@mac.com")
+        set_identity(identity)
         logging.info("SEC identity configured successfully")
     except Exception as e:
         logging.error(f"Failed to set SEC identity: {e}", exc_info=True)
@@ -224,19 +234,29 @@ def download_company_year_with_retry(
 ) -> Tuple[bool, Optional[str], Optional[str]]:
     """
     Download data for a company and year with retry logic.
-    
-    Args:
-        company: CompanyIns object
-        companies_data: Company data structure
-        year: Year to download
-        mapping_variables: Variable mapping dictionary
-    
-    Returns:
-        Tuple of (success: bool, error_type: str or None, error_message: str or None)
+    INCLUDES SMART RESUME: Skips if file already exists.
     """
     ticker = company.ticker
     cik = company.cik
     
+    # --- SMART RESUME CHECK START ---
+    # Check if we already have this year downloaded to save time
+    json_dir = "xbrl_data_json"
+    ticker_dir = os.path.join(json_dir, ticker)
+    
+    if os.path.exists(ticker_dir):
+        try:
+            # Check existing files in the ticker's folder
+            existing_files = os.listdir(ticker_dir)
+            for f in existing_files:
+                # Logic matches your verify_downloads: checks for year in filename
+                if f"_{year}" in f and f.endswith(".json"):
+                    logging.info(f"⏭️ Skipping {ticker} {year} (Found existing file: {f})")
+                    return True, None, None
+        except OSError:
+            pass # If folder read fails, just proceed to download
+    # --- SMART RESUME CHECK END ---
+
     for attempt in range(MAX_RETRIES):
         try:
             # Rate limiting

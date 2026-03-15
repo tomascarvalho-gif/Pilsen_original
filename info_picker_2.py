@@ -365,22 +365,44 @@ def _fetch_html(url: str) -> Optional[str]:
         return None
 
 
-def _parse_sp500_from_html(html: str) -> List[str]:
+def _parse_wiki_table_with_sectors(html: str) -> Dict[str, dict]:
     """
-    Extract S&P 500 symbols from Wikipedia HTML.
-    Strategy:
-      - Try pandas.read_html and pick the first table containing 'Symbol' column.
-      - Fallback to BeautifulSoup parsing of <table> rows.
+    Extract symbols, sectors, and sub-industries from Wikipedia HTML tables.
+    Generic function for S&P 500, 400, 600.
+    Returns dict: {ticker: {"sector": x, "sub_industry": y}}
     """
-    # Try pandas first – resilient to minor markup changes.
+    # Try pandas first
     try:
         tables = pd.read_html(html)
         for df in tables:
             cols = [str(c).strip().lower() for c in df.columns]
             if any("symbol" in c for c in cols):
-                syms = df[[c for c in df.columns if "symbol" in str(c).lower()][0]].astype(str).str.strip().tolist()
-                syms = [s.replace(".", "-") for s in syms if s and s != "nan"]
-                return syms
+                # Identify columns
+                sym_col = [c for c in df.columns if "symbol" in str(c).lower()][0]
+                
+                sec_col = None
+                for c in df.columns:
+                    if "sector" in str(c).lower():
+                        sec_col = c
+                        break
+                        
+                sub_col = None
+                for c in df.columns:
+                    if "sub-industry" in str(c).lower() or "sub industry" in str(c).lower():
+                        sub_col = c
+                        break
+                
+                if sym_col and sec_col:
+                    df_clean = df.dropna(subset=[sym_col])
+                    result = {}
+                    for _, row in df_clean.iterrows():
+                        sym = str(row[sym_col]).strip().replace(".", "-")
+                        sec = str(row[sec_col]).strip()
+                        sub = str(row[sub_col]).strip() if sub_col else "Unknown"
+                        if sym and sym != "nan" and sec and sec != "nan":
+                            result[sym] = {"sector": sec, "sub_industry": sub}
+                    if result:
+                         return result
     except Exception:
         pass
 
@@ -390,18 +412,32 @@ def _parse_sp500_from_html(html: str) -> List[str]:
     for t in tables:
         headers = [th.get_text(strip=True).lower() for th in t.find_all("th")]
         if any("symbol" in h for h in headers):
-            syms = []
+            result = {}
+            sym_idx, sec_idx, sub_idx = -1, -1, -1
+            for i, h in enumerate(headers):
+                if "symbol" in h: sym_idx = i
+                if "sector" in h: sec_idx = i
+                if "sub-industry" in h or "sub industry" in h: sub_idx = i
+            
+            if sym_idx == -1: sym_idx = 0
+            if sec_idx == -1: sec_idx = 2 
+
             for row in t.find_all("tr"):
                 cells = [c.get_text(strip=True) for c in row.find_all(["td", "th"])]
-                if not cells:
+                if not cells or len(cells) < 3:
                     continue
-                # symbol usually in column 0 or 1
-                for c in cells[:2]:
-                    if c and len(c) <= 6 and c.isupper():
-                        syms.append(c.replace(".", "-"))
-                        break
-            return [s for s in syms if s]
-    return []
+                
+                if len(cells) > max(sym_idx, sec_idx):
+                     sym = cells[sym_idx]
+                     sec = cells[sec_idx]
+                     sub = cells[sub_idx] if sub_idx != -1 and len(cells) > sub_idx else "Unknown"
+                     if sym and len(sym) <= 6 and sym.isupper() and sec:
+                         result[sym.replace(".", "-")] = {"sector": sec, "sub_industry": sub}
+            
+            if result:
+                return result
+
+    return {}
 
 
 def _parse_dji_from_html(html: str) -> List[str]:
@@ -439,14 +475,12 @@ def _parse_dji_from_html(html: str) -> List[str]:
     return []
 
 
-def download_SP500_tickers() -> List[str]:
+def download_SP500_data() -> Dict[str, str]:
     """
-    Get S&P 500 constituents.
-    - Uses strong headers to avoid 403.
-    - Caches results for 24h.
-    - Returns [] on failure (never raises), so UI can degrade gracefully.
+    Get S&P 500 constituents with sector data.
+    Returns: {ticker: sector}
     """
-    cache_name = "sp500.json"
+    cache_name = "sp500_sectors.json"
     cached = _load_cached_list(cache_name)
     if cached:
         return cached
@@ -454,15 +488,60 @@ def download_SP500_tickers() -> List[str]:
     url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
     html = _fetch_html(url)
     if not html:
-        print("[INDEX] Failed to fetch S&P 500 page (403 or network issue). Returning empty list.")
-        return []
+        print("[INDEX] Failed to fetch S&P 500 page (403 or network issue).")
+        return {}
 
-    syms = _parse_sp500_from_html(html)
-    # Final clean-up: some sources use dots for class A/B shares – Yahoo prefers dashes.
-    syms = [s.replace(".", "-") for s in syms]
-    if syms:
-        _save_cached_list(cache_name, syms)
-    return syms
+    data = _parse_wiki_table_with_sectors(html)
+    if data:
+        _save_cached_list(cache_name, data)
+    return data
+
+def download_SP400_data() -> Dict[str, str]:
+    """S&P 400 (MidCap) symbols and sectors."""
+    cache_name = "sp400_sectors.json"
+    cached = _load_cached_list(cache_name)
+    if cached: return cached
+
+    url = "https://en.wikipedia.org/wiki/List_of_S%26P_400_companies"
+    html = _fetch_html(url)
+    if not html: return {}
+
+    data = _parse_wiki_table_with_sectors(html)
+    if data: _save_cached_list(cache_name, data)
+    return data
+
+def download_SP600_data() -> Dict[str, str]:
+    """S&P 600 (SmallCap) symbols and sectors."""
+    cache_name = "sp600_sectors.json"
+    cached = _load_cached_list(cache_name)
+    if cached: return cached
+
+    url = "https://en.wikipedia.org/wiki/List_of_S%26P_600_companies"
+    html = _fetch_html(url)
+    if not html: return {}
+
+    data = _parse_wiki_table_with_sectors(html)
+    if data: _save_cached_list(cache_name, data)
+    return data
+
+def download_SP1500_data() -> Dict[str, str]:
+    """Combines S&P 500, 400, and 600."""
+    sp500 = download_SP500_data()
+    sp400 = download_SP400_data()
+    sp600 = download_SP600_data()
+    
+    # Merge all
+    combined = {}
+    combined.update(sp500)
+    combined.update(sp400)
+    combined.update(sp600)
+    
+    return combined
+
+def download_SP500_tickers() -> List[str]:
+    """Compatibility wrapper returning just the list of tickers."""
+    data = download_SP500_data()
+    return list(data.keys())
 
 
 def download_DJI_tickers() -> List[str]:
@@ -558,7 +637,7 @@ def extract_date_from_filename(filename: str, ticker: str) -> Optional[pd.Timest
         return None
 
 
-def yf_get_stock_data(ticker, start_year, end_year):
+def yf_get_stock_data(ticker, start_year, end_year, quiet=False):
     """
     Read (and if missing, fetch) Yahoo close price for each JSON filing date we have,
     restricted to the years in [start_year, end_year].
@@ -568,7 +647,8 @@ def yf_get_stock_data(ticker, start_year, end_year):
     json_dir = f"xbrl_data_json/{ticker}"
 
     if not os.path.isdir(json_dir):
-        print(f"[WARNING] Directory not found for {ticker}: {json_dir}")
+        if not quiet:
+            print(f"[WARNING] Directory not found for {ticker}: {json_dir}")
         return None
 
     for file in os.listdir(json_dir):
@@ -595,7 +675,8 @@ def yf_get_stock_data(ticker, start_year, end_year):
         if "yf_value" in data and data["yf_value"] is not None:
             try:
                 stock_data[date_key] = float(data["yf_value"])
-                print(f"[DEBUG] Loaded existing YF value: {data['yf_value']} for {date_key}")
+                if not quiet:
+                    print(f"[DEBUG] Loaded existing YF value: {data['yf_value']} for {date_key}")
             except Exception:
                 stock_data[date_key] = None
             continue
@@ -609,6 +690,31 @@ def yf_get_stock_data(ticker, start_year, end_year):
             stock_data[date_key] = None
 
     return stock_data
+
+import threading
+
+def _preload_worker():
+    print("[INFO] Starting background Yahoo data preload for missing files...")
+    # Load all companies
+    c = CompanyData()
+    c.load_saved_companies()
+    
+    for ticker in c.companies:
+        # Silently fetch stock data to populate JSONs with new yf_values
+        try:
+            yf_get_stock_data(ticker, 2000, 2025, quiet=True)
+        except Exception:
+            pass
+            
+    print("[INFO] Background Yahoo data preload complete!")
+
+def start_yahoo_preload():
+    """
+    Launch a daemon thread to quietly update the JSON files with yf_value 
+    so the dashboard doesn't stall when users request Yahoo Data.
+    """
+    t = threading.Thread(target=_preload_worker, daemon=True)
+    t.start()
 
 
 def yf_download_price(ticker, date, file_path, window_days: int = 3):
