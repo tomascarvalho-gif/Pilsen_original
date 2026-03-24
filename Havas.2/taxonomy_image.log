@@ -1,0 +1,1756 @@
+/Users/tomasdefreitascarvalho/Desktop/Work Space/Rubens/synapsee/Havas.2/taxonomy_test.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+✅ API Key loaded successfully!
+Checking for valid images in the dataset to filter out video screenshots...
+Loaded 8334 total valid image signatures from dataset.
+Skipping 3886 already processed images.
+📂 Found 6243 images in folder.
+Analyzing 707505037025219_120202763327870409_120202763327870409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultrafibra.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action: 'Finalize sua compra agora e garanta essa ultraoferta' (Finalize your purchase now and guarantee this ultra-offer). It also highlights a specific offer '500 MEGA' and 'ASSINATURAS INCLUSAS', pushing for immediate purchase."
+}
+✅ Conversion
+Analyzing 707505037025219_23855828595590408_23855828595590408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_gaming_stability.jpg",
+  "category": "Awareness",
+  "reasoning": "The ad focuses on a key emotional benefit ('ULTRA ESTABILIDADE') and a lifestyle association ('PARA JOGAR EM ALTA PERFORMANCE') for the 'TIM ULTRA FIBRA' brand, without mentioning specific plans, prices, or direct calls-to-action. Its goal is to build brand association with stability for gamers."
+}
+✅ Awareness
+Analyzing 1008236073176348_120226837720850197_120226837720850197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "image.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad offers a specific incentive ('entrega e chip grátis' - free delivery and chip) and includes a direct call-to-action ('Venha para TIM' - Come to TIM), aligning with a hard sell approach to drive immediate action."
+}
+✅ Conversion
+Analyzing 5006651156112143_120216300373660370_120216300373660370_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "image.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad offers a direct incentive ('RECEBA PIX NA CONTA' - receive PIX in your account) tied to a specific product ('TIM PRÉ' - TIM Prepaid) and includes a direct call-to-action ('Então venha!' - So come!). This combination aims to drive immediate action rather than just build awareness or educate."
+}
+✅ Conversion
+Analyzing 707505037025219_120221999264500409_120221999264500409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_contrate_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action, 'CONTRATE' (Contract/Sign up), which is a clear indicator of a hard sell intended to drive immediate action, aligning with the Conversion stage criteria."
+}
+✅ Conversion
+Analyzing 5006651156112143_120228478925690370_120228478925690370_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_pre_xip_soccer_discount_drinks.png",
+  "category": "Conversion",
+  "reasoning": "The ad includes a direct offer ('desconto em bebida gelada' - discount on cold drinks) and a clear, imperative call-to-action ('RECARREGUE NO APP MEU TIM' - Recharge on MY TIM app), both of which are strong indicators of the conversion stage."
+}
+✅ Conversion
+Analyzing 557249762645654_120213036315710348_120213036315710348_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_flamengo_tim.png",
+  "category": "Awareness",
+  "reasoning": "The ad focuses on brand association between TIM and Flamengo, leveraging the emotional connection to football. It highlights TIM's sponsorship and 5G leadership, aiming to build brand image and affinity without presenting specific offers, prices, features, or direct calls-to-action for TIM's services."
+}
+✅ Awareness
+Analyzing 1008236073176348_120218101817960197_120218101817960197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "image.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights the benefits of 'TIM CONTROLE' with '5G speed' for everyday app usage (WhatsApp, chat). It's past pure brand awareness by mentioning a specific plan category and a key feature/benefit (speed), but it lacks specific pricing, discounts, or direct 'buy now' calls to action that would classify it as conversion-focused."
+}
+✅ Consideration
+Analyzing 5006651156112143_120216361904180370_120216361904180370_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_pre_xip_ad.jpg",
+  "category": "Awareness",
+  "reasoning": "The ad features celebrities, a broad, aspirational tagline ('O pré que todo mundo quer'), and a positive, emotional tone (smiling faces, 'PIX RECEBIDO' suggesting ease/benefit without specifics). There are no concrete offers, prices, discounts, or direct calls-to-action, indicating a focus on brand building and general desirability for 'TIM PRÉ XIP' rather than driving immediate conversions or educating on specific features."
+}
+✅ Awareness
+Analyzing 584486016365317_120222210261610379_120222210261610379_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_empresas_60gb_ad.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad presents specific plan features and benefits such as '60GB' data (10GB + 50GB Special Bonus) and 'APPS INCLUIDOS' (included apps like Facebook, Instagram, WhatsApp, etc.). This detailed information helps potential customers evaluate the offering, aligning with the Consideration stage, which focuses on features, benefits, and specific plans. It lacks direct pricing or a hard call-to-action for Conversion, and is more detailed than an Awareness ad."
+}
+✅ Consideration
+Analyzing 1640492266333423_120201071858270439_120201071858270439_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_gameplay.jpg",
+  "category": "Awareness",
+  "reasoning": "The ad features a broad, intriguing statement ('NÃO É SÓ GAMEPLAY' - It's not just gameplay) without specific offers, prices, features, or a direct call-to-action. It aims to broaden perception and pique interest, aligning with brand focus and lifestyle elements to introduce a concept rather than prompt an immediate purchase."
+}
+✅ Awareness
+Analyzing 1008236073176348_120207337249750197_120207337249750197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_30gb_ad",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of a plan ('TIM CONTROLE', 'Até 30GB', '20GB DE BÔNUS'), which educates the consumer about what they would receive. It does not include pricing, discounts, or direct calls-to-action for immediate purchase, aligning with the consideration stage."
+}
+✅ Consideration
+Analyzing 707505037025219_120221999264480409_120221999264480409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_conversion_ad",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$99.99/mês), a distinct plan (500 MEGA), and a direct call-to-action ('CONTRATE'), which are all indicators of a hard sell designed to drive immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_120216677196670409_120216677196670409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_conversion_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price point (R$ 99,99/mês), a clear plan (500 MEGA), and a direct call-to-action ('CONTRATAR AGORA' - CONTRACT NOW), all indicative of a hard-sell approach aimed at immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_120232238233720409_120232238233720409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_hbo_max_ad",
+  "category": "Conversion",
+  "reasoning": "The ad includes a specific price (R$ 159,99), a detailed plan (1GIGA + HBO Max), and a direct call-to-action ('CONTRATE AGORA'), all of which are hallmarks of a conversion-stage advertisement."
+}
+✅ Conversion
+Analyzing 707505037025219_120217652279220409_120217652279220409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_max.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad includes a specific price (R$ 119,99 /MÊS), detailed plan features (600 MEGA + Max subscription), and a strong, direct call-to-action ('CONTRATE AGORA' - Contract Now), which are all hallmarks of a conversion-stage ad aiming for immediate purchase."
+}
+✅ Conversion
+Analyzing 584486016365317_120218187140060379_120218187140060379_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_empresas.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad uses a direct call to action 'Volte e aproveite agora mesmo.' ('Come back and take advantage right now.'), which aligns with 'Aproveite Agora' in the rubric. It also offers a specific value proposition related to pricing: 'Mais internet pelo mesmo preço.' ('More internet for the same price.'), indicating a clear benefit or implicit discount intended to drive immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_120228812165900409_120228812165900409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim-fibra-1giga.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct and urgent call-to-action 'Contrate agora' (Contract now), which is explicitly listed in the rubric as a characteristic of the Conversion stage. It also highlights a specific plan '1GIGA' and a key benefit ('Wi-Fi que pega na casa toda') to drive immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_23853532089380408_23853532089380408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_hbo_paramount.png",
+  "category": "Awareness",
+  "reasoning": "The ad focuses on brand (TIM ULTRA FIBRA) and a general lifestyle benefit ('DEIXA SUA CASA MAIS ULTRA COM MUITO CONTEÚDO') using emotional appeal (excited person, streaming service logos). There are no specific offers, prices, features, or direct calls-to-action, indicating a goal to build brand association and general interest rather than drive immediate sales or provide detailed product information."
+}
+✅ Awareness
+Analyzing 707505037025219_120232242594870409_120232242594870409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_fathers_day_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action: 'Contrate agora' (Contract now), which explicitly falls under the 'direct call-to-actions' criteria for the Conversion stage in the rubric. While it incorporates emotional appeal with 'Ultraconexão com seu pai' and a Father's Day theme, the primary objective indicated by the CTA is immediate contracting of the service."
+}
+✅ Conversion
+Analyzing 1489403321498685_120204010740750670_120204010740750670_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_tech.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly features a significant price discount (R$ 3.199 to R$ 1.299), prominently displays 'OFERTA' and 'Superdescontos', and offers a direct incentive like 'FRETE GRÁTIS'. These elements constitute a hard sell aimed at immediate purchase, aligning with the Conversion stage."
+}
+✅ Conversion
+Analyzing 584486016365317_120231285667830379_120231285667830379_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_empresas.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad displays a specific price (R$ 52,99 /MÊS) and explicitly mentions an 'OFERTA EXCLUSIVA' (exclusive offer), which are key indicators of a hard sell designed to drive immediate action, fitting the Conversion stage criteria."
+}
+✅ Conversion
+Analyzing 707505037025219_120221566458470409_120221566458470409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_max_penguin.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'CONTRATE AGORA' (Contract Now), which is explicitly listed in the rubric as a characteristic of a Conversion stage ad. It also makes a specific offer: 'Contrate TIM Ultrafibra e tenha assinatura da Max incluída no plano' (Contract TIM Ultrafibra and get a Max subscription included in the plan), prompting immediate action to secure this benefit."
+}
+✅ Conversion
+Analyzing 1489403321498685_120208446641800670_120208446641800670_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_tech_smartphone_offer.png",
+  "category": "Conversion",
+  "reasoning": "The ad uses a hard sell approach, prominently featuring 'OFERTA' (offer), 'Superdescontos' (super discounts), specific prices ('DE: R$ 2.999', 'POR R$ 1.499'), and 'FRETE GRÁTIS' (free shipping). These elements directly align with the Conversion stage criteria, which include prices, discounts, and clear incentives to purchase."
+}
+✅ Conversion
+Analyzing 1008236073176348_120228070960620197_120228070960620197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_image.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call to action ('Venha para TIM' - Come to TIM) and a clear incentive ('entrega e chip grátis' - free delivery and chip), which is a hard sell tactic designed to drive immediate action, fitting the Conversion stage."
+}
+✅ Conversion
+Analyzing 1008236073176348_120222634617920197_120222634617920197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim-controle-streaming.jpeg",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a specific feature and benefit of the 'TIM CONTROLE' plan: the freedom to choose and change streaming services monthly, listing popular options like Deezer, Paramount+, and Prime Video. This clearly explains 'what' the product offers, educating the potential customer and moving them past initial brand awareness, but without a direct call to action or pricing information for a hard sell."
+}
+✅ Consideration
+Analyzing 707505037025219_120234635497220409_120234635497220409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_conversion_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly shows a price (R$ 109,99), a specific data plan (600 MEGA), and a direct call-to-action ('Contrate agora'), which are all indicators of a hard sell and directly align with the Conversion stage of the rubric."
+}
+✅ Conversion
+Analyzing 5006651156112143_120207466178530370_120207466178530370_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_image",
+  "category": "Awareness",
+  "reasoning": "The ad depicts an emotional and relatable common household problem ('Xiii...acabou a bebida.' - Oh no...the drink ran out) without presenting any specific product features, benefits, prices, or calls-to-action. It aims to capture attention by resonating with a lifestyle situation, which is characteristic of the Awareness stage."
+}
+✅ Awareness
+Analyzing 707505037025219_120209141905130409_120209141905130409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_ad",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 244,90), detailed plan benefits (2 GIGA de velocidade, HBO Max, Paramount+), and a direct call-to-action 'CONTRATAR AGORA' (CONTRACT NOW), which are all indicators of a hard sell aimed at immediate action."
+}
+✅ Conversion
+Analyzing 1008236073176348_120235684698830197_120235684698830197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "image.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action: 'TRAGA SEU NÚMERO PARA A LÍDER EM 5G' (Bring your number to the leader in 5G). The imperative verb 'TRAGA' (Bring) encourages a specific action (porting a number) that directly leads to becoming a customer, aligning with the 'hard sell' and direct call-to-action criteria for the Conversion stage, despite not including prices or discounts."
+}
+✅ Conversion
+Analyzing 1008236073176348_120210092936180197_120210092936180197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_5g_controle_ad.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad mentions a specific product/plan ('TIM CONTROLE') and highlights a key feature/benefit ('TUDO ISSO NA VELOCIDADE 5G' - All this at 5G speed). This focuses on educating the user about what the product offers without a direct hard-sell CTA or pricing, aligning with the Consideration stage."
+}
+✅ Consideration
+Analyzing 1008236073176348_120218522567430197_120218522567430197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_deezer_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad prominently displays a specific price (R$46,99/MÊS) and a detailed plan offering (25GB) with an associated service (Deezer Now), which aligns with the 'Hard sell' criteria including prices, indicating an intent to drive immediate action or purchase."
+}
+✅ Conversion
+Analyzing 707505037025219_120213303027120409_120213303027120409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_ad.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad features a specific product (TIM Ultrafibra) and highlights a key benefit ('ultraqualidade'). The imagery promotes a high-tech, superior lifestyle experience achievable with the service. The Call-to-Action 'Saiba mais' (Learn more) encourages further exploration of features and benefits, which is characteristic of the Consideration stage, rather than a direct purchase or general brand awareness."
+}
+✅ Consideration
+Analyzing 707505037025219_120216958826810409_120216958826810409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "TIM_ULTRA_FIBRA_Conversion_Ad",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard sell with a specific price (R$ 99,99/MÊS), a direct call-to-action ('CONTRATAR AGORA'), and highlights an 'Oferta imperdível' for a 500 MEGA plan, all indicative of the Conversion stage."
+}
+✅ Conversion
+Analyzing 1008236073176348_120230793521240197_120230793521240197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad presents a clear, direct offer ('CHIP GRÁTIS') and an explicit call-to-action ('VEM PRO TIM CONTROLE'), encouraging immediate sign-up for a specific product. The use of 'grátis' (free) is a strong conversion driver."
+}
+✅ Conversion
+Analyzing 1008236073176348_120222998290510197_120222998290510197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_internet_whatsapp_ad.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of the 'TIM CONTROLE' plan ('Muita internet e WhatsApp incluído') without listing prices, discounts, or direct calls-to-action for immediate purchase. This educates potential customers about what the plan offers, moving them past initial brand awareness towards evaluating the product."
+}
+✅ Consideration
+Analyzing 707505037025219_120217229172480409_120217229172480409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_whatsapp_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'CONTRATE SUA INTERNET' (Contract your internet) and 'CHAME NO WHATSAPP' (Call on WhatsApp), explicitly prompting the user to take an immediate step towards purchase or subscription, which aligns with a hard-sell approach for conversion."
+}
+✅ Conversion
+Analyzing 1008236073176348_23857422126310196_23857422126310196_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_c6bank.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad includes specific pricing (R$ 64,99 /MÊS), a detailed data offer (ATÉ 30GB, 10GB + 20GB bonus), and lists included apps, all of which are elements of a hard sell designed to drive immediate subscription or purchase."
+}
+✅ Conversion
+Analyzing 1008236073176348_120204039614980197_120204039614980197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_whatsapp_incluso.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a specific product ('TIM CONTROLE') and a key feature/benefit: 'WHATSAPP INCLUSO SEM DESCONTAR DA INTERNET' (WhatsApp included without deducting from internet data). This educates the consumer about what the plan offers, moving them past initial brand awareness towards evaluating the specific features and benefits, but without a direct call-to-action or pricing for immediate conversion."
+}
+✅ Consideration
+Analyzing 1008236073176348_120213661359200197_120213661359200197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_5g_ad",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a key feature ('5G speed') associated with a specific plan ('TIM Controle'), positioning it to educate potential customers about product benefits without direct pricing or immediate call-to-actions."
+}
+✅ Consideration
+Analyzing 1008236073176348_120209970374900197_120209970374900197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_instagram_incluso.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a specific feature/benefit ('Instagram Incluso') for a particular plan ('TIM Controle'), informing potential customers about what the service offers. It does not include prices, discounts, or direct call-to-actions for immediate purchase, which would categorize it as Conversion."
+}
+✅ Consideration
+Analyzing 707505037025219_120216649322880409_120216649322880409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_conversion_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 129,99), a direct call-to-action ('CONTRATAR AGORA' - Contract Now), and highlights an 'Oferta imperdível' (unmissable offer), all indicative of a hard sell aimed at immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_120215053337710409_120215053337710409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action, 'Saiba mais' (Learn more), which is explicitly listed as a Conversion CTA in the provided rubric. Although it doesn't display prices or discounts, the presence of this specific CTA places it in the Conversion stage according to the given criteria."
+}
+✅ Conversion
+Analyzing 1008236073176348_120232010436260197_120232010436260197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "image.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad includes a direct call-to-action, 'Venha para a líder em 5G' ('Come to the leader in 5G'). This imperative phrase, similar to 'Saiba Mais' or 'Confira' listed in the rubric, aims to prompt immediate engagement or a next step from the user, pushing them towards becoming a customer based on the competitive claim."
+}
+✅ Conversion
+Analyzing 707505037025219_120229121703670409_120229121703670409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_ultraoferta_contrate_agora.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'Contrate agora' (Contract now) and highlights an 'Ultraoferta' (Ultra offer), indicating a hard sell for immediate acquisition, which aligns with the Conversion stage."
+}
+✅ Conversion
+Analyzing 584486016365317_120231286122320379_120231286122320379_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_empresas.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad displays a specific price (R$ 52,99), a concrete data offer ('até 40GB'), and explicitly mentions an 'Oferta Exclusiva' (Exclusive Offer). These elements constitute a hard sell, directly targeting a user to act on the specific deal presented, aligning with the Conversion stage."
+}
+✅ Conversion
+Analyzing 1008236073176348_120214210022870197_120214210022870197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad presents a hard sell with a clear price (R$ 41,99/mês), a specific offer (25GB, included apps), and a direct call-to-action phrase 'Aproveite esta oferta imperdível e venha para a TIM' (Enjoy this unmissable offer and come to TIM), which directly prompts action from the user."
+}
+✅ Conversion
+Analyzing 707505037025219_120228539021470409_120228539021470409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_max_offer_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 159,99/MÊS), a clear plan detail (1GIGA + Max), and a direct, urgent call-to-action 'CONTRATE AGORA' (SUBSCRIBE NOW), all indicative of a hard sell to drive immediate action."
+}
+✅ Conversion
+Analyzing 5006651156112143_120217279730810370_120217279730810370_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_pre_xip_zedelivery_discount",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct monetary discount (R$15) and an implicit call-to-action ('RECARREGUE' - Recharge) to avail the offer, which are classic indicators of a hard-sell conversion-stage advertisement."
+}
+✅ Conversion
+Analyzing 707505037025219_120222000706970409_120222000706970409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad includes a specific price (R$ 99,99), a concrete plan detail (500 MEGA), and a direct call-to-action ('CONTRATE'), which are all indicators of a hard sell aimed at immediate action."
+}
+✅ Conversion
+Analyzing 1008236073176348_120246152936950197_120246152936950197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle",
+  "category": "Conversion",
+  "reasoning": "The ad prominently displays a specific price (R$44,99/mês), a defined data amount (33GB), and additional bundled benefits (WhatsApp included, 1 month of Globoplay). This clear presentation of pricing and a direct offer constitutes a hard sell, aligning with the 'Conversion' stage of the rubric."
+}
+✅ Conversion
+Analyzing 707505037025219_120200679822760409_120200679822760409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_ultraoferta.png",
+  "category": "Conversion",
+  "reasoning": "The ad uses a direct call-to-action 'APROVEITE' (Take advantage) and explicitly promotes an 'ULTRAOFERTA' (ultra offer), indicating a hard sell focused on immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_23853929424350408_23853929424350408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_ad",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly mentions 'ULTRAOFERTAS IMPERDÍVEIS PARA VOCÊ!' (Unmissable Ultra-offers for you!) and includes a direct call-to-action 'Aproveite.' (Enjoy/Take advantage.), which aligns with the hard-sell characteristics of the Conversion stage."
+}
+✅ Conversion
+Analyzing 1008236073176348_120214626891200197_120214626891200197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_mes_pais_conversion",
+  "category": "Conversion",
+  "reasoning": "The ad displays a specific price (R$ 44,99/mês) and a clear data offering (25GB), which are hard-sell elements characteristic of the conversion stage, prompting immediate action or purchase consideration based on specific numerical values."
+}
+✅ Conversion
+Analyzing 1008236073176348_120233300692990197_120233300692990197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad uses a direct call-to-action 'Garanta já' (Secure now) and offers a specific incentive 'entrega e chip grátis' (free delivery and chip). These elements indicate a hard-sell approach aimed at driving immediate action, fitting the criteria for a Conversion stage ad."
+}
+✅ Conversion
+Analyzing 1008236073176348_120211792031890197_120211792031890197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_apps_inclusos.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of the 'TIM CONTROLE' plan, namely 'APPS INCLUSOS' (included apps) like WhatsApp, X, Facebook, and Instagram, for 'POR 3 MESES' (for 3 months). This educates the consumer about what the plan offers, encouraging them to evaluate its value without a direct hard-sell or price."
+}
+✅ Consideration
+Analyzing 707505037025219_120242181940110409_120242181940110409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultrafibra_champions_league.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly features a promotional price ('DE R$ 179,99 POR R$ 129,99 /MÊS'), a specific plan ('600 MEGA + HBO Max'), and a direct call-to-action ('CONTRATE AGORA'), which are all indicators of a hard sell aimed at immediate action."
+}
+✅ Conversion
+Analyzing 1008236073176348_120220108231600197_120220108231600197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_25gb_49_99.png",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly displays a price (R$ 49,99 /MÊS) for a specific data package (25GB), which is a clear characteristic of a 'hard sell' and falls under the Conversion stage according to the rubric."
+}
+✅ Conversion
+Analyzing 1008236073176348_120219045518980197_120219045518980197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_5g_speed_ad.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a specific product line ('TIM CONTROLE') and a key feature/benefit ('5G speed') for common communication apps (WhatsApp, messages). It showcases the value proposition without including prices, discounts, or hard conversion CTAs, making it ideal for the consideration stage."
+}
+✅ Consideration
+Analyzing 5006651156112143_120232828027690370_120232828027690370_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_pre_xip_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct monetary incentive ('PIX DE ATÉ R$ 3 DE VOLTA'), specifies the duration of the plan ('POR 30 DIAS'), and includes a clear, hard-sell call-to-action ('COMPRE O SEU TIM CHIP'). These elements are characteristic of a conversion-stage ad designed to drive immediate purchase."
+}
+✅ Conversion
+Analyzing 707505037025219_120242712518950409_120242712518950409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_offer.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly states 'APROVEITE ESSA ULTRA OFERTA' (Take advantage of this ultra offer), indicating a hard sell or promotion. The call-to-action 'CONTRATE AGORA' (Contract now) is a direct and urgent prompt for immediate action, which aligns with conversion-stage advertising."
+}
+✅ Conversion
+Analyzing 707505037025219_120207722747630409_120207722747630409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_loud_ultrafibra_gaming.jpg",
+  "category": "Awareness",
+  "reasoning": "The ad focuses on brand association and lifestyle. It leverages the popularity of the esports team LOUD to connect TIM Ultrafibra with high-performance gaming and success ('campeãs no jogo e na conexão'). There are no specific offers, prices, features, or strong direct calls-to-action for purchase, aligning with building brand image and recognition."
+}
+✅ Awareness
+Analyzing 1008236073176348_120204034440290197_120204034440290197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_instagram.png",
+  "category": "Conversion",
+  "reasoning": "The ad includes a specific price (R$ 59,99 /MÊS), a direct offer (30GB, Instagram incluso), and product name ('TIM CONTROLE'), which are all elements of a hard sell designed to prompt immediate action."
+}
+✅ Conversion
+Analyzing 1008236073176348_120238596279810197_120238596279810197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly displays a price (R$ 38,99/mês) for a specific plan (TIM Controle 29GB) including features like WhatsApp and a free SIM card. The headline 'Mude para a TIM' (Switch to TIM) acts as a direct call-to-action, encouraging immediate action based on the stated offer, aligning with a hard-sell approach."
+}
+✅ Conversion
+Analyzing 1008236073176348_120218285313040197_120218285313040197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly displays a price (R$46,99 /MÊS) and detailed plan specifics (25GB, included WhatsApp, specific streaming services), which are key indicators of a 'hard sell' designed to prompt immediate purchase, aligning with the Conversion stage of the rubric."
+}
+✅ Conversion
+Analyzing 557249762645654_120214085680140348_120214085680140348_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_flamengo_tim.png",
+  "category": "Awareness",
+  "reasoning": "The ad focuses on brand association (TIM as the official sponsor of Flamengo), emotional connection (celebrating a 'Rubro-Negra Victory'), and a general brand claim ('A Líder em 5G'). There are no specific offers, prices, discounts, or direct calls-to-action, aligning with the awareness stage's goal of brand building and emotional engagement."
+}
+✅ Awareness
+Analyzing 707505037025219_120240211085080409_120240211085080409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_contrate_agora.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'Contrate agora' (Contract now), which is a clear indicator of a hard sell and immediate action required from the user, aligning with the Conversion stage criteria."
+}
+✅ Conversion
+Analyzing 707505037025219_120215841732510409_120215841732510409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_black_friday_1giga",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard sell with a specific price (R$129,99/mês), a clear plan detail (1 GIGA), a sense of urgency ('Última chance', 'oferta imperdível'), and a direct call-to-action ('CONTRATE AGORA'). This aligns perfectly with the criteria for a Conversion stage ad."
+}
+✅ Conversion
+Analyzing 1008236073176348_120234889747480197_120234889747480197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle_father's_day.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly offers 'CHIP E ENTREGA GRÁTIS' (chip and free delivery) as a direct incentive for Father's Day, which is a hard sell and a type of promotional offer designed to drive immediate action."
+}
+✅ Conversion
+Analyzing 1008236073176348_120222964971290197_120222964971290197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad clearly states a specific plan (45GB) and its exact price (R$ 84,99/MÊS). The presence of a hard price point and specific plan details constitutes a direct offer intended to drive an immediate purchase decision, aligning with the 'hard sell' characteristic of the Conversion stage."
+}
+✅ Conversion
+Analyzing 1008236073176348_120216089644180197_120216089644180197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_chip_gratis.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad offers 'Entrega de TIM CHIP GRÁTIS' (Free delivery of TIM SIM card), which is a direct incentive/discount ('GRÁTIS') designed to drive immediate action, characteristic of a conversion stage ad."
+}
+✅ Conversion
+Analyzing 1008236073176348_120204055350990197_120204055350990197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_25gb_ad",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a specific plan name ('TIM CONTROLE') and details its key feature (25GB data, broken down as 5GB + 20GB bonus) along with a benefit ('PARA USAR COMO QUISER'). It educates the potential customer about what the plan offers without including prices, discounts, or direct calls-to-action for purchase, placing it squarely in the Consideration stage."
+}
+✅ Consideration
+Analyzing 1008236073176348_120213589960020197_120213589960020197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 59,99 /MÊS), a clear offer ('Aproveite esta oferta imperdível'), and a direct call-to-action ('venha para a TIM'), which are all indicators of a hard-sell approach aimed at immediate conversion."
+}
+✅ Conversion
+Analyzing 1008236073176348_120218522446450197_120218522446450197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_streaming_offer_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly displays a price (R$46,99/MÊS), details a specific plan with a data allowance (25GB), and lists included benefits like streaming services and WhatsApp, indicating a direct offer intended to drive immediate sign-ups or purchases. The presence of a clear price point is a strong indicator of a conversion-stage ad."
+}
+✅ Conversion
+Analyzing 1008236073176348_120231928367190197_120231928367190197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_conversion_ad",
+  "category": "Conversion",
+  "reasoning": "This ad clearly features a hard sell with an explicit price (R$44,99/mês), a strong call-to-action ('APROVEITE AGORA'), and urgency ('ÚLTIMA CHANCE'). It details a specific offer (31GB, WhatsApp incluído, Chip Grátis), all indicative of a conversion-focused campaign."
+}
+✅ Conversion
+Analyzing 1008236073176348_120215509104420197_120215509104420197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_5g_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad displays a specific price (R$ 59,99 /MÊS), a hard sell element, which is a key indicator for the Conversion stage according to the rubric. It also details the plan's features like data amount (36GB) and included apps, but the presence of the price makes it a direct offer for immediate action."
+}
+✅ Conversion
+Analyzing 5006651156112143_120216097007850370_120216097007850370_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_pix_recharge_ad.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a specific benefit ('RECEBA PIX NA CONTA' - Receive Pix in your account when you recharge) associated with a product ('TIM PRÉ XIP'). It focuses on educating the user about a feature/benefit of the service, rather than being a general brand awareness ad or a hard-sell ad with prices, discounts, or direct conversion CTAs like 'Buy Now' or 'Sign Up'."
+}
+✅ Consideration
+Analyzing 1008236073176348_120216282203830197_120216282203830197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_netflix.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad prominently displays a specific price (R$ 84,99/MÊS) and a detailed plan offering (45GB with Netflix integration). The presence of a direct price point is a key indicator of a 'hard sell' and falls under the Conversion stage of the rubric, despite lacking an explicit call-to-action like 'Assine Já'."
+}
+✅ Conversion
+Analyzing 1008236073176348_120204045213810197_120204045213810197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad prominently displays a specific price point (R$ 59,99 /MÊS) and detailed offer (30GB, WhatsApp incluso), which are hallmarks of a hard sell designed to prompt immediate action or conversion."
+}
+✅ Conversion
+Analyzing 707505037025219_120207028620120409_120207028620120409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_offer_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad prominently features a direct call-to-action 'APROVEITE' (Enjoy/Take advantage) and explicitly states 'ULTRA OFERTA' (Ultra Offer), which directly aligns with the 'hard sell' and 'direct call-to-actions' criteria for the Conversion stage, specifically 'Aproveite' and 'discounts (%) or prices (R$)' implicitly through 'offer'."
+}
+✅ Conversion
+Analyzing 557249762645654_120213245572130348_120213245572130348_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "flamengo_tim_5g_ad.png",
+  "category": "Awareness",
+  "reasoning": "The ad focuses on brand association and emotional connection (TIM, a 'leader in 5G,' is the 'official sponsor of Flamengo,' conveying loyalty with 'Conte comigo, Mengão'). There are no specific offers, prices, discounts, or direct calls to action, which aligns with an Awareness stage objective."
+}
+✅ Awareness
+Analyzing 707505037025219_120239441697620409_120239441697620409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_conversion_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad displays a specific price (R$ 119,99/mês), a clear plan (600 MEGA + Paramount+), and a direct, urgent call-to-action ('CONTRATE AGORA'), which are all hallmarks of a hard-sell approach aimed at immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_120221999891060409_120221999891060409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad includes the direct call-to-action 'Saiba mais' (Learn more), which is explicitly listed as a Conversion CTA in the provided rubric. Although it lacks prices or discounts, the presence of this specific CTA places it in the Conversion stage according to the given guidelines."
+}
+✅ Conversion
+Analyzing 1008236073176348_120214610758770197_120214610758770197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_mes_dos_pais_chip_gratis.png",
+  "category": "Conversion",
+  "reasoning": "The ad presents a clear and immediate incentive ('Entrega de TIM CHIP GRÁTIS' - Free TIM CHIP delivery), which is a direct offer designed to drive a purchase or sign-up. This 'GRÁTIS' element functions as a discount/added value, characteristic of a hard sell aimed at conversion."
+}
+✅ Conversion
+Analyzing 1008236073176348_120224324586320197_120224324586320197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_streaming_ad.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of the 'TIM CONTROLE' plan, emphasizing that it's 'o mais completo do mercado' and 'o único com streaming incluído', along with listing multiple streaming services. It focuses on educating the potential customer about what makes this plan superior, encouraging them to consider it without explicitly asking for a direct purchase or showing prices/discounts. The phrase 'Venha para o plano controle' is an invitation to consider, not a hard conversion CTA."
+}
+✅ Consideration
+Analyzing 707505037025219_120209141108910409_120209141108910409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_conversion_ad.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 126,90/MÊS), a detailed plan ('500 MEGA DE ULTRAVELOCIDADE' with included subscriptions), and strong, direct calls-to-action such as 'CONTRATAR AGORA' and 'ASSINE AGORA PELO WHATSAPP'. These elements signify a hard sell aimed at immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_23855450124260408_23855450124260408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_hbo_paramount.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a key benefit ('muito conteúdo' - lots of content) and features (HBO Max and Paramount+ included) of the 'TIM Ultra Fibra' product. While it evokes emotion, it moves beyond simple brand awareness by specifying what the customer will gain, without yet including prices, discounts, or direct conversion-focused calls-to-action."
+}
+✅ Consideration
+Analyzing 1008236073176348_120233300580320197_120233300580320197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle_chip_gratis",
+  "category": "Conversion",
+  "reasoning": "The ad uses a direct call-to-action ('Garanta já' - Guarantee now) and offers a specific incentive ('entrega e chip grátis' - free delivery and chip), which are hallmarks of a hard sell designed to drive immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_120240565492860409_120240565492860409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultrafibra_studies.jpg",
+  "category": "Conversion",
+  "reasoning": "While the ad highlights a feature/benefit ('Ultra-speed internet for your studies') and uses a lifestyle image, the Call-to-Action 'SAIBA MAIS' (LEARN MORE) is explicitly listed under the CONVERSION stage in the provided rubric. Therefore, the ad is classified as Conversion."
+}
+✅ Conversion
+Analyzing 707505037025219_120207338302980409_120207338302980409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 92,70/mês), a detailed plan (300 MEGA), and a clear, direct call-to-action: 'Assine agora pelo Whatsapp' (Subscribe now via Whatsapp). These elements indicate a hard sell aimed at immediate action."
+}
+✅ Conversion
+Analyzing 1008236073176348_120208794921610197_120208794921610197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad presents a specific plan ('TIM CONTROLE') and its features ('25GB', '5GB + 20GB DE BÔNUS PARA USAR COMO QUISER', '5G'). It educates the user about the benefits of the plan without including pricing, discounts, or a direct call-to-action for immediate purchase."
+}
+✅ Consideration
+Analyzing 1008236073176348_120207337249790197_120207337249790197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_25gb_instagram_included_r52_99.png",
+  "category": "Conversion",
+  "reasoning": "The ad presents a specific plan ('TIM CONTROLE' with '25GB' and 'Instagram Incluso') along with a clear price point ('A PARTIR DE R$ 52,99 /MÊS'). This direct presentation of a detailed offer with pricing is a 'hard sell' designed for immediate action, placing it in the Conversion stage."
+}
+✅ Conversion
+Analyzing 707505037025219_120212438307820409_120212438307820409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_ultraoferta_finalize_compra.png",
+  "category": "Conversion",
+  "reasoning": "The ad uses a direct call-to-action 'FINALIZE SUA COMPRA' (FINALIZE YOUR PURCHASE) and refers to a time-sensitive 'ultraoferta' (ultra-offer), indicating a hard sell aiming for immediate transaction completion. This clearly falls under the Conversion stage of the rubric."
+}
+✅ Conversion
+Analyzing 707505037025219_23855094883590408_23855094883590408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_fibra.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad prominently displays a specific price (R$ 95/mês) and a clear offer ('Contrate 150 e leve 200 Mega'). These elements, especially the explicit pricing and the implied call to action to 'Contrate' (contract), categorize it as a hard sell aimed at immediate customer acquisition, fitting the Conversion stage criteria."
+}
+✅ Conversion
+Analyzing 557249762645654_120229241148620348_120229241148620348_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_sustainability_ad.jpg",
+  "category": "Awareness",
+  "reasoning": "The ad focuses on brand reputation, associating TIM with sustainability and leadership in 5G. It features celebrities and an aspirational message ('Você pode tudo') without mentioning specific products, prices, or discounts. The call-to-action 'Saiba Mais' leads to ESG reports, reinforcing brand image rather than driving a direct conversion or educating on product features."
+}
+✅ Awareness
+Analyzing 707505037025219_23858698401900408_23858698401900408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_conversion_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 98,50/MÊS), a concrete offer (300 MEGA), and a direct call-to-action ('SAIBA MAIS'), all of which indicate a hard sell aimed at prompting immediate action, aligning with the Conversion stage."
+}
+✅ Conversion
+Analyzing 707505037025219_120229223049400409_120229223049400409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_whatsapp_conversion",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'Contrate TIM Ultrafibra' (Contract TIM Ultrafibra) and a prominent button 'Contrate agora' (Contract now), which are clear indicators of a hard sell aiming for immediate action, aligning perfectly with the 'Conversion' stage of the rubric."
+}
+✅ Conversion
+Analyzing 707505037025219_120240155808750409_120240155808750409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad includes the direct call-to-action 'Saiba mais' (Learn more), which is explicitly listed as a conversion-stage CTA in the provided rubric, indicating an intent to move the user further down the funnel towards a specific action."
+}
+✅ Conversion
+Analyzing 707505037025219_120240722130190409_120240722130190409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ufc_paramount_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard sell with a specific plan (700 MEGA), a discounted price (DE R$ 159,99 POR R$ 109,99), and a direct call-to-action ('CONTRATE AGORA'). These elements are clear indicators of a conversion-stage advertisement."
+}
+✅ Conversion
+Analyzing 707505037025219_23858219325640408_23858219325640408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_conversion_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 92,99/mês), a direct call-to-action ('CONTRATE AGORA'), and language emphasizing a limited-time offer ('NÃO PERCA ESSA OFERTA'), which are all hallmarks of a conversion-stage advertisement."
+}
+✅ Conversion
+Analyzing 5006651156112143_120234273186340370_120234273186340370_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_recharge_special.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 15), a limited-time offer ('POR TEMPO LIMITADO'), and a direct call-to-action ('RECARREGUE NO WHATSAPP'), all of which are hallmarks of a hard sell designed to drive immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_120213914889240409_120213914889240409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_gamer_month",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'CONTRATE AGORA' (CONTRACT NOW) and explicitly mentions 'OFERTA ESPECIAL' (SPECIAL OFFER), indicating a hard sell to prompt immediate action, which aligns with the Conversion stage."
+}
+✅ Conversion
+Analyzing 707505037025219_23857954786540408_23857954786540408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_ad.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a key benefit/feature by claiming 'MELHOR BANDA LARGA DO BRASIL' (best broadband in Brazil). This is a comparative statement intended to educate the user on why they should consider the product, aligning with the 'features, benefits, comparisons' aspect of the Consideration stage. It lacks specific prices, discounts, or hard-sell CTAs like 'Assine Já' to be Conversion, and it's more specific than a purely emotional/logo-centric Awareness ad."
+}
+✅ Consideration
+Analyzing 707505037025219_23859002418700408_23859002418700408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_awareness.jpg",
+  "category": "Awareness",
+  "reasoning": "The ad focuses on the brand ('TIM ULTRA FIBRA') and uses an emotional, positive statement ('Wow! Fiber internet concepts successfully redefined') to introduce the product. There are no specific offers, prices, features, or direct calls-to-action, aligning with the goal of building brand recognition and positive sentiment."
+}
+✅ Awareness
+Analyzing 707505037025219_23860065509330408_23860065509330408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_300_mega_conversion_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 98,50/MÊS) for the '300 Mega' plan, including payment conditions, and a clear, direct call-to-action 'CONTRATAR AGORA' (Contract Now), which aligns with a hard sell approach."
+}
+✅ Conversion
+Analyzing 707505037025219_120229223049430409_120229223049430409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_conmebol_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 149,99/mês), a direct call-to-action ('Contrate TIM Ultrafibra' and 'CHAME NO WHATSAPP'), and a clear, detailed offer (1 GIGA + Paramount+ included to watch specific football games). These elements indicate a hard sell aimed at immediate action."
+}
+✅ Conversion
+Analyzing 1008236073176348_120205303018520197_120205303018520197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 54,99/mês), a direct offer ('RECEBA SEU TIM CHIP GRÁTIS'), and detailed plan specifics (25GB, 5GB + 20GB bônus), all indicative of a hard sell designed to drive immediate action, aligning with the Conversion stage."
+}
+✅ Conversion
+Analyzing 1008236073176348_120217403131530197_120217403131530197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_netflix.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a specific benefit ('12 meses de Netflix incluída') linked to a product ('NOVO TIM CONTROLE') during a promotional period ('Black Friday'). This focuses on value and features, encouraging potential customers to consider the plan, rather than just building brand awareness or presenting a direct hard-sell with prices or an immediate call-to-action."
+}
+✅ Consideration
+Analyzing 707505037025219_120216186081780409_120216186081780409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_black_friday_ultra_fibra.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard sell with a specific price (R$ 99,99/mês), a defined plan (600 MEGA), bundled streaming services, and a direct call-to-action ('CONSULTE A DISPONIBILIDADE'). These elements, especially the price and direct CTA, are characteristic of a Conversion stage ad."
+}
+✅ Conversion
+Analyzing 584486016365317_120233594097380379_120233594097380379_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "ad_tim_empresas_60gb.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of a plan (60GB data, special bonus, included apps) without stating a price, discount, or direct call-to-action for immediate purchase. It provides information to help potential customers evaluate the offer."
+}
+✅ Consideration
+Analyzing 707505037025219_120228391626450409_120228391626450409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_2giga_contrate_agora",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'Contrate agora' (Contract now), which is explicitly listed as a Conversion stage indicator. It also highlights a specific feature (2GIGA speed) to prompt immediate action."
+}
+✅ Conversion
+Analyzing 1008236073176348_23857426754290196_23857426754290196_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_25gb_ad.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of a product plan ('TIM CONTROLE' with '25GB' total data, broken down as '5GB + 20GB de bônus para usar como quiser'). It provides concrete information about what the user would get, encouraging evaluation rather than just brand recognition or an immediate hard-sell call to action."
+}
+✅ Consideration
+Analyzing 1008236073176348_120226998511830197_120226998511830197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_mae_gratis.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad includes a specific promotional offer ('entrega e chip grátis') and an implicit call-to-action ('Venha para TIM'), aimed at driving immediate customer acquisition, characteristic of a hard sell."
+}
+✅ Conversion
+Analyzing 1489403321498685_120212311055580670_120212311055580670_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_galaxy_flip6.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad clearly displays a specific price (R$ 2.999), payment terms (12x sem juros), and the condition for the offer (NO TIM BLACK FAMÍLIA 100GB). These elements constitute a hard sell aimed at immediate purchase, aligning perfectly with the Conversion stage."
+}
+✅ Conversion
+Analyzing 1008236073176348_120226837630420197_120226837630420197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_mae_gratis.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action ('Venha para TIM') and offers a specific incentive ('entrega e chip grátis' - free delivery and chip) to encourage immediate sign-up, which is characteristic of the conversion stage."
+}
+✅ Conversion
+Analyzing 707505037025219_23856426736520408_23856426736520408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_conversion.png",
+  "category": "Conversion",
+  "reasoning": "The ad features specific prices (DE/POR with a clear discount), details the terms of the offer ('POR 12 MESES NO DÉBITO AUTOMÁTICO'), and includes a direct call-to-action ('CONTRATE AGORA'), all of which are strong indicators of a conversion-stage advertisement designed for a hard sell."
+}
+✅ Conversion
+Analyzing 1008236073176348_120204045617950197_120204045617950197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad presents a specific plan ('TIM Controle') with detailed features and benefits (30GB, Instagram included without deducting data, 5G) and a clear price point ('A partir de R$ 59,99/mês'). While it includes a price, it's presented as part of the plan's description rather than a hard sell with an urgent discount or direct call-to-action (e.g., 'Compre Agora'). This focus on plan details and features is characteristic of the Consideration stage, where consumers evaluate options."
+}
+✅ Consideration
+Analyzing 707505037025219_120232346241930409_120232346241930409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim-ultrafibra-holidays-ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad includes a direct call-to-action, 'Contrate agora' (Contract now), which is a key characteristic of the Conversion stage according to the rubric. It prompts immediate action from the user."
+}
+✅ Conversion
+Analyzing 1008236073176348_120217399134720197_120217399134720197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_whatsapp_netflix_black_friday.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of the 'Novo TIM Controle' plan, such as 'WhatsApp incluído', 39GB of data breakdown, and 'Netflix incluída como benefício premium'. While it mentions 'Black Friday', it lacks specific pricing, discounts, or direct calls to action, making it more focused on educating the customer about the plan's offerings."
+}
+✅ Consideration
+Analyzing 707505037025219_120221999264470409_120221999264470409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct, hard-sell call-to-action: 'CONTRATE' (Contract / Subscribe). While it mentions benefits like 'Filmes, séries e games com Ultravelocidade', the primary goal of the ad, indicated by the CTA, is to drive immediate acquisition of the service, which is characteristic of a conversion-stage ad."
+}
+✅ Conversion
+Analyzing 707505037025219_120238324968310409_120238324968310409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_conversion_ad",
+  "category": "Conversion",
+  "reasoning": "The ad uses direct conversion-focused language such as 'Aproveite essa oferta imperdível' (Take advantage of this unmissable offer) and a strong, urgent call-to-action 'CONTRATE AGORA' (Contract Now). These elements clearly indicate a hard sell aimed at immediate action, aligning perfectly with the Conversion stage criteria."
+}
+✅ Conversion
+Analyzing 707505037025219_120212865252930409_120212865252930409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_TIM_Ultrafibra.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action (CTA) 'Saiba mais' (Learn more), which is explicitly listed in the rubric under the 'Conversion' stage. While there are no prices or discounts, the presence of a direct CTA like 'Saiba mais' indicates an intent to move the user further down the funnel towards a conversion event, as defined by the provided rubric."
+}
+✅ Conversion
+Analyzing 584486016365317_120231806881840379_120231806881840379_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_empresas_client_week_offer.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard price point (R$ 52,99), highlights a 'SUPER OFERTA POR TEMPO LIMITADO' (super offer for a limited time), and specifies a data package (60GB), all of which are strong indicators of a direct-response, hard-sell approach aimed at immediate conversion."
+}
+✅ Conversion
+Analyzing 707505037025219_120209141108920409_120209141108920409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_1giga_conversion_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard price (R$ 135,50), creates urgency with 'ÚLTIMA CHAMADA' (Last Call), specifies features ('1 GIGA', 'Paramount+ INCLUÍDO'), and includes a direct call-to-action: 'CONTRATAR AGORA' (Contract Now). All these elements align perfectly with the Conversion stage criteria."
+}
+✅ Conversion
+Analyzing 1008236073176348_120209971302730197_120209971302730197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_30gb_ad",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of the 'TIM Controle' plan, detailing the amount of data (up to 30GB, including a bonus). It provides information about the plan's offering without a hard sell, price, discount, or direct call-to-action, positioning it as educational content for users evaluating options."
+}
+✅ Consideration
+Analyzing 584486016365317_120228363311780379_120228363311780379_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_empresas_60gb_ad.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of a plan (60GB data with a bonus breakdown, and included apps), which helps potential customers understand what they would get if they consider this option. It lacks a specific price, discount, or direct call-to-action for immediate purchase, differentiating it from a 'Conversion' ad, and is too specific to be 'Awareness'."
+}
+✅ Consideration
+Analyzing 1008236073176348_120224324586310197_120224324586310197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle_streaming",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a specific product ('TIM Controle'), emphasizes its unique selling proposition ('O único com streaming incluído' - The only one with streaming included), and showcases key benefits by listing numerous streaming services. This focus on features, benefits, and competitive differentiation ('mais completo do mercado' - most complete on the market) without explicitly stating prices or using a hard call-to-action like 'Assine Já' positions it firmly in the Consideration stage."
+}
+✅ Consideration
+Analyzing 707505037025219_23854718593690408_23854718593690408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_image.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad features the brand 'TIM Ultra Fibra' and uses the call-to-action 'ESCOLHA UMA ULTRAOFERTA PARA VOCÊ' (Choose an ultra-offer for you). While it doesn't provide specific plan details or prices, it clearly indicates the existence of multiple offers and prompts the user to explore and select, which is characteristic of the consideration stage. It moves beyond simple brand awareness by inviting engagement with product options, but isn't a hard conversion sell with explicit discounts or direct purchase commands."
+}
+✅ Consideration
+Analyzing 707505037025219_23855451306410408_23855451306410408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad uses a direct call-to-action, 'CONHEÇA NOSSAS OFERTAS' (Get to know our offers), which is a clear prompt to explore purchase options, similar to 'Confira' or 'Saiba Mais' listed in the rubric as conversion CTAs. It also makes a strong, persuasive claim ('MELHOR BANDA LARGA DO BRASIL') backed by an award, intending to drive immediate action towards subscription rather than just educating."
+}
+✅ Conversion
+Analyzing 1008236073176348_120222633572090197_120222633572090197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_25gb_whatsapp_consumidor_week.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific promotional event ('Semana do Consumidor') and a prominent percentage symbol (%), which directly indicate a discount or special price. It also details a specific plan with included benefits (25GB + WhatsApp), presented as a hard sell to prompt immediate action during the limited-time promotion."
+}
+✅ Conversion
+Analyzing 707505037025219_120221566458390409_120221566458390409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultrafibra_yellowstone.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 149,99/MÊS), a detailed plan with a clear benefit (1GIGA + Paramount+ included), and a direct call-to-action ('CONTRATE AGORA'), all of which are characteristics of a conversion-stage advertisement."
+}
+✅ Conversion
+Analyzing 1640492266333423_120213295505750439_120213295505750439_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "image_classification_17122024.jpg",
+  "category": "Awareness",
+  "reasoning": "The ad focuses on brand association (TIM with Rock in Rio) through lifestyle imagery and emotional connection (fashion, music festival). It features hashtags and brand presence without any specific offers, prices, product features, or direct calls-to-action, aligning perfectly with an Awareness stage objective."
+}
+✅ Awareness
+Analyzing 1008236073176348_120204028881700197_120204028881700197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_25gb_offer.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 52,99/mês), a direct call to action ('Aproveite'), and a detailed 'super oferta' including data amounts and bonus, which are all indicators of a hard sell aimed at immediate action."
+}
+✅ Conversion
+Analyzing 1008236073176348_120238598834310197_120238598834310197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_33gb_offer.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard price (R$ 44,99/mês), a clear data offer (33GB), and an urgency phrase ('ÚLTIMA CHANCE' - last chance) combined with 'preço imperdível' (unmissable price). These elements directly drive immediate action and align with the 'hard sell' criteria for Conversion."
+}
+✅ Conversion
+Analyzing 1008236073176348_23857432108490196_23857432108490196_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_c6bank.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad presents a specific plan ('TIM Controle'), detailed features (25GB data, included apps), and a prominent price (R$ 52,99/mês). The inclusion of a direct price point is a strong indicator of a 'hard sell' designed to prompt immediate action, aligning with the Conversion stage of the rubric."
+}
+✅ Conversion
+Analyzing 707505037025219_120213688657470409_120213688657470409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_ultraoferta.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'FINALIZE SUA COMPRA' (Finalize your purchase) and creates urgency with 'AINDA DÁ TEMPO DE GARANTIR ESSA ULTRAOFERTA' (There's still time to guarantee this ultra-offer), indicating a hard sell focused on immediate transaction."
+}
+✅ Conversion
+Analyzing 707505037025219_120202758148960409_120202758148960409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_conversion_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard sell with a direct price (R$ 98,50), specific plan details (300 MEGA), and imperative calls to action such as 'Finalize sua compra agora' and 'CONTRATAR AGORA'. This clearly aligns with the Conversion stage's focus on immediate purchase."
+}
+✅ Conversion
+Analyzing 707505037025219_120228376035180409_120228376035180409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_globoplay.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a clear call-to-action, 'Saiba mais' (Learn more), which is explicitly listed in the rubric as a Conversion-stage CTA. While it highlights a new feature/benefit (Globoplay included) without mentioning prices or discounts, the direct instruction to take action places it at the conversion stage, inviting users to proceed further down the sales funnel."
+}
+✅ Conversion
+Analyzing 707505037025219_120212498826120409_120212498826120409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_conversion_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad prominently displays a specific price (R$ 99,99/mês) for a service (500 MEGA) and features a direct call-to-action: 'FINALIZE SUA COMPRA' (Finalize your purchase). The phrase 'Ainda dá tempo de garantir essa ultraoferta' (There's still time to guarantee this ultra offer) also adds urgency, characteristic of a hard sell intended for immediate action."
+}
+✅ Conversion
+Analyzing 557249762645654_120215573750510348_120215573750510348_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_instituto_tim.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad presents an opportunity ('Empreenda a sua ideia de negócio com o AWC') to a specific audience (university students). It highlights a program/partner (AWC) and offers a benefit (entrepreneurship), prompting the audience to consider engaging with the idea rather than a direct purchase or immediate sign-up. It's educational in the sense that it introduces a concept and a potential path, fitting the 'features, benefits, or plans' aspect of consideration, without being a hard sell or including explicit conversion CTAs like 'Sign up now' or 'Buy'."
+}
+✅ Consideration
+Analyzing 707505037025219_120212204295990409_120212204295990409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_conversion_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard sell with an explicit price (R$ 98,50/mês), mentions an 'Oferta Imperdível' (Unmissable Offer), and includes a direct call-to-action: 'CONTRATE AGORA' (Contract Now). These elements are clear indicators of a conversion-stage ad."
+}
+✅ Conversion
+Analyzing 707505037025219_23859537824550408_23859537824550408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_oferta_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'APROVEITE ESSA ULTRA OFERTA' (TAKE ADVANTAGE OF THIS ULTRA OFFER), which explicitly falls under the 'Aproveite' criteria for a Conversion stage hard sell."
+}
+✅ Conversion
+Analyzing 1008236073176348_120217399467310197_120217399467310197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of the 'TIM CONTROLE' plan, such as 'WhatsApp incluído', '39GB' and 'Netflix incluída como benefício premium'. While it mentions 'Black Friday', there is no explicit price, discount percentage, or direct call-to-action to buy immediately, making it focused on educating the user about the plan's offerings."
+}
+✅ Consideration
+Analyzing 1008236073176348_120210092649520197_120210092649520197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_chip_gratis_delivery.jpg",
+  "category": "CONVERSION",
+  "reasoning": "The ad explicitly offers 'Entrega de TIM CHIP GRÁTIS' (Free TIM CHIP Delivery). The use of 'GRÁTIS' (free) is a strong incentive and a direct offer designed to prompt immediate action, aligning with the 'hard sell' and 'discounts (%)' aspects of the Conversion stage."
+}
+✅ CONVERSION
+Analyzing 1008236073176348_120230794802610197_120230794802610197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_valentines_day_sim_card.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action ('VEM PRO TIM CONTROLE') and a specific offer ('QUE A GENTE ENTREGA O CHIP GRÁTIS' - free SIM card delivery), which are clear indicators of a hard sell designed to prompt immediate action, aligning with the Conversion stage."
+}
+✅ Conversion
+Analyzing 707505037025219_120240947844090409_120240947844090409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultrafibra.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly states a price (R$ 139,99/mês for 1 GIGA) and features a direct call-to-action 'Contrate agora' (Contract now) which are clear indicators of a conversion-stage ad, aiming for immediate action."
+}
+✅ Conversion
+Analyzing 584486016365317_120214112062600379_120214112062600379_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_empresas_70gb.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad presents specific features and benefits of a plan ('ATÉ 70GB', breakdown of bonus GB, 'APPS INCLUSOS', 'Deezer Premium'), aiming to educate potential customers about what the offering entails. It lacks a direct price or a hard-sell call-to-action like 'Buy now' or 'Subscribe now' typically found in conversion-stage ads."
+}
+✅ Consideration
+Analyzing 707505037025219_120222000315090409_120222000315090409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultrafibra.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action, 'CONTRATE' (Contract/Subscribe), which explicitly prompts the user to take a final purchasing step. While it highlights benefits ('Filmes, séries e games com Ultravelocidade'), the ultimate goal is clearly to close a deal, aligning with a hard sell approach, even without specific pricing."
+}
+✅ Conversion
+Analyzing 707505037025219_23855828606940408_23855828606940408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultrafibra.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a key benefit ('ultraconnected home') and makes a strong claim about the product's superiority ('a melhor banda larga do Brasil' backed by an award), positioning TIM Ultra Fibra as a top choice. It lacks explicit pricing, discounts, or a direct, prominent 'hard sell' call-to-action for immediate purchase, characteristic of a conversion ad. While it builds brand perception, its focus on specific product benefits and competitive advantage moves it beyond pure awareness."
+}
+✅ Consideration
+Analyzing 1008236073176348_120222634850820197_120222634850820197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_consumer_week_offer.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad features explicit pricing (R$ 49,99/MÊS), a specific data offer (25GB), a percentage symbol (implying a discount), and terms like 'Oferta Relâmpago por Tempo Limitado' (Flash Offer for a Limited Time) and 'Semana do Consumidor' (Consumer Week). These elements constitute a hard sell designed to drive immediate action, aligning with the Conversion stage."
+}
+✅ Conversion
+Analyzing 1008236073176348_120212313757220197_120212313757220197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_maes.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad mentions specific product lines and features ('TIM CONTROLE' and '5G'). While it doesn't provide detailed educational content or direct offers, it prompts the user to consider these specific offerings from the brand within the context of a special occasion ('Mês das Mães'). It is more specific than a general awareness ad but lacks the direct call-to-action or pricing of a conversion ad."
+}
+✅ Consideration
+Analyzing 707505037025219_120215840021820409_120215840021820409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_blackfriday.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad clearly displays a specific price (R$129,99/mês) for a defined plan (1 GIGA) and includes a direct call-to-action ('CONSULTE A DISPONIBILIDADE'). These elements, especially the explicit price and CTA, indicate a hard sell aimed at securing a purchase or immediate lead, aligning with the Conversion stage of the rubric."
+}
+✅ Conversion
+Analyzing 707505037025219_120227456681300409_120227456681300409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_paramount_conversion_ad",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard sell with a specific price (R$109,99/mês), a detailed plan (600 MEGA + Paramount+), and a direct call-to-action 'CONTRATE AGORA' (Contract Now), which are all hallmarks of a conversion-focused ad."
+}
+✅ Conversion
+Analyzing 1008236073176348_120208752332510197_120208752332510197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim-controle-ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly features a price point ('A PARTIR DE R$ 52,99 /MÊS'), specific data amounts (25GB), and detailed benefits (Instagram included, 5G), making it a hard sell aimed at driving immediate sign-up or purchase."
+}
+✅ Conversion
+Analyzing 707505037025219_120228475801870409_120228475801870409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_ultraqualidade.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action: 'tenha ultraqualidade de internet agora!' (have ultra-quality internet now!). The imperative 'tenha' combined with the urgency of 'agora!' strongly encourages immediate action from the user, aligning with the 'hard sell' and direct call-to-actions characteristic of the Conversion stage, similar to 'Aproveite Agora' or 'Contrate Agora' listed in the rubric."
+}
+✅ Conversion
+Analyzing 584486016365317_120203878542510379_120203878542510379_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_30gb_bonus.png",
+  "category": "Consideration",
+  "reasoning": "The ad presents a specific offer ('ATÉ 30GB') and details the features and conditions to achieve it ('10GB + 10GB DE BÔNUS + 10GB DE BÔNUS ABRINDO CONTA E PAGANDO A FATURA PELO APP DO C6 BANK'). This content is educational, explaining how the benefit is obtained, which aligns with the Consideration stage. It lacks a direct, urgent call-to-action or price points typically found in Conversion ads."
+}
+✅ Consideration
+Analyzing 707505037025219_120207721436280409_120207721436280409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_availability.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly states 'AGORA A TIM ULTRAFIBRA ESTÁ NA SUA REGIÃO' (Now TIM Ultrafibra is in your region) and includes a direct call-to-action: 'Consulte a disponibilidade' (Consult availability), which falls under conversion CTAs like 'Consulte aqui' or 'Saiba Mais', prompting immediate action towards acquisition."
+}
+✅ Conversion
+Analyzing 707505037025219_120215839545160409_120215839545160409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_black_friday_whatsapp_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad uses urgent language ('Black Friday já chegou', 'oferta imperdível') and a direct call-to-action ('CHAME NO WHATSAPP') to prompt immediate engagement, aligning with a hard-sell approach aimed at converting prospects."
+}
+✅ Conversion
+Analyzing 707505037025219_120215094851110409_120215094851110409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_conversion_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'FINALIZE SUA COMPRA' (Finalize your purchase) and creates urgency with 'Ainda dá tempo de garantir essa ultraoferta' (There's still time to guarantee this ultra offer), indicating a hard sell aiming for immediate transaction."
+}
+✅ Conversion
+Analyzing 707505037025219_23859529366290408_23859529366290408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultra_fibra.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights key benefits ('Turbine seu home office', 'melhor banda larga') and a specific feature ('ultravelocidades de até 2 GIGA'), inviting users to 'Conheça nossas ofertas' (Get to know our offers). This CTA encourages further exploration and learning about available plans, aligning with users evaluating options before a direct purchase."
+}
+✅ Consideration
+Analyzing 707505037025219_23853506367990408_23853506367990408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultrafibra.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad prominently displays a specific price (R$ 92,70 / MÊS) for a defined plan (300 MEGA), along with a condition for that price, which aligns with the 'hard sell' criteria for the Conversion stage according to the rubric."
+}
+✅ Conversion
+Analyzing 707505037025219_120242706196130409_120242706196130409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific benefits (BBB 24h without buffering, Globoplay included) and uses a call-to-action 'SAIBA MAIS' (Learn More), which encourages users to explore features and benefits further before making a purchase decision. It's not a hard sell with prices or direct conversion CTAs like 'Assine Já', but rather educates on the value proposition."
+}
+✅ Consideration
+Analyzing 707505037025219_23855094024400408_23855094024400408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad includes a direct call-to-action 'APROVEITE ESSA ULTRA OFERTA' (Enjoy this Ultra Offer), which indicates a hard sell and prompts immediate action, aligning with the Conversion stage criteria."
+}
+✅ Conversion
+Analyzing 707505037025219_120218707427340409_120218707427340409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad includes the call-to-action 'Saiba mais' (Learn more), which is explicitly listed in the rubric under the CONVERSION stage. While it lacks specific pricing or discounts, the direct CTA categorizes it as Conversion according to the provided rules."
+}
+✅ Conversion
+Analyzing 1008236073176348_120204045330790197_120204045330790197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle_30gb.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad presents a specific plan ('TIM CONTROLE') and highlights its key feature/benefit ('ATÉ 30GB', '10GB + 20GB DE BÔNUS') without displaying prices, discounts, or a direct call-to-action to buy or subscribe immediately. It focuses on educating the potential customer about what the plan offers."
+}
+✅ Consideration
+Analyzing 1008236073176348_120214210103820197_120214210103820197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle_25gb.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a specific plan ('TIM Controle') and details its key feature (25GB, including bonus data). It focuses on presenting benefits and plan specifics without a direct call-to-action or pricing, aligning with the Consideration stage."
+}
+✅ Consideration
+Analyzing 707505037025219_120238324474590409_120238324474590409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_oferta_contrate_agora",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'CONTRATE AGORA' (Contract Now) and explicitly mentions 'Aproveite essa oferta imperdível' (Enjoy this unmissable offer), both of which are strong indicators of a hard sell aimed at immediate action, aligning with the Conversion stage of the funnel."
+}
+✅ Conversion
+Analyzing 707505037025219_120216677255490409_120216677255490409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_500mega_conversion_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a prominent price (R$ 99,99), specific plan details (500 MEGA), a conditional offer ('POR 12 MESES NO DÉBITO AUTOMÁTICO'), and a direct call-to-action 'CONTRATAR AGORA' (Contract Now), all indicative of a hard sell aimed at immediate action."
+}
+✅ Conversion
+Analyzing 5465078893513624_120214095541680750_120214095541680750_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_10.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a specific product feature ('O smartphone mais fino do mundo' - The thinnest smartphone in the world) and labels it as an 'Exclusive Product'. This type of messaging focuses on differentiating the product and educating the user about its unique selling points, encouraging them to consider it further. It lacks direct pricing, discounts, or hard call-to-actions typical of conversion ads, and goes beyond mere brand awareness by focusing on a specific product attribute."
+}
+✅ Consideration
+Analyzing 1008236073176348_120222636034920197_120222636034920197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_25gb_offer.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 49,99/MÊS), a concrete offer (25GB, including a bonus), and highlights a promotional period ('Semana do Consumidor' with a '%' symbol). These elements constitute a hard sell, aiming for immediate action from the consumer."
+}
+✅ Conversion
+Analyzing 1008236073176348_120220108044880197_120220108044880197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "image.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad prominently displays a specific price (R$ 49,99 /MÊS) for a defined service (25GB TIM Controle), which is a clear indicator of a hard sell aimed at encouraging immediate action, fitting the criteria for a Conversion stage ad."
+}
+✅ Conversion
+Analyzing 707505037025219_120210917878070409_120210917878070409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_home_office_2giga.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features ('ULTRAVELOCIDADES DE ATÉ 2 GIGA'), benefits for a particular use case ('TURBINE SEU HOME OFFICE'), and makes a comparative claim ('MELHOR BANDA LARGA DO BRASIL'). The call-to-action 'CONHEÇA NOSSAS OFERTAS' (Get to know our offers) encourages further exploration rather than a direct, immediate purchase, aligning with the educational and evaluative nature of the consideration stage."
+}
+✅ Consideration
+Analyzing 584486016365317_120231807210780379_120231807210780379_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_empresas_60gb.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of a plan: a clear data allowance (60GB, including a special bonus) and included apps. It describes what the customer gets, encouraging them to consider the plan, but lacks a direct call-to-action or pricing typically found in conversion-stage ads."
+}
+✅ Consideration
+Analyzing 707505037025219_120225830606560409_120225830606560409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_max_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'CONTRATE AGORA' (Contract Now), explicitly aiming for immediate action. It also highlights a specific offer 'tenha assinatura da Max incluída no plano' (get a Max subscription included in the plan), which is designed to drive a hard sell, aligning with the Conversion stage criteria."
+}
+✅ Conversion
+Analyzing 1008236073176348_120225008316220197_120225008316220197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a 'Oferta Relâmpago' (Flash Offer), prominently displays a specific price (R$ 49,99 /Mês), and details the data and streaming benefits of the plan. This combination of a hard sell offer, clear pricing, and specific product details is designed to drive immediate action, fitting the 'Conversion' stage."
+}
+✅ Conversion
+Analyzing 707505037025219_120240565346260409_120240565346260409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultrafibra_moving.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'Saiba mais' (Learn more), which is explicitly listed as a Conversion stage CTA in the provided rubric. While it lacks prices or discounts, the presence of this specific CTA aligns the ad with the Conversion stage as defined."
+}
+✅ Conversion
+Analyzing 5465078893513624_120214043430530750_120214043430530750_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a key feature/benefit ('O smartphone mais fino do mundo') and positions it as an 'PRODUTO EXCLUSIVO'. This type of messaging aims to educate potential customers about a specific product's unique selling proposition, encouraging them to consider it further, rather than just building general brand awareness or making a hard sell."
+}
+✅ Consideration
+Analyzing 707505037025219_120221498162700409_120221498162700409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultrafibra",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'Venha para TIM Ultrafibra' (Come to TIM Ultrafibra), which is an invitation for the user to engage with the product. Although it doesn't include prices or discounts, this type of CTA (similar to 'Confira' or 'Saiba Mais' listed in the rubric) is designed to prompt a next step from the user, moving them further down the sales funnel towards becoming a customer."
+}
+✅ Conversion
+Analyzing 1008236073176348_120222528454560197_120222528454560197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_streaming_ad.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of the 'TIM CONTROLE' plan, emphasizing its completeness ('mais completo do mercado') and unique offering ('O único com streaming incluído'). It lists the streaming services included, providing educational value and encouraging consideration of this particular plan. While it uses an inviting call to action ('Venha para o plano...'), it lacks explicit prices, discounts, or hard conversion-focused CTAs like 'Assine Já' or 'Compre'."
+}
+✅ Consideration
+Analyzing 707505037025219_120213489727150409_120213489727150409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'Saiba mais' (Learn more), which is explicitly listed under the 'CONVERSION' stage in the provided rubric's examples of direct call-to-actions. While the copy doesn't include prices or discounts, the presence of this specific CTA dictates the classification according to the given rules."
+}
+✅ Conversion
+Analyzing 707505037025219_120236445342030409_120236445342030409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_ultradiversao.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad includes a direct call-to-action 'Saiba mais' (Learn more), which is explicitly listed in the rubric as an indicator for the Conversion stage. While the ad also features lifestyle elements and benefits, the presence of this CTA aligns it with the defined conversion criteria."
+}
+✅ Conversion
+Analyzing 1008236073176348_120222634850840197_120222634850840197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_5g_semana_do_consumidor_gratis.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad offers a direct incentive ('Entrega e chip grátis' - Free delivery and chip) during a promotional period ('Semana do Consumidor'). The use of 'grátis' is a hard sell tactic designed to drive immediate action and acquire new subscribers, aligning with the characteristics of a conversion-focused ad."
+}
+✅ Conversion
+Analyzing 707505037025219_120215053337780409_120215053337780409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "image",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'Saiba mais' (Learn more), which is explicitly listed as a Conversion stage CTA in the provided rubric, despite the lack of explicit prices or discounts."
+}
+✅ Conversion
+Analyzing 707505037025219_120217678699460409_120217678699460409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_yellowstone.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'Contrate TIM Ultrafibra' and a prominent button 'CONTRATE AGORA' (CONTRACT NOW), which clearly indicates a hard sell aiming for immediate action. It also highlights a specific offer (Paramount+ included), pushing the user towards a final purchase decision."
+}
+✅ Conversion
+Analyzing 707505037025219_120217985497190409_120217985497190409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_max_ad.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'CONTRATE AGORA' (CONTRACT NOW) and presents a specific offer ('tenha assinatura da Max incluída no plano') aimed at prompting immediate customer acquisition."
+}
+✅ Conversion
+Analyzing 707505037025219_120205685490710409_120205685490710409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_fibra",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 118,50 /MÊS), details of the offer (500 Mega, included subscriptions, conditions for the price), and a direct call-to-action 'CONTRATAR AGORA' ('Sign Up Now'), along with urgency 'NÃO PERCA ESSA OFERTA' ('Don't Miss This Offer'). These elements constitute a hard sell aimed at immediate action."
+}
+✅ Conversion
+Analyzing 1008236073176348_120211794124990197_120211794124990197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "image",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly offers 'Entrega de TIM CHIP GRÁTIS' (Free delivery of TIM SIM card). The word 'GRÁTIS' functions as a direct incentive/discount, which according to the rubric, falls under the 'Hard sell' category of Conversion, alongside prices and percentage discounts, even without an explicit call-to-action button visible on the ad itself."
+}
+✅ Conversion
+Analyzing 584486016365317_120231284967570379_120231284967570379_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_empresas_social_5g.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a key benefit ('muita internet' - lots of internet) enabled by a feature ('5G') and links it directly to a common use case ('curtir nas suas redes sociais favoritas'). While it doesn't mention specific plans or prices, it moves beyond pure brand awareness by presenting a concrete value proposition relevant to the 'TIM Empresas' audience, encouraging them to consider TIM for their connectivity needs related to social media use. There are no direct conversion calls-to-action or pricing."
+}
+✅ Consideration
+Analyzing 707505037025219_120235246369780409_120235246369780409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_offer_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a 'Oferta Imperdível' (Unmissable Offer) and a direct, urgent call-to-action: 'Aproveite agora' (Take advantage now), which is explicitly listed in the rubric as a conversion trigger. The overall messaging is a hard sell aimed at immediate action."
+}
+✅ Conversion
+Analyzing 1008236073176348_120210092649540197_120210092649540197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly displays a price (R$ 59,99 /MÊS) and a detailed offer (até 30GB, 5G, apps inclusos), which are clear indicators of a hard sell aimed at driving immediate action, fitting the criteria for the CONVERSION stage."
+}
+✅ Conversion
+Analyzing 1008236073176348_120203251855620197_120203251855620197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "ad_image.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly features a price point ('A PARTIR DE R$ 46,99 /MÊS'), specific data amount ('ATÉ 33GB'), and highlights a promotional event ('BLACK FRIDAY TIM'). These elements constitute a hard sell designed to prompt immediate action, aligning with the Conversion stage criteria."
+}
+✅ Conversion
+Analyzing 1008236073176348_120220109468520197_120220109468520197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle",
+  "category": "Conversion",
+  "reasoning": "The ad uses strong conversion-oriented language such as 'Aproveite agora' (Enjoy now) which is a direct call-to-action, and 'POR TEMPO LIMITADO' (FOR A LIMITED TIME) which creates urgency, both align with the hard-sell characteristics of the Conversion stage in the rubric."
+}
+✅ Conversion
+Analyzing 1008236073176348_120214610387510197_120214610387510197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_mes_dos_pais_59_99.png",
+  "category": "Conversion",
+  "reasoning": "The ad clearly states a specific price (R$ 59,99 /MÊS) and a detailed offer (36GB, included apps, 5G), which are strong indicators of a hard sell aimed at direct action, aligning with the Conversion stage of the rubric."
+}
+✅ Conversion
+Analyzing 707505037025219_120242534824310409_120242534824310409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_smurfs_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features explicit pricing (R$ 119,99 /MÊS), a clear discount ('DE R$ 159,99 POR R$ 119,99'), and a direct call-to-action ('FINALIZE SUA COMPRA'). These elements strongly indicate a hard sell aimed at immediate purchase, aligning perfectly with the Conversion stage."
+}
+✅ Conversion
+Analyzing 707505037025219_120217771891380409_120217771891380409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultrafibra_paramount.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 149,99/mês), a detailed plan (1GIGA + Paramount+), and a direct call-to-action ('CONTRATE AGORA' - CONTRACT NOW), which are all indicators of a hard sell aimed at immediate action."
+}
+✅ Conversion
+Analyzing 1008236073176348_120210092936110197_120210092936110197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad displays a specific price (R$ 52,99 /MÊS) and detailed plan specifics (25GB, included apps), which are key indicators of a hard sell intended to drive immediate action or decision, aligning with the Conversion stage of the rubric. Although it lacks a direct 'Buy now' CTA, the prominent price makes it a Conversion ad."
+}
+✅ Conversion
+Analyzing 707505037025219_23856426736530408_23856426736530408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_oferta_turbinada.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad presents a key benefit ('Sua casa conectada' - Your connected home) and mentions an 'oferta turbinada' (boosted offer), inviting the user to learn more without providing specific pricing, discounts, or a direct call-to-action for immediate purchase. This aligns with the Consideration stage, where the goal is to educate and prompt further engagement about a specific proposition."
+}
+✅ Consideration
+Analyzing 1008236073176348_120216220834270197_120216220834270197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad clearly presents a specific price (R$ 64,99/MÊS) for the 'Novo TIM Controle' plan, along with detailed features such as data allocation (31GB) and included services (WhatsApp, streaming options). The presence of a direct price point is a strong indicator of a Conversion stage ad, designed to prompt immediate purchase or subscription."
+}
+✅ Conversion
+Analyzing 1008236073176348_120201426805860197_120201426805860197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_25gb_ad.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a specific feature/benefit (25GB data, with a bonus breakdown) of the 'TIM CONTROLE' plan. It provides details about what the customer would get, which helps in the evaluation process, moving past general awareness without including direct pricing, discounts, or a strong call-to-action for immediate purchase."
+}
+✅ Consideration
+Analyzing 707505037025219_23855268513380408_23855268513380408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_live_ultra_fibra_conversion_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price point (R$95/mês), a clear offer ('Contrate 150 e leve 200 Mega'), and direct financial terms ('Por 12 meses no débito automático', 'Taxa de habilitação incluída'), which are all indicators of a hard sell aimed at immediate action, fitting the 'Conversion' stage."
+}
+✅ Conversion
+Analyzing 707505037025219_120215053337880409_120215053337880409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_new_home_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad's call-to-action 'Saiba mais' (Learn more) is explicitly listed under the 'CONVERSION' category in the provided rubric. While the copy focuses on a benefit ('ultraqualidade') and lifestyle, the direct CTA moves the user further down the funnel towards a conversion."
+}
+✅ Conversion
+Analyzing 1008236073176348_120226018712140197_120226018712140197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "image.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad presents a direct incentive 'Tenha entrega e chip grátis' (Get free delivery and chip), which is a clear offer designed to encourage immediate action and remove friction from the purchase process. This aligns with the 'hard sell' and 'discounts/incentives' aspects of the Conversion stage, even without an explicit 'Buy Now' CTA."
+}
+✅ Conversion
+Analyzing 707505037025219_120242405919540409_120242405919540409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultrafibra.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'Mude agora para TIM Ultrafibra' (Change now to TIM Ultrafibra) and an explicit instruction 'CHAME NO WHATSAPP' (Call on WhatsApp), indicating an intent to drive immediate user action, which aligns with the Conversion stage."
+}
+✅ Conversion
+Analyzing 1008236073176348_120222635950370197_120222635950370197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features 'SEMANA DO CONSUMIDOR' (Consumer Week), a prominent percentage symbol (%), and the phrase 'MUITA ECONOMIA E CONTA SEM SURPRESAS' (Lots of savings and bill without surprises). The percentage symbol and the reference to a promotional event like Consumer Week are direct indicators of a hard sell or discount-driven offer, fitting the Conversion stage of the rubric."
+}
+✅ Conversion
+Analyzing 5465078893513624_120212757006660750_120212757006660750_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "image",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of the TIM BLACK plan, namely 'APPS INCLUSOS' (included apps) such as Deezer Premium, WhatsApp, Instagram, Facebook, and Twitter. This provides educational information about the plan's offerings, guiding potential customers to consider its value without a hard sell or direct call-to-action for purchase."
+}
+✅ Consideration
+Analyzing 707505037025219_120240349750640409_120240349750640409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim-ultrafibra-hbo-max-offer.png",
+  "category": "Conversion",
+  "reasoning": "The ad presents a hard sell with explicit pricing (R$ 159,99/mês), a specific offer ('1GIGA' and 'HBO Max incluída no plano'), and a direct call-to-action ('Contrate TIM Ultrafibra' and 'CHAME NO WHATSAPP'). These elements are all indicative of the Conversion stage."
+}
+✅ Conversion
+Analyzing 707505037025219_120242442114170409_120242442114170409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_whatsapp_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'Mude agora para TIM Ultrafibra' (Change now to TIM Ultrafibra) and an explicit conversion-oriented CTA 'CHAME NO WHATSAPP' (Call on WhatsApp), indicating an immediate intent for the user to engage and potentially purchase the service."
+}
+✅ Conversion
+Analyzing 1008236073176348_120230795426900197_120230795426900197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_valentines_day_free_chip.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action ('VEM PRO TIM CONTROLE') and a specific incentive/offer ('CHIP GRÁTIS'), which aligns with the 'hard sell' and 'discounts' criteria of the Conversion stage. The message aims for immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_120209141108940409_120209141108940409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_conversion_ad",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard sell with a specific price (R$ 98,50 /MÊS), a direct offer ('OFERTA IMPERDÍVEL', '500 MEGA'), and a strong call-to-action ('CONTRATE AGORA'). These elements align directly with the criteria for the Conversion stage."
+}
+✅ Conversion
+Analyzing 707505037025219_120228486821640409_120228486821640409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_max_offer_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly displays a price (R$ 129,99/MÊS) and features a direct, hard-sell call-to-action 'CONTRATE AGORA' (CONTRACT NOW), which are key indicators of the Conversion stage according to the rubric."
+}
+✅ Conversion
+Analyzing 1008236073176348_120229641658180197_120229641658180197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_chip_gratis.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad includes a direct call-to-action 'Venha para TIM' (Come to TIM) and a specific incentive 'entrega e chip grátis' (free delivery and chip). These elements constitute a 'hard sell' designed to drive immediate action, fitting the criteria for the Conversion stage."
+}
+✅ Conversion
+Analyzing 1008236073176348_120226987920130197_120226987920130197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim-controle-dia-das-maes-ad",
+  "category": "Conversion",
+  "reasoning": "The ad features an explicit price point (R$ 64,99/mês), a specific data offer (41GB), and direct benefits like 'Chip Grátis' and 'WhatsApp Incluído'. These elements constitute a hard sell, focusing on immediate action through a clear promotional offer."
+}
+✅ Conversion
+Analyzing 707505037025219_120212865252950409_120212865252950409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_ad",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'Saiba mais' (Learn more), which is explicitly listed under the CONVERSION stage in the provided rubric. While the messaging focuses on benefits ('ultraqualidade', 'a casa mais ultra'), the presence of this specific CTA pushes it into the conversion category, aiming to prompt immediate action towards engagement or purchase."
+}
+✅ Conversion
+Analyzing 707505037025219_120240565492830409_120240565492830409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_gaming_ultra_fibra.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features the product 'TIM Ultra Fibra' and highlights a benefit ('ULTRAPODEROSO' gaming experience). Crucially, the Call-to-Action 'Saiba mais' (Learn more) is explicitly listed in the provided rubric under the 'CONVERSION' stage's direct call-to-actions, despite not including prices or discounts."
+}
+✅ Conversion
+Analyzing 1008236073176348_120215630294620197_120215630294620197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_c6bank_33gb.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of a 'TIM CONTROLE' plan, detailing the amount of data (33GB) and the condition to receive bonus data (opening an account and paying the bill via C6 Bank app). It explains the plan's offering without a direct price or a hard-sell call-to-action, aligning with the educational nature of the Consideration stage."
+}
+✅ Consideration
+Analyzing 1008236073176348_120217050759200197_120217050759200197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_black_friday.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features an explicit price (R$ 44,99/MÊS), a specific data offer (25GB), and prominently displays 'BLACK FRIDAY TIM', indicating a promotional period aimed at encouraging immediate purchase. The phrase 'Não perca mais tempo' also creates a sense of urgency, aligning with a hard-sell approach for conversion."
+}
+✅ Conversion
+Analyzing 1008236073176348_23857432108480196_23857432108480196_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_25gb_ad.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a specific plan name ('TIM CONTROLE') and details its features and benefits by stating the total data allowance (25GB) and its breakdown (5GB + 20GB bonus). It educates the user about what the plan offers without including prices, discounts, or direct call-to-actions, aligning with the Consideration stage."
+}
+✅ Consideration
+Analyzing 1008236073176348_120238637609420197_120238637609420197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_conversion_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard sell with a clear price point (R$38,99 /MÊS) and a direct call-to-action ('VENHA PARA A TIM' - Come to TIM), along with a specific offer (29GB)."
+}
+✅ Conversion
+Analyzing 707505037025219_120216186815160409_120216186815160409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultra_fibra_black_friday.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a 'Black Friday TIM' promotion, explicitly mentions 'oferta imperdível' (unmissable offer) and includes a direct call-to-action 'CONSULTE A DISPONIBILIDADE' (Consult availability), which aligns with the 'Conversion' stage's hard sell and direct CTA criteria."
+}
+✅ Conversion
+Analyzing 1008236073176348_120225029257330197_120225029257330197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "ad_image.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a 'Oferta Relâmpago' (Flash Offer) which implies urgency and a limited-time deal. It also highlights specific benefits like '25GB' and 'WhatsApp Incluído' for the 'TIM Controle' plan, all designed to drive immediate action and purchase, aligning with a hard sell approach."
+}
+✅ Conversion
+Analyzing 1008236073176348_120241506299690197_120241506299690197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_black_friday_whatsapp_included.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a specific feature ('WhatsApp incluído') of a particular product line ('TIM Controle') within the context of a promotional event ('Black Friday Indecente'). It educates the user about a key benefit, encouraging them to consider this specific plan, but it lacks direct prices, discounts, or a strong call-to-action for immediate conversion."
+}
+✅ Consideration
+Analyzing 1640492266333423_120205413474250439_120205413474250439_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_superdesconto.png",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly mentions 'SUPERDESCONTO' (super discount), which is a hard-sell tactic aimed at driving immediate action. It falls under the 'discounts (%)' criteria for the Conversion stage."
+}
+✅ Conversion
+Analyzing 707505037025219_120221999624950409_120221999624950409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_paramount_yellowstone.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'CONTRATE AGORA' (CONTRACT NOW) and explicitly asks the user to 'Contrate TIM Ultrafibra' (Contract TIM Ultrafibra) to receive Paramount+ included. This is a hard sell aiming for immediate action, aligning perfectly with the Conversion stage criteria."
+}
+✅ Conversion
+Analyzing 557249762645654_120215573008900348_120215573008900348_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "ad_image_001.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad targets a specific audience (university students about to graduate) and highlights the benefit of participating in the 'AWC' program: transforming an idea into a startup. While it includes a call to action ('Participe'), it focuses on the educational opportunity and its benefits rather than a hard sell with prices or discounts, encouraging the audience to consider the program."
+}
+✅ Consideration
+Analyzing 707505037025219_120236047129680409_120236047129680409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_whatsapp_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 139,99 /MÊS) for a plan (1 GIGA) and includes a direct call-to-action ('Contrate agora' - Contract now), which are clear indicators of a conversion-stage ad."
+}
+✅ Conversion
+Analyzing 707505037025219_120213519869510409_120213519869510409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_500mega_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad includes a specific plan ('500 MEGA'), a key benefit ('Wi-fi que pega na casa toda'), and a direct, urgent call-to-action: 'CONTRATE AGORA' (Contract Now). This hard sell CTA is a definitive indicator of the Conversion stage according to the rubric."
+}
+✅ Conversion
+Analyzing 1008236073176348_120231926536420197_120231926536420197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_31gb_offer.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct price (R$ 44,99/mês), a specific offer (31GB), and strong conversion-focused call-to-actions like 'APROVEITE AGORA' and 'ÚLTIMA CHANCE', which create urgency and push for an immediate purchase."
+}
+✅ Conversion
+Analyzing 1008236073176348_120218103150000197_120218103150000197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_27gb_54_99.png",
+  "category": "Conversion",
+  "reasoning": "The ad prominently displays a specific price (R$ 54,99 /MÊS) for a defined plan ('TIM CONTROLE' with '27GB' and included streaming services). The inclusion of a direct price point constitutes a 'hard sell' according to the rubric, aiming for immediate action rather than just brand building or feature education."
+}
+✅ Conversion
+Analyzing 707505037025219_120225331392590409_120225331392590409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_conversion_ad",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'CONTRATAR AGORA' (Contract Now) and mentions an 'Oferta imperdível' (unmissable offer), which are both indicators of a hard sell aimed at immediate action, aligning with the Conversion stage of the rubric."
+}
+✅ Conversion
+Analyzing 707505037025219_120227592948160409_120227592948160409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad's primary call-to-action, 'Consulte a disponibilidade' (Check availability), is a direct prompt for the user to take a specific step towards subscribing to the service. While the headline mentions 'ultra-quality internet,' the explicit CTA focuses on initiating the conversion process by verifying eligibility, aligning with hard-sell tactics like 'Consulte aqui' listed in the Conversion rubric."
+}
+✅ Conversion
+Analyzing 1008236073176348_120215820503700197_120215820503700197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_25gb_44_99.png",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly displays a price (R$ 44,99 /MÊS) and outlines a specific offer (25GB, included apps). According to the rubric, the presence of prices (R$) is a key indicator of a Conversion stage ad, signaling a 'hard sell' approach designed to prompt an immediate decision."
+}
+✅ Conversion
+Analyzing 557249762645654_120211900585730348_120211900585730348_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_flamengo_tim_5g",
+  "category": "Awareness",
+  "reasoning": "The ad focuses on brand association and emotional connection (celebrating a Flamengo victory) without offering specific products, prices, discounts, or a direct call-to-action. It positions TIM as 'the leader in 5G' and 'official sponsor of Flamengo', aiming to build brand recognition and positive sentiment."
+}
+✅ Awareness
+Analyzing 5006651156112143_120216211055730370_120216211055730370_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_pix_whatsapp_offer.png",
+  "category": "Conversion",
+  "reasoning": "The ad offers a specific monetary incentive ('RECEBA PIX DE ATÉ R$ 3') and a clear benefit ('WHATSAPP O MÊS TODO') tied to a product ('TIM PRÉ XIP') under a condition ('EM QUALQUER VALOR DE RECARGA'). The inclusion of a specific price/discount (R$3) and a valuable, time-bound benefit (WhatsApp 'o mês todo') makes this a hard sell, designed to drive immediate action, aligning with the Conversion stage criteria."
+}
+✅ Conversion
+Analyzing 584486016365317_120233645307880379_120233645307880379_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_empresas.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard sell with a clear price point (R$ 52,99), a specific data plan (60GB), included apps, and a strong urgency trigger ('Oferta por Tempo Limitado'). These elements are designed to drive immediate action, aligning directly with the Conversion stage."
+}
+✅ Conversion
+Analyzing 707505037025219_120207889999130409_120207889999130409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_oferta.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'APROVEITE ESSA' (Enjoy this) and explicitly mentions an 'ULTRA OFERTA' (Ultra Offer), indicating a hard sell to prompt immediate action, aligning with the Conversion stage criteria."
+}
+✅ Conversion
+Analyzing 1008236073176348_120238598831670197_120238598831670197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_33gb.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard sell with a specific price (R$ 44,99/MÊS), a strong urgency call ('ÚLTIMA CHANCE'), and highlights a 'preço imperdível'. These elements directly aim to drive immediate action and align with the 'hard sell' and 'prices' criteria for the Conversion stage."
+}
+✅ Conversion
+Analyzing 707505037025219_120221999264420409_120221999264420409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultrafibra.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly states a price (R$ 109,99/mês), outlines a specific offer (700 MEGA), and features a direct call-to-action ('CONTRATE' - Contract). These elements are characteristic of a hard-sell approach aimed at immediate action, aligning perfectly with the Conversion stage of the rubric."
+}
+✅ Conversion
+Analyzing 707505037025219_120235363133470409_120235363133470409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "ad_image",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard sell with clear pricing (R$119,99/mês), a significant discount (from R$159,99), and a direct call-to-action ('Aproveite agora'). It also highlights an 'OFERTA IMPERDÍVEL' (Unmissable Offer), all of which align with the conversion stage criteria."
+}
+✅ Conversion
+Analyzing 1008236073176348_120224324586340197_120224324586340197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.jpeg",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of the 'TIM Controle' plan, emphasizing that it's 'o mais completo do mercado' and 'o único com streaming incluído'. It showcases various streaming service logos as key differentiators. While it invites consideration ('Venha para o plano'), it lacks direct pricing, discounts, or hard call-to-actions like 'Compre' or 'Assine Já', which would place it in the Conversion stage. Instead, it aims to educate the potential customer about the plan's unique value proposition, aligning it with the Consideration stage."
+}
+✅ Consideration
+Analyzing 707505037025219_23859530615530408_23859530615530408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_home_office.png",
+  "category": "Consideration",
+  "reasoning": "The ad emphasizes a key benefit ('TURBINE SEU HOME OFFICE') and makes a strong comparative claim ('MELHOR BANDA LARGA DO BRASIL'), which are typical for the consideration stage. While there's a soft call-to-action ('Confira cobertura e mais informações') in the small print, the primary focus is on educating the user about the product's value and superiority, not a hard sell with prices or urgent CTAs."
+}
+✅ Consideration
+Analyzing 707505037025219_120214906709720409_120214906709720409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 119,99/mês), detailed plan specifications (700 MEGA + bonus, streaming services), and a direct call-to-action ('CHAME NO WHATSAPP'), all indicative of a hard sell designed to drive immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_23855094883580408_23855094883580408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_ad.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad uses a direct call-to-action phrase 'APROVEITE ESSA ULTRA OFERTA' (Enjoy this Ultra Offer), which aligns with the 'hard sell' and direct action triggers specified in the Conversion stage of the rubric."
+}
+✅ Conversion
+Analyzing 707505037025219_23858698401910408_23858698401910408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_saibamais.jpg",
+  "category": "Conversion",
+  "reasoning": "While the ad highlights benefits ('Sua casa ultraconectada com a melhor banda larga do Brasil') common in the Consideration stage, the explicit call-to-action 'SAIBA MAIS' (Learn More) is listed as a Conversion CTA in the provided rubric. This indicates the ad's immediate goal is to drive the user to take a direct step towards conversion, likely to a page where offers and sign-up details are presented."
+}
+✅ Conversion
+Analyzing 1008236073176348_120228065938790197_120228065938790197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_free_delivery_chip.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action ('Venha para TIM' - Come to TIM) and a strong incentive ('entrega e chip grátis' - free delivery and chip), which are characteristics of a hard sell designed to prompt immediate action and fall squarely into the Conversion stage."
+}
+✅ Conversion
+Analyzing 1008236073176348_120203384897100197_120203384897100197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_black_friday_c6_bank",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard sell with a specific price point (R$ 59,99/mês), a clear data offer ('Até 40GB'), and highlights a promotional event ('Black Friday'), which implies a limited-time discount or special deal. It also includes specific conditions to unlock the full benefit (opening a C6 Bank account and paying via app), all designed to drive immediate sign-up or purchase."
+}
+✅ Conversion
+Analyzing 707505037025219_120239441697640409_120239441697640409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultrafibra.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly displays a price (R$129,99/mês), details a specific offer (600 MEGA + HBO Max), and features a direct call-to-action 'CONTRATE AGORA' (Contract Now). These elements are characteristic of a hard-sell approach aimed at immediate action."
+}
+✅ Conversion
+Analyzing 1008236073176348_120205239727010197_120205239727010197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a clear price (R$ 52,99/mês), a specific offer (25GB), and a direct incentive ('RECEBA SEU TIM CHIP GRÁTIS' - Receive your TIM SIM card for FREE). These elements constitute a hard sell aimed at immediate action, aligning with the Conversion stage of the funnel."
+}
+✅ Conversion
+Analyzing 707505037025219_120207890074080409_120207890074080409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_awareness_content.jpg",
+  "category": "Awareness",
+  "reasoning": "The ad focuses on brand recognition ('TIM ULTRA FIBRA'), an emotional benefit ('Deixa sua casa mais ultra com muito conteúdo'), and lifestyle appeal (excited person with a remote, highlighting streaming services). It lacks specific offers, prices, or direct call-to-actions, aligning with the goal of creating general interest and brand association."
+}
+✅ Awareness
+Analyzing 707505037025219_120239844721010409_120239844721010409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features explicit pricing (R$ 109,99/MÊS from R$ 149,99), a specific offer (700 MEGA), and a direct call-to-action 'Finalize sua compra' (Finalize your purchase), all indicating a hard sell aimed at immediate transaction."
+}
+✅ Conversion
+Analyzing 707505037025219_120204307907190409_120204307907190409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_oferta_contratar_agora.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad uses a direct call-to-action 'CONTRATAR AGORA' (Contract Now) and emphasizes urgency with 'NÃO PERCA ESSA OFERTA!' (Don't miss this OFFER!), which are clear indicators of a hard sell aimed at immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_120221999005190409_120221999005190409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_ad.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a key benefit ('Ultravelocidade') and explains how it solves a user problem ('para maratonar séries antes de receber os spoilers'), which educates the consumer on the product's value. The call-to-action 'Saiba mais' (Learn more) encourages further exploration of features and plans, typical for users in the consideration phase, rather than a direct, hard-sell conversion."
+}
+✅ Consideration
+Analyzing 1008236073176348_120246062114120197_120246062114120197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad presents a hard sell with a clear price point ('38,99 /MÊS') and specific product features (27GB, eSIM, WhatsApp incluído, 1 MÊS Globoplay). These elements, especially the explicit price, are direct indicators of a Conversion stage ad according to the rubric."
+}
+✅ Conversion
+Analyzing 1008236073176348_120222634850770197_120222634850770197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "Classify this.",
+  "category": "Conversion",
+  "reasoning": "The ad features a clear price point (R$ 49,99/MÊS), a promotional event ('Semana do Consumidor'), and a visible percentage symbol indicating a discount, all of which are indicators of a hard sell designed to drive immediate action, fitting the Conversion stage criteria."
+}
+✅ Conversion
+Analyzing 707505037025219_120209141905190409_120209141905190409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_2giga_hbo_paramount_conversion_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad clearly displays a price (R$ 244,90 / MÊS), specific product features (2 GIGA, HBO Max, Paramount+), and a direct call-to-action: 'CONTRATAR AGORA' (CONTRACT NOW). These elements indicate a hard sell aimed at immediate purchase, aligning perfectly with the Conversion stage."
+}
+✅ Conversion
+Analyzing 1008236073176348_120225005371310197_120225005371310197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_streaming.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a specific feature and benefit of the 'TIM CONTROLE' plan: the freedom to choose and switch streaming services. It lists popular streaming providers (Deezer Now, Paramount+, Prime Video celular) available, educating the user about the plan's offerings without including prices, discounts, or direct conversion-focused calls to action."
+}
+✅ Consideration
+Analyzing 1008236073176348_120210092936120197_120210092936120197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_25gb_instagram_5g.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad clearly states a price (R$ 52,99 /MÊS) for a specific plan (TIM Controle) with detailed benefits (25GB, Instagram incluso). The inclusion of a price point is a direct indicator of the conversion stage, as per the rubric's definition of a 'hard sell' element."
+}
+✅ Conversion
+Analyzing 1008236073176348_120204054164220197_120204054164220197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.png",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of a plan ('TIM CONTROLE' and 'ATÉ 30GB' including a '20GB DE BÔNUS'). It informs the user about what the plan offers without presenting prices, discounts, or direct calls-to-action, thus fitting the 'features, benefits, or plans' criteria for Consideration."
+}
+✅ Consideration
+Analyzing 5006651156112143_120228266724170370_120228266724170370_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_whatsapp.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly highlights a specific product ('TIM PRÉ XIP') with a clear offer ('WhatsApp Ilimitado o mês todo em qualquer valor de recarga') and includes a direct, actionable call-to-action: 'RECARREGUE NO APP MEU TIM'. This hard sell approach, guiding the user to perform a specific action, classifies it as Conversion."
+}
+✅ Conversion
+Analyzing 707505037025219_120210469323480409_120210469323480409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_offers_whatsapp.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly invites users to 'CONHEÇA NOSSAS OFERTAS' (Learn about our offers) and features a direct call-to-action 'CHAME NO WHATSAPP' (Call us on WhatsApp). This is a strong, immediate call for engagement aimed at discussing specific offers and driving a sale, aligning with the 'hard sell' and direct CTA criteria for Conversion."
+}
+✅ Conversion
+Analyzing 1008236073176348_120218522096060197_120218522096060197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle_5g.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad mentions a specific product line ('TIM CONTROLE') and highlights a key feature/benefit ('Tudo isso na velocidade 5G' - All this at 5G speed). While it doesn't include prices or direct calls-to-action, it focuses on educating the user about the value proposition and core offering of the TIM CONTROLE plan with 5G technology, which aligns with the 'features, benefits' criteria for the Consideration stage."
+}
+✅ Consideration
+Analyzing 1008236073176348_120246152244380197_120246152244380197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_chip_offer.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features multiple hard-sell elements: 'CHIP COM ENTREGA GRÁTIS' (Chip with Free Delivery), '27 GB' (specific data amount), and 'CHIP GRÁTIS' (Free Chip). These are explicit offers and discounts designed to drive immediate action and conversion."
+}
+✅ Conversion
+Analyzing 1008236073176348_120217059500120197_120217059500120197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_25gb_black_friday.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad presents a hard sell with a specific price (R$ 44,99/MÊS) and a clear, detailed offer of 25GB, including conditions to achieve the full amount. The 'Black Friday' mention also indicates a limited-time promotional deal designed to drive immediate action, fitting the criteria for a Conversion stage ad."
+}
+✅ Conversion
+Analyzing 707505037025219_23855829119590408_23855829119590408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_ad",
+  "category": "Consideration",
+  "reasoning": "The ad highlights a key benefit ('Melhor Banda Larga do Brasil') and provides social proof ('Premiada 3x'). The call-to-action 'Conheça nossas ofertas' (Get to know our offers) encourages users to explore options and learn more, aligning with the consideration stage where potential customers are evaluating features and benefits before making a decision, rather than a direct purchase."
+}
+✅ Consideration
+Analyzing 707505037025219_23858932455040408_23858932455040408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_gamer_offer",
+  "category": "Conversion",
+  "reasoning": "The ad features a hard sell with a specific price (R$ 141,90/mês), a direct call-to-action ('APROVEITE AS ULTRAOFERTAS'), and a clear offer (1 GIGA de ultravelocidade) with a limited validity period ('OFERTA VÁLIDA DO DIA 01/08 A 31/08'), all aligning with the characteristics of a Conversion stage ad."
+}
+✅ Conversion
+Analyzing 1640492266333423_120201071501420439_120201071501420439_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_test_drive.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad features the phrase 'TEST DRIVE TIM' which is an invitation to experience the service, and highlights specific benefits like 'a melhor qualidade na maior rede móvel do Brasil' (the best quality on the largest mobile network in Brazil). This focuses on features and benefits, encouraging users to evaluate or learn more about the product, aligning with the Consideration stage rather than pure awareness or a direct conversion push."
+}
+✅ Consideration
+Analyzing 1008236073176348_120234888775130197_120234888775130197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly offers 'CHIP E ENTREGA GRÁTIS' (free chip and delivery) as a direct incentive tied to Father's Day. This is a hard sell offer designed to drive immediate action, fitting the criteria for the Conversion stage, even without an explicit CTA button, as the 'grátis' acts as the compelling trigger."
+}
+✅ Conversion
+Analyzing 1008236073176348_120215503603970197_120215503603970197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_ad.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 59,99/MÊS) and a detailed offer (36GB, 5G, included apps), which are clear indicators of a 'hard sell' and aim to drive immediate action, aligning with the Conversion stage of the rubric."
+}
+✅ Conversion
+Analyzing 707505037025219_120242441198430409_120242441198430409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_hbo_max_conversion_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad features explicit pricing ('DE R$ 219,99 POR R$ 159,99 /MÊS'), clearly highlights a discount, and includes a direct, hard-sell call-to-action ('CONTRATE AGORA'). These elements are characteristic of a conversion-stage ad."
+}
+✅ Conversion
+Analyzing 1008236073176348_120210092649570197_120210092649570197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price ('R$ 52,99 /MÊS'), a direct offer ('RECEBA SEU TIM CHIP GRÁTIS'), and a detailed plan ('25GB'). These elements constitute a hard sell aimed at prompting immediate action, aligning with the Conversion stage."
+}
+✅ Conversion
+Analyzing 1008236073176348_120226024129580197_120226024129580197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_free_chip_delivery.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct incentive ('entrega e chip grátis' - free delivery and chip) and a strong call-to-action ('Mude para a TIM' - Switch to TIM), both indicative of a hard sell to drive immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_120219445928760409_120219445928760409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_ad",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$99,99), a clear plan (500 MEGA), and a direct transactional call-to-action 'CONTRATE' (Contract/Subscribe), aligning perfectly with the 'Hard sell' criteria for the Conversion stage."
+}
+✅ Conversion
+Analyzing 1008236073176348_120230793282140197_120230793282140197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_valentines_day_sim_offer.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad offers a direct incentive ('chip grátis' - free chip) and contains a strong implicit call-to-action ('VEM PRO TIM CONTROLE') tied to a promotional event (Dia dos Namorados), pushing for immediate signup or purchase."
+}
+✅ Conversion
+Analyzing 707505037025219_23860454802430408_23860454802430408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultra_fibra_conversion_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 92,99/MÊS), a direct call-to-action ('CONTRATE AGORA'), and a sense of urgency ('NÃO PERCA ESSA OFERTA.'), all indicating a hard sell aiming for immediate action."
+}
+✅ Conversion
+Analyzing 1008236073176348_120245557415080197_120245557415080197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly displays a price (R$ 38,99/mês), a specific offer (27GB + WhatsApp incluído), and a discount ('CHIP GRÁTIS'), which are characteristics of a hard sell and aim to drive immediate action. The phrase 'TRAGA SEU NÚMERO' also functions as an implied call-to-action."
+}
+✅ Conversion
+Analyzing 1008236073176348_120212327516660197_120212327516660197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_apps_inclusos.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad highlights specific features and benefits of a product ('TIM Controle' plan) by listing included applications (WhatsApp, X, Facebook, Instagram) and their duration ('POR 3 MESES'). This educates the audience about what the plan offers, prompting them to consider its value, without a direct hard sell or pricing information."
+}
+✅ Consideration
+Analyzing 1008236073176348_120220568177860197_120220568177860197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action ('Aproveite agora' - Enjoy now) and creates urgency ('POR TEMPO LIMITADO' - For limited time), which are key characteristics of a conversion-stage advertisement, prompting immediate action."
+}
+✅ Conversion
+Analyzing 1008236073176348_120216220901680197_120216220901680197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_deezer_ad.png",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly states a price ('R$ 64,99/MÊS') and a specific data package ('31GB'), which are clear indicators of a hard sell and direct offer, aligning with the Conversion stage criteria."
+}
+✅ Conversion
+Analyzing 5465078893513624_120214043430500750_120214043430500750_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_tech.jpg",
+  "category": "Awareness",
+  "reasoning": "The ad focuses on brand identity (TIM TECH), introduces an 'Exclusive Product' related to '5G' and 'smartphone' without providing specific features, prices, or direct calls-to-action. The incomplete phrase 'O smartphone...' further indicates an introductory, brand-building message designed to pique initial interest."
+}
+✅ Awareness
+Analyzing 707505037025219_120240565346250409_120240565346250409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_ultrafibra.jpeg",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action 'Saiba mais' (Learn more), which is explicitly listed as a conversion-stage CTA in the provided rubric."
+}
+✅ Conversion
+Analyzing 1008236073176348_120215504941860197_120215504941860197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_ad",
+  "category": "Conversion",
+  "reasoning": "The ad clearly displays a specific price point ('A PARTIR DE R$ 54,99 /MÊS'), detailed data allowances ('ATÉ 33GB', '29GB + 4GB'), and specific conditions for the offer (e.g., 'ABRINDO CONTA E PAGANDO A FATURA PELO APP DO C6 BANK', 'APPS INCLUSOS POR 3 MESES'). These elements constitute a 'hard sell,' providing all necessary information for a direct purchase decision, which aligns perfectly with the Conversion stage."
+}
+✅ Conversion
+Analyzing 707505037025219_120227459907210409_120227459907210409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_paramount_libertadores.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$149,99/mês), a detailed offer (1 GIGA + Paramount+), and a direct call-to-action ('CONTRATE AGORA'), which aligns perfectly with the 'Hard sell' characteristics of the Conversion stage."
+}
+✅ Conversion
+Analyzing 1489403321498685_120209137603300670_120209137603300670_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct call-to-action ('COMPRE', 'LEVE'), a specific price (R$ 2.499), payment terms ('12X SEM JUROS'), a clear product bundle offer (Samsung Galaxy S24 + Galaxy Buds FE), and a validity period. These elements constitute a 'hard sell' designed to drive immediate purchase."
+}
+✅ Conversion
+Analyzing 1008236073176348_120218026720370197_120218026720370197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_tim_controle_5g.jpg",
+  "category": "Consideration",
+  "reasoning": "The ad introduces a specific product ('NOVO TIM CONTROLE') and highlights key features and benefits such as 'velocidade 5G' and detailed plan inclusions (39GB data breakdown, Netflix). While 'Black Friday' is mentioned, there are no explicit prices, percentage discounts, or direct calls-to-action, positioning it beyond general awareness but before a hard conversion push."
+}
+✅ Consideration
+Analyzing 1008236073176348_120230796118680197_120230796118680197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_controle_valentines.png",
+  "category": "Conversion",
+  "reasoning": "The ad features a direct offer ('CHIP GRÁTIS' - FREE CHIP) and a clear call-to-action ('VEM PRO TIM CONTROLE' - COME TO TIM CONTROL), which are hallmarks of a conversion-focused ad according to the rubric."
+}
+✅ Conversion
+Analyzing 1008236073176348_120216276985390197_120216276985390197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad explicitly displays a price (R$ 57,99/mês) for the 'NOVO TIM CONTROLE' plan, which is a strong indicator of the Conversion stage according to the rubric. It presents a hard sell with a clear offer and its cost, aiming for immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_120212440335420409_120212440335420409_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "tim_ultrafibra_600mega_conversion_ad",
+  "category": "Conversion",
+  "reasoning": "The ad features a specific price (R$ 119,99/mês), a clear plan (600 MEGA), and a direct, hard-sell call-to-action ('FINALIZE SUA COMPRA'). The phrase 'Ainda dá tempo de garantir essa ultraoferta' also implies urgency and a limited-time deal, pushing for immediate action."
+}
+✅ Conversion
+Analyzing 707505037025219_23859528197730408_23859528197730408_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "digital_ad_image.jpg",
+  "category": "Conversion",
+  "reasoning": "The ad features specific product benefits ('ultravelocidades de até 2 GIGA'), a strong claim ('A MELHOR BANDA LARGA DO BRASIL'), and a direct call-to-action: 'CONSULTE DISPONIBILIDADE' (Consult availability). While not explicitly a price, this CTA is a hard sell tactic, akin to 'Consulte aqui' listed in the rubric for the Conversion stage, driving the user to take an immediate, direct action towards acquiring the service."
+}
+✅ Conversion
+Analyzing 1008236073176348_120204043542290197_120204043542290197_facebook_9.jpeg... DEBUG raw_text: {
+  "filename": "ad_tim_controle_instagram.jpeg",
+  "category": "Consideration",
+  "reasoning": "The ad clearly outlines specific features and benefits of the 'TIM CONTROLE' plan, such as '25GB' of data, 'Instagram incluso sem descontar da internet' (Instagram included without deducting from data), and a starting price ('A PARTIR DE R$ 52,99 /MÊS'). While a price is present, there is no direct hard-sell call-to-action like 'Assine Já' or 'Compre', making it focused on educating the potential customer about the plan's offerings to aid in their evaluation rather than an immediate purchase."
+}
+✅ Consideration
+/Users/tomasdefreitascarvalho/Desktop/Work Space/Rubens/synapsee/Havas.2/taxonomy_test.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+✅ API Key loaded successfully!
+Checking for valid images in the dataset to filter out video screenshots...
+Loaded 8334 total valid image signatures from dataset.
+Skipping 4174 already processed images.
+📂 Found 6243 images in folder.

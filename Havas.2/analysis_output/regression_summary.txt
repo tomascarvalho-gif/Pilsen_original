@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    CTR   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                  0.002
+Method:                 Least Squares   F-statistic:                     3.850
+Date:                Thu, 19 Feb 2026   Prob (F-statistic):            0.00397
+Time:                        10:24:42   Log-Likelihood:                -12290.
+No. Observations:                6230   AIC:                         2.459e+04
+Df Residuals:                    6225   BIC:                         2.462e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+=====================================================================================
+                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const                 0.5805      0.170      3.421      0.001       0.248       0.913
+engajamentoneural     0.0068      0.003      2.650      0.008       0.002       0.012
+cognitivedemand    1.623e-08   2.44e-07      0.067      0.947   -4.62e-07    4.94e-07
+focus                -0.0051      0.003     -1.756      0.079      -0.011       0.001
+fluency_index        -0.0503      0.015     -3.413      0.001      -0.079      -0.021
+==============================================================================
+Omnibus:                    16956.906   Durbin-Watson:                   1.990
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):        786709034.622
+Skew:                          33.324   Prob(JB):                         0.00
+Kurtosis:                    1742.603   Cond. No.                     6.96e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.96e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.

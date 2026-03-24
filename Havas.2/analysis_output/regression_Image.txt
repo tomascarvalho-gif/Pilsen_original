@@ -1,0 +1,36 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    CTR   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                     1.186
+Date:                Tue, 24 Feb 2026   Prob (F-statistic):              0.315
+Time:                        15:00:51   Log-Likelihood:                -8030.5
+No. Observations:                4162   AIC:                         1.607e+04
+Df Residuals:                    4157   BIC:                         1.610e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                      0.2080      0.241      0.865      0.387      -0.264       0.680
+engajamentoneural          0.0020      0.001      1.672      0.095      -0.000       0.004
+cognitivedemand           -0.0003      0.001     -0.487      0.626      -0.002       0.001
+focus                      0.0008      0.001      0.539      0.590      -0.002       0.004
+fluency_index             -0.0027      0.019     -0.140      0.888      -0.040       0.035
+engajamentoneural_5sec     0.0020      0.001      1.672      0.095      -0.000       0.004
+cognitivedemand_5sec      -0.0003      0.001     -0.487      0.626      -0.002       0.001
+focus_5sec                 0.0008      0.001      0.539      0.590      -0.002       0.004
+engajamentoneural_peak     0.0020      0.001      1.672      0.095      -0.000       0.004
+cognitivedemand_peak      -0.0003      0.001     -0.487      0.626      -0.002       0.001
+focus_peak                 0.0008      0.001      0.539      0.590      -0.002       0.004
+==============================================================================
+Omnibus:                    13310.646   Durbin-Watson:                   2.009
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):       1603221705.134
+Skew:                          51.374   Prob(JB):                         0.00
+Kurtosis:                    3041.808   Cond. No.                     2.93e+32
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.79e-57. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

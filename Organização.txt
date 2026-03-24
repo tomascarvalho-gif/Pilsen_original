@@ -1,0 +1,68 @@
+Nossas IAs + métricas
+	- BRAIN A.I.
+		- Engajamento Neural: dado cerebral, relacionado com processos atencionais
+	- Attentive A.I.
+		- Índice de Foco: indica o quanto olhar está focado em uma cena (alto foco) vs espalhado (baixo foco)
+		- Demanda Cognitiva (proc. img.): relacionado à complexidade da imagem (entropia, bordas)
+		- Mapa de Saliência: imagem em tons de cinza a partir da qual calculamos o índice de foco e o heatmap (saída bruta do modelo)
+			- Permite fazermos as análises por regiões de interesse (AOIs)
+
+Datasets:
+	Tunad
+		\ Videos_30_e_1200
+			\ videos30
+				- Primeiro conjunto de vídeos enviado
+				- Vide: Estudo de comerciais para Forebrain.xlsx
+					- Computamos apenas Engajamento Neural na época (podemos computar os demais índices)
+				- Vide e-mail "Follow-up API"
+			\ videos1200
+				- Segunda "leva" de vídeos
+				- Vide: dados.xlsx
+					- Fusão que fiz de:
+						- Propagandas com vídeo de Out_23 até hoje.xlsx
+						- Dados - IQC.xlsx
+				- Cada [video.mp4] possui:
+					- video.mp4.npy (numpy array com a curva de Engajamento Neural)
+					- attentiveai\video.mp4.demandacognitiva.npy (numpy array com a curva de Demanda Cognitiva)
+					- attentiveai\video.mp4.foco.npy (numpy array com a curva de Foco)
+			\ videos_sem_indices
+				- Vídeos do "dataset 1200" que não possuem métricas (4586 arquivos)
+			\ Audios Tunad
+				- Apesar do nome "Audios", são mais 1471 vídeos enviados, com índices
+				- Vide: Audios Tunad.xlsx
+					- Ver também: Tunad_Forebrain_Attention2Performance_Index.xlsx
+						- Aqui eles cruzaram os índices deles com os nossos (não explicaram muito bem como foi feito)
+				- Cada [video.mp4] possui:
+					- video.mp4.npy (numpy array com a curva de Engajamento Neural)
+					- attentiveai\video.mp4.demandacognitiva.npy (numpy array com a curva de Demanda Cognitiva)
+					- attentiveai\video.mp4.foco.npy (numpy array com a curva de Foco)
+
+	GAIA
+		- 2300 criativos (milhões de registros de adserver sobre os mesmos)
+		\ ds_meta_criativos
+			\ imagens
+				- Criativos originais
+			\ tabelas
+				- Datasets originais que eles enviaram (ignorar, vide considado abaixo)
+			\ feathers_compactos
+				- Ignorar
+			\ dataframe_unificado.feather
+				- Unificação que fiz em dataframe (1.6GB -> 29MB)
+			\ resultados_ia.json
+				- Nossas métricas. Mapeia nome_arq -> { brainai_index: (float), focus_index: (float), cognitive_demand_index: (float) }
+
+	Havas
+		- 426 criativos (369 imagens jpg+png e 57 vídeos mp4)
+		- Dados de apenas 80 criativos (quais??? não há de-para!!!)
+		\ CSA_BETC Havas_Forebrain
+			\ creatives
+				- Estrutura de pastas/subpastas com criativos (imagens e vídeos)
+				- Cada [criativo.ext] possui:
+					- criativo.ext.json
+					- Nossas métricas. { tempos: [array], engajamentoneural: [array], cognitivedemand: [array], focus: [array] }
+			\ sourceadsdata.csv
+				- Métricas deles sobre os criativos
+		\ dados 31out2025
+			\ sourceadsdata_all_candidates_min50_v2.csv
+			\ sourceadsdata_best_matches_min50_v2.csv
+				- Tentativas de "matches" feitas pelo Páris

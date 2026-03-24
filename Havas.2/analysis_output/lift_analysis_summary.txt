@@ -1,0 +1,14 @@
+### Lift Analysis (Tunad Dataset)
+
+**Dataset Size**: 307 videos analyzed for Brand Lift.
+
+
+#### Correlation with total_lift:
+
+#### Correlation with avg_lift:
+
+#### Correlation with call_to_action:
+- **focus**: r=-0.1713 (p=0.0026) **(Significant)**
+- **cognitivedemand**: r=0.1134 (p=0.0470) **(Significant)**
+
+#### Correlation with uplift_prop:

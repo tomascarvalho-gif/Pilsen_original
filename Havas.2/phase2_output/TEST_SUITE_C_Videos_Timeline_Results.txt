@@ -1,0 +1,1086 @@
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_Global ---
+Sample Size: 2076
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.0349, p = 0.1130
+  cognitivedemand_5sec: r = -0.0418, p = 0.0574
+  focus_5sec: r = -0.0161, p = 0.4636
+  engajamentoneural_last_5sec: r = 0.0634, p = 0.0039
+  cognitivedemand_last_5sec: r = -0.0008, p = 0.9703
+  focus_last_5sec: r = -0.1099, p = 0.0000
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.0004, p = 0.9865
+  cognitivedemand_5sec: r = -0.0297, p = 0.1764
+  focus_5sec: r = -0.0402, p = 0.0668
+  engajamentoneural_last_5sec: r = 0.0427, p = 0.0519
+  cognitivedemand_last_5sec: r = -0.0052, p = 0.8118
+  focus_last_5sec: r = -0.0823, p = 0.0002
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 70.82 | Top 25% CTR Mean = 70.34 | Diff = -0.48
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 62.62 | Top 25% CTR Mean = 61.25 | Diff = -1.38
+  focus_5sec: Bottom 25% CTR Mean = 31.45 | Top 25% CTR Mean = 28.94 | Diff = -2.51
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 63.60 | Top 25% CTR Mean = 68.43 | Diff = 4.83
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 63.16 | Top 25% CTR Mean = 62.09 | Diff = -1.08
+  focus_last_5sec: Bottom 25% CTR Mean = 31.68 | Top 25% CTR Mean = 26.96 | Diff = -4.72
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_Trimester_2025_Q2 ---
+Sample Size: 463
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.0617, p = 0.1883
+  cognitivedemand_5sec: r = -0.0582, p = 0.2141
+  focus_5sec: r = -0.0722, p = 0.1235
+  engajamentoneural_last_5sec: r = -0.0251, p = 0.5930
+  cognitivedemand_last_5sec: r = -0.0497, p = 0.2887
+  focus_last_5sec: r = -0.0957, p = 0.0409
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.0567, p = 0.2234
+  cognitivedemand_5sec: r = -0.0321, p = 0.4904
+  focus_5sec: r = -0.0593, p = 0.2025
+  engajamentoneural_last_5sec: r = 0.1197, p = 0.0099
+  cognitivedemand_last_5sec: r = -0.0333, p = 0.4752
+  focus_last_5sec: r = -0.1603, p = 0.0005
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2025_Q2_focus_last_5sec_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 69.54 | Top 25% CTR Mean = 70.70 | Diff = 1.16
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 62.02 | Top 25% CTR Mean = 60.13 | Diff = -1.89
+  focus_5sec: Bottom 25% CTR Mean = 35.07 | Top 25% CTR Mean = 31.19 | Diff = -3.88
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 63.71 | Top 25% CTR Mean = 66.66 | Diff = 2.95
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 64.39 | Top 25% CTR Mean = 60.44 | Diff = -3.95
+  focus_last_5sec: Bottom 25% CTR Mean = 34.56 | Top 25% CTR Mean = 31.06 | Diff = -3.50
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_Trimester_2025_Q1 ---
+Sample Size: 358
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.2356, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2025_Q1_engajamentoneural_5sec_vs_CTR.png
+  cognitivedemand_5sec: r = -0.0884, p = 0.0955
+  focus_5sec: r = 0.0491, p = 0.3545
+  engajamentoneural_last_5sec: r = -0.1708, p = 0.0012
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2025_Q1_engajamentoneural_last_5sec_vs_CTR.png
+  cognitivedemand_last_5sec: r = -0.1770, p = 0.0008
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2025_Q1_cognitivedemand_last_5sec_vs_CTR.png
+  focus_last_5sec: r = 0.0588, p = 0.2680
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.1312, p = 0.0129
+  cognitivedemand_5sec: r = -0.1504, p = 0.0043
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2025_Q1_cognitivedemand_5sec_vs_clicks.png
+  focus_5sec: r = 0.0137, p = 0.7957
+  engajamentoneural_last_5sec: r = -0.0807, p = 0.1276
+  cognitivedemand_last_5sec: r = -0.0945, p = 0.0742
+  focus_last_5sec: r = -0.0101, p = 0.8489
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 74.68 | Top 25% CTR Mean = 66.69 | Diff = -7.98
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 63.05 | Top 25% CTR Mean = 62.67 | Diff = -0.38
+  focus_5sec: Bottom 25% CTR Mean = 29.98 | Top 25% CTR Mean = 31.38 | Diff = 1.41
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 68.25 | Top 25% CTR Mean = 61.43 | Diff = -6.82
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 63.29 | Top 25% CTR Mean = 58.39 | Diff = -4.90
+  focus_last_5sec: Bottom 25% CTR Mean = 30.33 | Top 25% CTR Mean = 33.31 | Diff = 2.98
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_Trimester_2025_Q3 ---
+Sample Size: 248
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.0107, p = 0.8666
+  cognitivedemand_5sec: r = 0.0078, p = 0.9026
+  focus_5sec: r = -0.1900, p = 0.0027
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2025_Q3_focus_5sec_vs_CTR.png
+  engajamentoneural_last_5sec: r = 0.0723, p = 0.2569
+  cognitivedemand_last_5sec: r = -0.0242, p = 0.7050
+  focus_last_5sec: r = -0.2274, p = 0.0003
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2025_Q3_focus_last_5sec_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.0896, p = 0.1593
+  cognitivedemand_5sec: r = 0.0894, p = 0.1603
+  focus_5sec: r = -0.1525, p = 0.0162
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2025_Q3_focus_5sec_vs_clicks.png
+  engajamentoneural_last_5sec: r = 0.0926, p = 0.1460
+  cognitivedemand_last_5sec: r = 0.0470, p = 0.4617
+  focus_last_5sec: r = -0.2102, p = 0.0009
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2025_Q3_focus_last_5sec_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 74.41 | Top 25% CTR Mean = 71.04 | Diff = -3.37
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 64.46 | Top 25% CTR Mean = 60.65 | Diff = -3.81
+  focus_5sec: Bottom 25% CTR Mean = 28.84 | Top 25% CTR Mean = 23.00 | Diff = -5.85
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 67.25 | Top 25% CTR Mean = 69.01 | Diff = 1.76
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 63.44 | Top 25% CTR Mean = 60.42 | Diff = -3.01
+  focus_last_5sec: Bottom 25% CTR Mean = 29.17 | Top 25% CTR Mean = 23.64 | Diff = -5.53
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_Trimester_2023_Q4 ---
+Sample Size: 13
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.4224, p = 0.1505
+  cognitivedemand_5sec: r = -0.0897, p = 0.7707
+  focus_5sec: r = -0.1063, p = 0.7296
+  engajamentoneural_last_5sec: r = 0.2158, p = 0.4790
+  cognitivedemand_last_5sec: r = 0.4500, p = 0.1228
+  focus_last_5sec: r = -0.5661, p = 0.0437
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2023_Q4_focus_last_5sec_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.0542, p = 0.8605
+  cognitivedemand_5sec: r = -0.0225, p = 0.9419
+  focus_5sec: r = -0.0415, p = 0.8930
+  engajamentoneural_last_5sec: r = 0.3164, p = 0.2923
+  cognitivedemand_last_5sec: r = -0.1109, p = 0.7184
+  focus_last_5sec: r = 0.0409, p = 0.8946
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_Trimester_2026_Q1 ---
+Sample Size: 171
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = 0.0221, p = 0.7744
+  cognitivedemand_5sec: r = -0.0892, p = 0.2460
+  focus_5sec: r = 0.0993, p = 0.1963
+  engajamentoneural_last_5sec: r = 0.1011, p = 0.1881
+  cognitivedemand_last_5sec: r = -0.0396, p = 0.6072
+  focus_last_5sec: r = -0.0808, p = 0.2934
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.0279, p = 0.7168
+  cognitivedemand_5sec: r = -0.0658, p = 0.3924
+  focus_5sec: r = 0.0042, p = 0.9561
+  engajamentoneural_last_5sec: r = 0.0960, p = 0.2116
+  cognitivedemand_last_5sec: r = 0.0625, p = 0.4167
+  focus_last_5sec: r = -0.0592, p = 0.4420
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 63.87 | Top 25% CTR Mean = 70.74 | Diff = 6.87
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 60.47 | Top 25% CTR Mean = 64.81 | Diff = 4.33
+  focus_5sec: Bottom 25% CTR Mean = 25.02 | Top 25% CTR Mean = 26.24 | Diff = 1.22
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 58.27 | Top 25% CTR Mean = 70.24 | Diff = 11.97
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 62.51 | Top 25% CTR Mean = 65.47 | Diff = 2.96
+  focus_last_5sec: Bottom 25% CTR Mean = 24.48 | Top 25% CTR Mean = 16.29 | Diff = -8.20
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_Trimester_2024_Q4 ---
+Sample Size: 303
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.1635, p = 0.0043
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2024_Q4_engajamentoneural_5sec_vs_CTR.png
+  cognitivedemand_5sec: r = -0.0431, p = 0.4547
+  focus_5sec: r = -0.0203, p = 0.7253
+  engajamentoneural_last_5sec: r = 0.1114, p = 0.0527
+  cognitivedemand_last_5sec: r = 0.0064, p = 0.9123
+  focus_last_5sec: r = -0.0524, p = 0.3631
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.0752, p = 0.1919
+  cognitivedemand_5sec: r = -0.0691, p = 0.2307
+  focus_5sec: r = 0.0342, p = 0.5537
+  engajamentoneural_last_5sec: r = 0.0086, p = 0.8811
+  cognitivedemand_last_5sec: r = -0.0125, p = 0.8280
+  focus_last_5sec: r = -0.0089, p = 0.8778
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 75.23 | Top 25% CTR Mean = 72.03 | Diff = -3.20
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 63.18 | Top 25% CTR Mean = 63.05 | Diff = -0.13
+  focus_5sec: Bottom 25% CTR Mean = 28.71 | Top 25% CTR Mean = 27.91 | Diff = -0.80
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 63.10 | Top 25% CTR Mean = 69.63 | Diff = 6.53
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 60.89 | Top 25% CTR Mean = 67.13 | Diff = 6.23
+  focus_last_5sec: Bottom 25% CTR Mean = 29.18 | Top 25% CTR Mean = 26.92 | Diff = -2.27
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_Trimester_2025_Q4 ---
+Sample Size: 407
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.0500, p = 0.3151
+  cognitivedemand_5sec: r = -0.1401, p = 0.0047
+  focus_5sec: r = 0.0589, p = 0.2361
+  engajamentoneural_last_5sec: r = 0.0946, p = 0.0569
+  cognitivedemand_last_5sec: r = -0.0771, p = 0.1211
+  focus_last_5sec: r = -0.1438, p = 0.0037
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.0459, p = 0.3564
+  cognitivedemand_5sec: r = 0.0845, p = 0.0890
+  focus_5sec: r = -0.1230, p = 0.0132
+  engajamentoneural_last_5sec: r = 0.0528, p = 0.2881
+  cognitivedemand_last_5sec: r = 0.0010, p = 0.9836
+  focus_last_5sec: r = -0.1229, p = 0.0132
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 72.43 | Top 25% CTR Mean = 72.37 | Diff = -0.06
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 62.66 | Top 25% CTR Mean = 58.05 | Diff = -4.61
+  focus_5sec: Bottom 25% CTR Mean = 35.29 | Top 25% CTR Mean = 35.16 | Diff = -0.12
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 71.01 | Top 25% CTR Mean = 72.39 | Diff = 1.38
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 65.23 | Top 25% CTR Mean = 61.71 | Diff = -3.52
+  focus_last_5sec: Bottom 25% CTR Mean = 35.70 | Top 25% CTR Mean = 29.02 | Diff = -6.68
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_Trimester_2024_Q1 ---
+Sample Size: 16
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.3488, p = 0.1855
+  cognitivedemand_5sec: r = -0.1829, p = 0.4978
+  focus_5sec: r = 0.0770, p = 0.7767
+  engajamentoneural_last_5sec: r = 0.0174, p = 0.9490
+  cognitivedemand_last_5sec: r = 0.3081, p = 0.2457
+  focus_last_5sec: r = -0.0168, p = 0.9506
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.3308, p = 0.2108
+  cognitivedemand_5sec: r = -0.2495, p = 0.3515
+  focus_5sec: r = 0.1238, p = 0.6477
+  engajamentoneural_last_5sec: r = -0.0421, p = 0.8769
+  cognitivedemand_last_5sec: r = 0.2406, p = 0.3693
+  focus_last_5sec: r = 0.0240, p = 0.9298
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_Trimester_2024_Q2 ---
+Sample Size: 79
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = 0.1358, p = 0.2327
+  cognitivedemand_5sec: r = 0.1811, p = 0.1102
+  focus_5sec: r = 0.1710, p = 0.1319
+  engajamentoneural_last_5sec: r = 0.2277, p = 0.0435
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2024_Q2_engajamentoneural_last_5sec_vs_CTR.png
+  cognitivedemand_last_5sec: r = 0.1606, p = 0.1574
+  focus_last_5sec: r = -0.0856, p = 0.4531
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.0282, p = 0.8054
+  cognitivedemand_5sec: r = 0.0989, p = 0.3859
+  focus_5sec: r = 0.1706, p = 0.1327
+  engajamentoneural_last_5sec: r = 0.1356, p = 0.2335
+  cognitivedemand_last_5sec: r = 0.1319, p = 0.2467
+  focus_last_5sec: r = -0.0102, p = 0.9287
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 57.63 | Top 25% CTR Mean = 63.42 | Diff = 5.79
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 54.48 | Top 25% CTR Mean = 67.00 | Diff = 12.52
+  focus_5sec: Bottom 25% CTR Mean = 28.29 | Top 25% CTR Mean = 29.09 | Diff = 0.80
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 39.23 | Top 25% CTR Mean = 47.44 | Diff = 8.21
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 50.83 | Top 25% CTR Mean = 64.15 | Diff = 13.32
+  focus_last_5sec: Bottom 25% CTR Mean = 32.49 | Top 25% CTR Mean = 26.97 | Diff = -5.52
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_Trimester_2024_Q3 ---
+Sample Size: 17
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = 0.4142, p = 0.0983
+  cognitivedemand_5sec: r = 0.6670, p = 0.0034
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2024_Q3_cognitivedemand_5sec_vs_CTR.png
+  focus_5sec: r = -0.0278, p = 0.9157
+  engajamentoneural_last_5sec: r = 0.6374, p = 0.0059
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2024_Q3_engajamentoneural_last_5sec_vs_CTR.png
+  cognitivedemand_last_5sec: r = 0.6558, p = 0.0043
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2024_Q3_cognitivedemand_last_5sec_vs_CTR.png
+  focus_last_5sec: r = 0.3075, p = 0.2298
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.1310, p = 0.6162
+  cognitivedemand_5sec: r = 0.6278, p = 0.0070
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2024_Q3_cognitivedemand_5sec_vs_clicks.png
+  focus_5sec: r = -0.2497, p = 0.3337
+  engajamentoneural_last_5sec: r = 0.3186, p = 0.2126
+  cognitivedemand_last_5sec: r = 0.5541, p = 0.0210
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Trimester_2024_Q3_cognitivedemand_last_5sec_vs_clicks.png
+  focus_last_5sec: r = 0.0141, p = 0.9572
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_Trimester_2023_Q3 ---
+Sample Size: 1
+Not enough data to run correlations.
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_Cost_High ---
+Sample Size: 488
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = 0.0163, p = 0.7193
+  cognitivedemand_5sec: r = -0.0607, p = 0.1804
+  focus_5sec: r = -0.0780, p = 0.0852
+  engajamentoneural_last_5sec: r = 0.0985, p = 0.0295
+  cognitivedemand_last_5sec: r = -0.0686, p = 0.1303
+  focus_last_5sec: r = -0.1624, p = 0.0003
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Cost_High_focus_last_5sec_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.0182, p = 0.6887
+  cognitivedemand_5sec: r = -0.1065, p = 0.0186
+  focus_5sec: r = -0.0512, p = 0.2594
+  engajamentoneural_last_5sec: r = 0.1230, p = 0.0065
+  cognitivedemand_last_5sec: r = -0.0404, p = 0.3729
+  focus_last_5sec: r = -0.1523, p = 0.0007
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_Cost_High_focus_last_5sec_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 66.41 | Top 25% CTR Mean = 72.71 | Diff = 6.30
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 62.47 | Top 25% CTR Mean = 62.82 | Diff = 0.35
+  focus_5sec: Bottom 25% CTR Mean = 27.08 | Top 25% CTR Mean = 27.96 | Diff = 0.88
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 56.63 | Top 25% CTR Mean = 69.62 | Diff = 12.99
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 62.27 | Top 25% CTR Mean = 62.17 | Diff = -0.10
+  focus_last_5sec: Bottom 25% CTR Mean = 29.40 | Top 25% CTR Mean = 26.02 | Diff = -3.38
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_Cost_Medium ---
+Sample Size: 993
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.0518, p = 0.1027
+  cognitivedemand_5sec: r = -0.0553, p = 0.0816
+  focus_5sec: r = -0.0117, p = 0.7128
+  engajamentoneural_last_5sec: r = 0.0789, p = 0.0129
+  cognitivedemand_last_5sec: r = -0.0055, p = 0.8636
+  focus_last_5sec: r = -0.1309, p = 0.0000
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.0569, p = 0.0733
+  cognitivedemand_5sec: r = -0.0295, p = 0.3524
+  focus_5sec: r = -0.0632, p = 0.0466
+  engajamentoneural_last_5sec: r = 0.0496, p = 0.1183
+  cognitivedemand_last_5sec: r = 0.0133, p = 0.6764
+  focus_last_5sec: r = -0.1069, p = 0.0007
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 70.46 | Top 25% CTR Mean = 69.23 | Diff = -1.24
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 62.46 | Top 25% CTR Mean = 60.99 | Diff = -1.47
+  focus_5sec: Bottom 25% CTR Mean = 35.43 | Top 25% CTR Mean = 29.82 | Diff = -5.61
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 63.06 | Top 25% CTR Mean = 68.03 | Diff = 4.97
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 63.15 | Top 25% CTR Mean = 61.55 | Diff = -1.61
+  focus_last_5sec: Bottom 25% CTR Mean = 35.50 | Top 25% CTR Mean = 29.21 | Diff = -6.29
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_Cost_Low ---
+Sample Size: 595
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.0489, p = 0.2369
+  cognitivedemand_5sec: r = 0.0145, p = 0.7260
+  focus_5sec: r = -0.0005, p = 0.9906
+  engajamentoneural_last_5sec: r = -0.0124, p = 0.7641
+  cognitivedemand_last_5sec: r = -0.0061, p = 0.8834
+  focus_last_5sec: r = -0.0432, p = 0.2956
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.0559, p = 0.1735
+  cognitivedemand_5sec: r = 0.0250, p = 0.5429
+  focus_5sec: r = 0.0191, p = 0.6429
+  engajamentoneural_last_5sec: r = -0.0483, p = 0.2403
+  cognitivedemand_last_5sec: r = -0.0176, p = 0.6679
+  focus_last_5sec: r = 0.0176, p = 0.6679
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 72.34 | Top 25% CTR Mean = 71.78 | Diff = -0.56
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 59.88 | Top 25% CTR Mean = 61.28 | Diff = 1.40
+  focus_5sec: Bottom 25% CTR Mean = 30.07 | Top 25% CTR Mean = 30.61 | Diff = 0.54
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 69.92 | Top 25% CTR Mean = 69.03 | Diff = -0.90
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 62.28 | Top 25% CTR Mean = 62.53 | Diff = 0.26
+  focus_last_5sec: Bottom 25% CTR Mean = 27.21 | Top 25% CTR Mean = 26.96 | Diff = -0.25
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2025_Q2_High ---
+Sample Size: 140
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.0129, p = 0.8796
+  cognitivedemand_5sec: r = -0.1451, p = 0.0871
+  focus_5sec: r = -0.0449, p = 0.5981
+  engajamentoneural_last_5sec: r = 0.1217, p = 0.1521
+  cognitivedemand_last_5sec: r = -0.1433, p = 0.0912
+  focus_last_5sec: r = -0.2512, p = 0.0028
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q2_High_focus_last_5sec_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.0143, p = 0.8669
+  cognitivedemand_5sec: r = -0.1661, p = 0.0498
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q2_High_cognitivedemand_5sec_vs_clicks.png
+  focus_5sec: r = -0.0863, p = 0.3106
+  engajamentoneural_last_5sec: r = 0.1708, p = 0.0436
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q2_High_engajamentoneural_last_5sec_vs_clicks.png
+  cognitivedemand_last_5sec: r = -0.1802, p = 0.0331
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q2_High_cognitivedemand_last_5sec_vs_clicks.png
+  focus_last_5sec: r = -0.2828, p = 0.0007
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q2_High_focus_last_5sec_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 72.53 | Top 25% CTR Mean = 73.91 | Diff = 1.38
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 63.91 | Top 25% CTR Mean = 63.22 | Diff = -0.69
+  focus_5sec: Bottom 25% CTR Mean = 34.22 | Top 25% CTR Mean = 31.00 | Diff = -3.22
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 68.93 | Top 25% CTR Mean = 73.08 | Diff = 4.15
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 69.73 | Top 25% CTR Mean = 63.83 | Diff = -5.90
+  focus_last_5sec: Bottom 25% CTR Mean = 36.49 | Top 25% CTR Mean = 25.49 | Diff = -10.99
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2025_Q2_Medium ---
+Sample Size: 250
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.0347, p = 0.5853
+  cognitivedemand_5sec: r = -0.1000, p = 0.1147
+  focus_5sec: r = -0.1493, p = 0.0182
+  engajamentoneural_last_5sec: r = 0.0553, p = 0.3836
+  cognitivedemand_last_5sec: r = -0.0655, p = 0.3023
+  focus_last_5sec: r = -0.1299, p = 0.0401
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.0145, p = 0.8201
+  cognitivedemand_5sec: r = -0.0543, p = 0.3923
+  focus_5sec: r = -0.1535, p = 0.0151
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q2_Medium_focus_5sec_vs_clicks.png
+  engajamentoneural_last_5sec: r = 0.0656, p = 0.3017
+  cognitivedemand_last_5sec: r = 0.0095, p = 0.8812
+  focus_last_5sec: r = -0.1110, p = 0.0799
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 67.72 | Top 25% CTR Mean = 70.59 | Diff = 2.87
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 60.89 | Top 25% CTR Mean = 59.44 | Diff = -1.45
+  focus_5sec: Bottom 25% CTR Mean = 37.96 | Top 25% CTR Mean = 32.75 | Diff = -5.21
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 61.21 | Top 25% CTR Mean = 68.35 | Diff = 7.14
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 63.36 | Top 25% CTR Mean = 59.85 | Diff = -3.50
+  focus_last_5sec: Bottom 25% CTR Mean = 35.01 | Top 25% CTR Mean = 33.93 | Diff = -1.09
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2025_Q2_Low ---
+Sample Size: 73
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.1187, p = 0.3387
+  cognitivedemand_5sec: r = 0.0444, p = 0.7213
+  focus_5sec: r = -0.0348, p = 0.7796
+  engajamentoneural_last_5sec: r = -0.1437, p = 0.2459
+  cognitivedemand_last_5sec: r = 0.0429, p = 0.7300
+  focus_last_5sec: r = -0.0312, p = 0.8019
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.1215, p = 0.3059
+  cognitivedemand_5sec: r = -0.0755, p = 0.5254
+  focus_5sec: r = -0.1620, p = 0.1708
+  engajamentoneural_last_5sec: r = -0.1818, p = 0.1237
+  cognitivedemand_last_5sec: r = -0.1280, p = 0.2807
+  focus_last_5sec: r = -0.1945, p = 0.0992
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 71.12 | Top 25% CTR Mean = 65.37 | Diff = -5.75
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 60.94 | Top 25% CTR Mean = 59.77 | Diff = -1.17
+  focus_5sec: Bottom 25% CTR Mean = 32.11 | Top 25% CTR Mean = 26.86 | Diff = -5.25
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 65.70 | Top 25% CTR Mean = 54.33 | Diff = -11.37
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 60.67 | Top 25% CTR Mean = 57.80 | Diff = -2.88
+  focus_last_5sec: Bottom 25% CTR Mean = 32.77 | Top 25% CTR Mean = 28.76 | Diff = -4.01
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2025_Q1_High ---
+Sample Size: 86
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.2340, p = 0.0301
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q1_High_engajamentoneural_5sec_vs_CTR.png
+  cognitivedemand_5sec: r = -0.1882, p = 0.0828
+  focus_5sec: r = 0.0439, p = 0.6883
+  engajamentoneural_last_5sec: r = -0.1314, p = 0.2280
+  cognitivedemand_last_5sec: r = -0.3055, p = 0.0042
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q1_High_cognitivedemand_last_5sec_vs_CTR.png
+  focus_last_5sec: r = -0.0325, p = 0.7667
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.1595, p = 0.1424
+  cognitivedemand_5sec: r = -0.2471, p = 0.0218
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q1_High_cognitivedemand_5sec_vs_clicks.png
+  focus_5sec: r = 0.0892, p = 0.4142
+  engajamentoneural_last_5sec: r = -0.0499, p = 0.6483
+  cognitivedemand_last_5sec: r = -0.1099, p = 0.3138
+  focus_last_5sec: r = -0.0711, p = 0.5155
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 74.07 | Top 25% CTR Mean = 64.37 | Diff = -9.69
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 64.09 | Top 25% CTR Mean = 60.86 | Diff = -3.23
+  focus_5sec: Bottom 25% CTR Mean = 29.50 | Top 25% CTR Mean = 28.03 | Diff = -1.47
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 66.76 | Top 25% CTR Mean = 59.29 | Diff = -7.47
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 65.55 | Top 25% CTR Mean = 54.78 | Diff = -10.76
+  focus_last_5sec: Bottom 25% CTR Mean = 33.54 | Top 25% CTR Mean = 31.86 | Diff = -1.67
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2025_Q1_Medium ---
+Sample Size: 154
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.2474, p = 0.0020
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q1_Medium_engajamentoneural_5sec_vs_CTR.png
+  cognitivedemand_5sec: r = -0.1185, p = 0.1431
+  focus_5sec: r = 0.0354, p = 0.6625
+  engajamentoneural_last_5sec: r = -0.1807, p = 0.0249
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q1_Medium_engajamentoneural_last_5sec_vs_CTR.png
+  cognitivedemand_last_5sec: r = -0.1688, p = 0.0363
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q1_Medium_cognitivedemand_last_5sec_vs_CTR.png
+  focus_last_5sec: r = 0.0519, p = 0.5226
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.1609, p = 0.0463
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q1_Medium_engajamentoneural_5sec_vs_clicks.png
+  cognitivedemand_5sec: r = -0.1065, p = 0.1888
+  focus_5sec: r = 0.0225, p = 0.7817
+  engajamentoneural_last_5sec: r = -0.0998, p = 0.2180
+  cognitivedemand_last_5sec: r = -0.1353, p = 0.0944
+  focus_last_5sec: r = 0.0449, p = 0.5807
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 76.26 | Top 25% CTR Mean = 64.84 | Diff = -11.42
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 64.66 | Top 25% CTR Mean = 64.74 | Diff = 0.09
+  focus_5sec: Bottom 25% CTR Mean = 31.74 | Top 25% CTR Mean = 31.67 | Diff = -0.07
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 69.89 | Top 25% CTR Mean = 60.27 | Diff = -9.62
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 65.12 | Top 25% CTR Mean = 58.76 | Diff = -6.35
+  focus_last_5sec: Bottom 25% CTR Mean = 35.00 | Top 25% CTR Mean = 37.01 | Diff = 2.01
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2025_Q1_Low ---
+Sample Size: 118
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.1539, p = 0.0977
+  cognitivedemand_5sec: r = 0.1210, p = 0.1938
+  focus_5sec: r = 0.1046, p = 0.2619
+  engajamentoneural_last_5sec: r = -0.2155, p = 0.0196
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q1_Low_engajamentoneural_last_5sec_vs_CTR.png
+  cognitivedemand_last_5sec: r = 0.0258, p = 0.7825
+  focus_last_5sec: r = 0.1591, p = 0.0867
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.2938, p = 0.0012
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q1_Low_engajamentoneural_5sec_vs_clicks.png
+  cognitivedemand_5sec: r = 0.0927, p = 0.3181
+  focus_5sec: r = 0.0208, p = 0.8232
+  engajamentoneural_last_5sec: r = -0.3861, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q1_Low_engajamentoneural_last_5sec_vs_clicks.png
+  cognitivedemand_last_5sec: r = -0.1843, p = 0.0457
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q1_Low_cognitivedemand_last_5sec_vs_clicks.png
+  focus_last_5sec: r = 0.1893, p = 0.0401
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q1_Low_focus_last_5sec_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 77.65 | Top 25% CTR Mean = 72.27 | Diff = -5.37
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 60.37 | Top 25% CTR Mean = 63.09 | Diff = 2.72
+  focus_5sec: Bottom 25% CTR Mean = 28.77 | Top 25% CTR Mean = 35.60 | Diff = 6.83
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 76.48 | Top 25% CTR Mean = 66.68 | Diff = -9.80
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 62.86 | Top 25% CTR Mean = 62.11 | Diff = -0.74
+  focus_last_5sec: Bottom 25% CTR Mean = 21.78 | Top 25% CTR Mean = 30.36 | Diff = 8.58
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2025_Q3_High ---
+Sample Size: 68
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = 0.0854, p = 0.4888
+  cognitivedemand_5sec: r = 0.0053, p = 0.9660
+  focus_5sec: r = -0.3057, p = 0.0112
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q3_High_focus_5sec_vs_CTR.png
+  engajamentoneural_last_5sec: r = 0.0718, p = 0.5607
+  cognitivedemand_last_5sec: r = 0.0106, p = 0.9314
+  focus_last_5sec: r = -0.3238, p = 0.0071
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q3_High_focus_last_5sec_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.0687, p = 0.5775
+  cognitivedemand_5sec: r = 0.0203, p = 0.8697
+  focus_5sec: r = -0.2812, p = 0.0202
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q3_High_focus_5sec_vs_clicks.png
+  engajamentoneural_last_5sec: r = 0.0842, p = 0.4947
+  cognitivedemand_last_5sec: r = 0.0223, p = 0.8566
+  focus_last_5sec: r = -0.2682, p = 0.0270
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q3_High_focus_last_5sec_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 75.83 | Top 25% CTR Mean = 78.37 | Diff = 2.54
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 66.85 | Top 25% CTR Mean = 66.82 | Diff = -0.03
+  focus_5sec: Bottom 25% CTR Mean = 32.49 | Top 25% CTR Mean = 23.97 | Diff = -8.52
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 63.43 | Top 25% CTR Mean = 74.19 | Diff = 10.76
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 62.35 | Top 25% CTR Mean = 64.15 | Diff = 1.80
+  focus_last_5sec: Bottom 25% CTR Mean = 31.93 | Top 25% CTR Mean = 16.41 | Diff = -15.52
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2025_Q3_Medium ---
+Sample Size: 128
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.2076, p = 0.0187
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q3_Medium_engajamentoneural_5sec_vs_CTR.png
+  cognitivedemand_5sec: r = -0.0997, p = 0.2630
+  focus_5sec: r = -0.2685, p = 0.0022
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q3_Medium_focus_5sec_vs_CTR.png
+  engajamentoneural_last_5sec: r = 0.1027, p = 0.2485
+  cognitivedemand_last_5sec: r = -0.0871, p = 0.3285
+  focus_last_5sec: r = -0.2772, p = 0.0015
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q3_Medium_focus_last_5sec_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.0922, p = 0.3006
+  cognitivedemand_5sec: r = 0.0153, p = 0.8639
+  focus_5sec: r = -0.2399, p = 0.0064
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q3_Medium_focus_5sec_vs_clicks.png
+  engajamentoneural_last_5sec: r = 0.0795, p = 0.3722
+  cognitivedemand_last_5sec: r = 0.0531, p = 0.5515
+  focus_last_5sec: r = -0.3050, p = 0.0005
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q3_Medium_focus_last_5sec_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 72.29 | Top 25% CTR Mean = 64.32 | Diff = -7.96
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 61.96 | Top 25% CTR Mean = 55.83 | Diff = -6.13
+  focus_5sec: Bottom 25% CTR Mean = 26.96 | Top 25% CTR Mean = 24.85 | Diff = -2.11
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 64.33 | Top 25% CTR Mean = 67.53 | Diff = 3.20
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 62.92 | Top 25% CTR Mean = 58.78 | Diff = -4.14
+  focus_last_5sec: Bottom 25% CTR Mean = 29.41 | Top 25% CTR Mean = 25.24 | Diff = -4.17
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2025_Q3_Low ---
+Sample Size: 52
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = 0.0047, p = 0.9735
+  cognitivedemand_5sec: r = 0.0901, p = 0.5251
+  focus_5sec: r = 0.3519, p = 0.0105
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q3_Low_focus_5sec_vs_CTR.png
+  engajamentoneural_last_5sec: r = 0.0170, p = 0.9045
+  cognitivedemand_last_5sec: r = -0.0474, p = 0.7388
+  focus_last_5sec: r = 0.1557, p = 0.2702
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.0881, p = 0.5345
+  cognitivedemand_5sec: r = 0.0070, p = 0.9609
+  focus_5sec: r = 0.3299, p = 0.0169
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q3_Low_focus_5sec_vs_clicks.png
+  engajamentoneural_last_5sec: r = 0.0092, p = 0.9485
+  cognitivedemand_last_5sec: r = -0.1117, p = 0.4307
+  focus_last_5sec: r = 0.0429, p = 0.7627
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 75.86 | Top 25% CTR Mean = 77.81 | Diff = 1.95
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 59.55 | Top 25% CTR Mean = 67.84 | Diff = 8.29
+  focus_5sec: Bottom 25% CTR Mean = 20.86 | Top 25% CTR Mean = 28.81 | Diff = 7.95
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 70.27 | Top 25% CTR Mean = 69.55 | Diff = -0.72
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 62.70 | Top 25% CTR Mean = 62.56 | Diff = -0.15
+  focus_last_5sec: Bottom 25% CTR Mean = 24.32 | Top 25% CTR Mean = 33.88 | Diff = 9.56
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2023_Q4_High ---
+Sample Size: 10
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.2045, p = 0.5709
+  cognitivedemand_5sec: r = -0.1140, p = 0.7538
+  focus_5sec: r = 0.1762, p = 0.6262
+  engajamentoneural_last_5sec: r = 0.0872, p = 0.8107
+  cognitivedemand_last_5sec: r = -0.0737, p = 0.8396
+  focus_last_5sec: r = 0.0855, p = 0.8143
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.0689, p = 0.8500
+  cognitivedemand_5sec: r = -0.0511, p = 0.8885
+  focus_5sec: r = -0.0102, p = 0.9777
+  engajamentoneural_last_5sec: r = 0.3037, p = 0.3935
+  cognitivedemand_last_5sec: r = -0.1208, p = 0.7396
+  focus_last_5sec: r = 0.0697, p = 0.8482
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2023_Q4_Medium ---
+Sample Size: 3
+Not enough data to run correlations.
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2023_Q4_Low ---
+Sample Size: 0
+Not enough data to run correlations.
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2026_Q1_High ---
+Sample Size: 38
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = 0.1254, p = 0.4533
+  cognitivedemand_5sec: r = -0.1132, p = 0.4987
+  focus_5sec: r = 0.1501, p = 0.3685
+  engajamentoneural_last_5sec: r = 0.4221, p = 0.0083
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2026_Q1_High_engajamentoneural_last_5sec_vs_CTR.png
+  cognitivedemand_last_5sec: r = 0.3400, p = 0.0367
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2026_Q1_High_cognitivedemand_last_5sec_vs_CTR.png
+  focus_last_5sec: r = -0.2088, p = 0.2084
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.1031, p = 0.5381
+  cognitivedemand_5sec: r = -0.1814, p = 0.2758
+  focus_5sec: r = -0.0237, p = 0.8877
+  engajamentoneural_last_5sec: r = 0.2467, p = 0.1355
+  cognitivedemand_last_5sec: r = 0.1141, p = 0.4953
+  focus_last_5sec: r = -0.1977, p = 0.2341
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 62.50 | Top 25% CTR Mean = 70.82 | Diff = 8.32
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 57.41 | Top 25% CTR Mean = 64.22 | Diff = 6.81
+  focus_5sec: Bottom 25% CTR Mean = 28.24 | Top 25% CTR Mean = 25.88 | Diff = -2.36
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 52.73 | Top 25% CTR Mean = 73.17 | Diff = 20.44
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 59.49 | Top 25% CTR Mean = 73.77 | Diff = 14.28
+  focus_last_5sec: Bottom 25% CTR Mean = 32.83 | Top 25% CTR Mean = 19.11 | Diff = -13.73
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2026_Q1_Medium ---
+Sample Size: 59
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.1439, p = 0.2768
+  cognitivedemand_5sec: r = -0.2593, p = 0.0474
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2026_Q1_Medium_cognitivedemand_5sec_vs_CTR.png
+  focus_5sec: r = 0.3658, p = 0.0044
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2026_Q1_Medium_focus_5sec_vs_CTR.png
+  engajamentoneural_last_5sec: r = 0.0679, p = 0.6092
+  cognitivedemand_last_5sec: r = -0.1185, p = 0.3712
+  focus_last_5sec: r = -0.0208, p = 0.8760
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.1155, p = 0.3839
+  cognitivedemand_5sec: r = -0.0773, p = 0.5608
+  focus_5sec: r = 0.1957, p = 0.1373
+  engajamentoneural_last_5sec: r = 0.0636, p = 0.6324
+  cognitivedemand_last_5sec: r = 0.0001, p = 0.9994
+  focus_last_5sec: r = -0.0889, p = 0.5034
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 69.29 | Top 25% CTR Mean = 70.24 | Diff = 0.95
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 69.99 | Top 25% CTR Mean = 65.95 | Diff = -4.04
+  focus_5sec: Bottom 25% CTR Mean = 22.33 | Top 25% CTR Mean = 26.46 | Diff = 4.13
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 58.90 | Top 25% CTR Mean = 71.20 | Diff = 12.30
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 68.90 | Top 25% CTR Mean = 69.89 | Diff = 0.99
+  focus_last_5sec: Bottom 25% CTR Mean = 24.05 | Top 25% CTR Mean = 16.59 | Diff = -7.46
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2026_Q1_Low ---
+Sample Size: 74
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = 0.0734, p = 0.5342
+  cognitivedemand_5sec: r = -0.0060, p = 0.9595
+  focus_5sec: r = -0.0533, p = 0.6519
+  engajamentoneural_last_5sec: r = -0.0061, p = 0.9589
+  cognitivedemand_last_5sec: r = -0.0835, p = 0.4791
+  focus_last_5sec: r = -0.0390, p = 0.7417
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.0302, p = 0.7983
+  cognitivedemand_5sec: r = 0.1384, p = 0.2396
+  focus_5sec: r = 0.1224, p = 0.2988
+  engajamentoneural_last_5sec: r = -0.0076, p = 0.9486
+  cognitivedemand_last_5sec: r = 0.1090, p = 0.3552
+  focus_last_5sec: r = 0.0804, p = 0.4959
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 69.27 | Top 25% CTR Mean = 69.15 | Diff = -0.12
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 63.35 | Top 25% CTR Mean = 61.59 | Diff = -1.75
+  focus_5sec: Bottom 25% CTR Mean = 25.44 | Top 25% CTR Mean = 28.70 | Diff = 3.26
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 70.73 | Top 25% CTR Mean = 68.36 | Diff = -2.37
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 65.86 | Top 25% CTR Mean = 60.61 | Diff = -5.25
+  focus_last_5sec: Bottom 25% CTR Mean = 14.69 | Top 25% CTR Mean = 16.42 | Diff = 1.72
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2024_Q4_High ---
+Sample Size: 61
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.2286, p = 0.0764
+  cognitivedemand_5sec: r = -0.1052, p = 0.4197
+  focus_5sec: r = -0.0445, p = 0.7332
+  engajamentoneural_last_5sec: r = 0.1629, p = 0.2096
+  cognitivedemand_last_5sec: r = 0.0972, p = 0.4560
+  focus_last_5sec: r = -0.1078, p = 0.4082
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.1401, p = 0.2815
+  cognitivedemand_5sec: r = -0.1272, p = 0.3286
+  focus_5sec: r = 0.0159, p = 0.9030
+  engajamentoneural_last_5sec: r = 0.1420, p = 0.2751
+  cognitivedemand_last_5sec: r = 0.0867, p = 0.5065
+  focus_last_5sec: r = -0.0663, p = 0.6115
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 74.98 | Top 25% CTR Mean = 71.64 | Diff = -3.34
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 62.62 | Top 25% CTR Mean = 60.51 | Diff = -2.11
+  focus_5sec: Bottom 25% CTR Mean = 31.74 | Top 25% CTR Mean = 23.92 | Diff = -7.82
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 56.37 | Top 25% CTR Mean = 72.84 | Diff = 16.48
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 61.58 | Top 25% CTR Mean = 66.88 | Diff = 5.30
+  focus_last_5sec: Bottom 25% CTR Mean = 34.70 | Top 25% CTR Mean = 24.26 | Diff = -10.44
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2024_Q4_Medium ---
+Sample Size: 118
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.2224, p = 0.0155
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2024_Q4_Medium_engajamentoneural_5sec_vs_CTR.png
+  cognitivedemand_5sec: r = -0.1315, p = 0.1556
+  focus_5sec: r = -0.0026, p = 0.9781
+  engajamentoneural_last_5sec: r = 0.0467, p = 0.6152
+  cognitivedemand_last_5sec: r = 0.2054, p = 0.0257
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2024_Q4_Medium_cognitivedemand_last_5sec_vs_CTR.png
+  focus_last_5sec: r = -0.0135, p = 0.8844
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.1217, p = 0.1893
+  cognitivedemand_5sec: r = -0.0628, p = 0.4994
+  focus_5sec: r = -0.0307, p = 0.7417
+  engajamentoneural_last_5sec: r = 0.0375, p = 0.6867
+  cognitivedemand_last_5sec: r = 0.2013, p = 0.0288
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2024_Q4_Medium_cognitivedemand_last_5sec_vs_clicks.png
+  focus_last_5sec: r = -0.0709, p = 0.4457
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 74.97 | Top 25% CTR Mean = 69.55 | Diff = -5.42
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 66.95 | Top 25% CTR Mean = 63.93 | Diff = -3.02
+  focus_5sec: Bottom 25% CTR Mean = 24.86 | Top 25% CTR Mean = 26.10 | Diff = 1.24
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 67.59 | Top 25% CTR Mean = 66.71 | Diff = -0.88
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 64.73 | Top 25% CTR Mean = 65.45 | Diff = 0.72
+  focus_last_5sec: Bottom 25% CTR Mean = 22.70 | Top 25% CTR Mean = 25.81 | Diff = 3.11
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2024_Q4_Low ---
+Sample Size: 124
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.0862, p = 0.3413
+  cognitivedemand_5sec: r = 0.0648, p = 0.4748
+  focus_5sec: r = 0.0225, p = 0.8045
+  engajamentoneural_last_5sec: r = 0.0619, p = 0.4947
+  cognitivedemand_last_5sec: r = 0.0108, p = 0.9050
+  focus_last_5sec: r = -0.0023, p = 0.9801
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.0226, p = 0.8034
+  cognitivedemand_5sec: r = 0.0714, p = 0.4309
+  focus_5sec: r = -0.0785, p = 0.3859
+  engajamentoneural_last_5sec: r = 0.0942, p = 0.2980
+  cognitivedemand_last_5sec: r = -0.0610, p = 0.5008
+  focus_last_5sec: r = -0.1021, p = 0.2589
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 76.84 | Top 25% CTR Mean = 73.72 | Diff = -3.13
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 60.77 | Top 25% CTR Mean = 61.78 | Diff = 1.01
+  focus_5sec: Bottom 25% CTR Mean = 27.90 | Top 25% CTR Mean = 28.61 | Diff = 0.71
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 68.95 | Top 25% CTR Mean = 71.04 | Diff = 2.09
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 60.43 | Top 25% CTR Mean = 66.05 | Diff = 5.62
+  focus_last_5sec: Bottom 25% CTR Mean = 29.80 | Top 25% CTR Mean = 27.21 | Diff = -2.59
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2025_Q4_High ---
+Sample Size: 49
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = 0.0961, p = 0.5111
+  cognitivedemand_5sec: r = 0.1863, p = 0.2000
+  focus_5sec: r = -0.2505, p = 0.0826
+  engajamentoneural_last_5sec: r = 0.1518, p = 0.2979
+  cognitivedemand_last_5sec: r = -0.0087, p = 0.9527
+  focus_last_5sec: r = -0.2375, p = 0.1004
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.1216, p = 0.4051
+  cognitivedemand_5sec: r = 0.0824, p = 0.5736
+  focus_5sec: r = -0.2403, p = 0.0963
+  engajamentoneural_last_5sec: r = 0.1348, p = 0.3559
+  cognitivedemand_last_5sec: r = -0.0732, p = 0.6170
+  focus_last_5sec: r = -0.2205, p = 0.1279
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 76.35 | Top 25% CTR Mean = 74.43 | Diff = -1.92
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 70.36 | Top 25% CTR Mean = 71.24 | Diff = 0.87
+  focus_5sec: Bottom 25% CTR Mean = 20.78 | Top 25% CTR Mean = 16.46 | Diff = -4.32
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 74.83 | Top 25% CTR Mean = 74.12 | Diff = -0.71
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 69.88 | Top 25% CTR Mean = 68.78 | Diff = -1.11
+  focus_last_5sec: Bottom 25% CTR Mean = 20.86 | Top 25% CTR Mean = 17.06 | Diff = -3.80
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2025_Q4_Medium ---
+Sample Size: 205
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.1098, p = 0.1171
+  cognitivedemand_5sec: r = -0.1980, p = 0.0044
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q4_Medium_cognitivedemand_5sec_vs_CTR.png
+  focus_5sec: r = 0.0831, p = 0.2360
+  engajamentoneural_last_5sec: r = 0.0625, p = 0.3734
+  cognitivedemand_last_5sec: r = -0.1653, p = 0.0179
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q4_Medium_cognitivedemand_last_5sec_vs_CTR.png
+  focus_last_5sec: r = -0.2144, p = 0.0020
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q4_Medium_focus_last_5sec_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.0254, p = 0.7181
+  cognitivedemand_5sec: r = -0.0533, p = 0.4476
+  focus_5sec: r = -0.0148, p = 0.8337
+  engajamentoneural_last_5sec: r = 0.0933, p = 0.1835
+  cognitivedemand_last_5sec: r = -0.0456, p = 0.5163
+  focus_last_5sec: r = -0.2245, p = 0.0012
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2025_Q4_Medium_focus_last_5sec_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 73.06 | Top 25% CTR Mean = 72.97 | Diff = -0.09
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 63.98 | Top 25% CTR Mean = 59.19 | Diff = -4.79
+  focus_5sec: Bottom 25% CTR Mean = 41.82 | Top 25% CTR Mean = 30.83 | Diff = -10.99
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 70.39 | Top 25% CTR Mean = 73.37 | Diff = 2.98
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 65.34 | Top 25% CTR Mean = 61.49 | Diff = -3.85
+  focus_last_5sec: Bottom 25% CTR Mean = 42.49 | Top 25% CTR Mean = 23.79 | Diff = -18.70
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2025_Q4_Low ---
+Sample Size: 153
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = 0.0511, p = 0.5318
+  cognitivedemand_5sec: r = -0.0119, p = 0.8842
+  focus_5sec: r = 0.0213, p = 0.7946
+  engajamentoneural_last_5sec: r = 0.1444, p = 0.0759
+  cognitivedemand_last_5sec: r = 0.0401, p = 0.6235
+  focus_last_5sec: r = -0.0721, p = 0.3774
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.0482, p = 0.5558
+  cognitivedemand_5sec: r = -0.0044, p = 0.9574
+  focus_5sec: r = -0.0036, p = 0.9648
+  engajamentoneural_last_5sec: r = -0.0040, p = 0.9614
+  cognitivedemand_last_5sec: r = -0.0600, p = 0.4626
+  focus_last_5sec: r = 0.0325, p = 0.6912
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 71.08 | Top 25% CTR Mean = 71.70 | Diff = 0.62
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 58.75 | Top 25% CTR Mean = 58.58 | Diff = -0.16
+  focus_5sec: Bottom 25% CTR Mean = 34.16 | Top 25% CTR Mean = 32.13 | Diff = -2.02
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 70.10 | Top 25% CTR Mean = 72.12 | Diff = 2.02
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 62.96 | Top 25% CTR Mean = 63.08 | Diff = 0.12
+  focus_last_5sec: Bottom 25% CTR Mean = 32.98 | Top 25% CTR Mean = 30.13 | Diff = -2.85
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2024_Q1_High ---
+Sample Size: 14
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = -0.3850, p = 0.1740
+  cognitivedemand_5sec: r = -0.1987, p = 0.4958
+  focus_5sec: r = 0.0172, p = 0.9533
+  engajamentoneural_last_5sec: r = 0.0102, p = 0.9725
+  cognitivedemand_last_5sec: r = 0.2979, p = 0.3010
+  focus_last_5sec: r = 0.0060, p = 0.9837
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.3659, p = 0.1982
+  cognitivedemand_5sec: r = -0.2668, p = 0.3565
+  focus_5sec: r = 0.0681, p = 0.8171
+  engajamentoneural_last_5sec: r = -0.0561, p = 0.8490
+  cognitivedemand_last_5sec: r = 0.2280, p = 0.4331
+  focus_last_5sec: r = 0.0538, p = 0.8551
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2024_Q1_Medium ---
+Sample Size: 2
+Not enough data to run correlations.
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2024_Q1_Low ---
+Sample Size: 0
+Not enough data to run correlations.
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2024_Q2_High ---
+Sample Size: 18
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = 0.0565, p = 0.8238
+  cognitivedemand_5sec: r = -0.0483, p = 0.8491
+  focus_5sec: r = 0.2070, p = 0.4098
+  engajamentoneural_last_5sec: r = 0.2617, p = 0.2942
+  cognitivedemand_last_5sec: r = 0.1678, p = 0.5057
+  focus_last_5sec: r = -0.0236, p = 0.9258
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = -0.0114, p = 0.9641
+  cognitivedemand_5sec: r = -0.1046, p = 0.6796
+  focus_5sec: r = 0.2536, p = 0.3098
+  engajamentoneural_last_5sec: r = 0.2470, p = 0.3232
+  cognitivedemand_last_5sec: r = 0.1044, p = 0.6801
+  focus_last_5sec: r = 0.0052, p = 0.9838
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2024_Q2_Medium ---
+Sample Size: 60
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = 0.1103, p = 0.4016
+  cognitivedemand_5sec: r = 0.1998, p = 0.1260
+  focus_5sec: r = 0.1729, p = 0.1864
+  engajamentoneural_last_5sec: r = 0.1798, p = 0.1691
+  cognitivedemand_last_5sec: r = 0.1719, p = 0.1890
+  focus_last_5sec: r = -0.0795, p = 0.5462
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.0636, p = 0.6291
+  cognitivedemand_5sec: r = 0.2293, p = 0.0780
+  focus_5sec: r = 0.1388, p = 0.2903
+  engajamentoneural_last_5sec: r = 0.0909, p = 0.4895
+  cognitivedemand_last_5sec: r = 0.1694, p = 0.1957
+  focus_last_5sec: r = -0.0274, p = 0.8352
+
+Quartile Analysis on CTR:
+  engajamentoneural_5sec: Bottom 25% CTR Mean = 63.68 | Top 25% CTR Mean = 62.00 | Diff = -1.67
+  cognitivedemand_5sec: Bottom 25% CTR Mean = 53.94 | Top 25% CTR Mean = 65.04 | Diff = 11.11
+  focus_5sec: Bottom 25% CTR Mean = 29.24 | Top 25% CTR Mean = 29.68 | Diff = 0.44
+  engajamentoneural_last_5sec: Bottom 25% CTR Mean = 45.62 | Top 25% CTR Mean = 46.80 | Diff = 1.19
+  cognitivedemand_last_5sec: Bottom 25% CTR Mean = 52.06 | Top 25% CTR Mean = 61.91 | Diff = 9.85
+  focus_last_5sec: Bottom 25% CTR Mean = 31.67 | Top 25% CTR Mean = 28.32 | Diff = -3.35
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2024_Q2_Low ---
+Sample Size: 1
+Not enough data to run correlations.
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2024_Q3_High ---
+Sample Size: 3
+Not enough data to run correlations.
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2024_Q3_Medium ---
+Sample Size: 14
+
+Correlations with CTR:
+  engajamentoneural_5sec: r = 0.4261, p = 0.1287
+  cognitivedemand_5sec: r = 0.5481, p = 0.0424
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2024_Q3_Medium_cognitivedemand_5sec_vs_CTR.png
+  focus_5sec: r = 0.1602, p = 0.5844
+  engajamentoneural_last_5sec: r = 0.6172, p = 0.0187
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2024_Q3_Medium_engajamentoneural_last_5sec_vs_CTR.png
+  cognitivedemand_last_5sec: r = 0.5515, p = 0.0409
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2024_Q3_Medium_cognitivedemand_last_5sec_vs_CTR.png
+  focus_last_5sec: r = 0.3403, p = 0.2338
+
+Correlations with clicks:
+  engajamentoneural_5sec: r = 0.3954, p = 0.1617
+  cognitivedemand_5sec: r = 0.4863, p = 0.0779
+  focus_5sec: r = 0.1008, p = 0.7317
+  engajamentoneural_last_5sec: r = 0.5438, p = 0.0444
+    * Generated plot: scatter_TEST_SUITE_C_Videos_Timeline_2024_Q3_Medium_engajamentoneural_last_5sec_vs_clicks.png
+  cognitivedemand_last_5sec: r = 0.5075, p = 0.0640
+  focus_last_5sec: r = 0.2348, p = 0.4191
+
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2024_Q3_Low ---
+Sample Size: 0
+Not enough data to run correlations.
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2023_Q3_High ---
+Sample Size: 1
+Not enough data to run correlations.
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2023_Q3_Medium ---
+Sample Size: 0
+Not enough data to run correlations.
+
+--- Analysis for: TEST_SUITE_C_Videos_Timeline_2023_Q3_Low ---
+Sample Size: 0
+Not enough data to run correlations.

@@ -1,0 +1,3 @@
+XGBoost Results (Image):
+R-squared: -0.7935
+MSE: 0.6486

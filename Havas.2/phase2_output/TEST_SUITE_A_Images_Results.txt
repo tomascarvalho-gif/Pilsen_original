@@ -1,0 +1,1303 @@
+--- Analysis for: TEST_SUITE_A_Images_Global ---
+Sample Size: 4167
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0255, p = 0.1001
+  cognitivedemand: r = -0.0021, p = 0.8917
+  focus: r = 0.0154, p = 0.3197
+  fluency_index: r = -0.0033, p = 0.8302
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0194, p = 0.2114
+  cognitivedemand: r = -0.0433, p = 0.0052
+  focus: r = -0.0282, p = 0.0684
+  fluency_index: r = 0.0555, p = 0.0003
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 75.91 | Top 25% CTR Mean = 77.45 | Diff = 1.55
+  cognitivedemand: Bottom 25% CTR Mean = 78.68 | Top 25% CTR Mean = 77.34 | Diff = -1.34
+  focus: Bottom 25% CTR Mean = 13.63 | Top 25% CTR Mean = 14.28 | Diff = 0.66
+  fluency_index: Bottom 25% CTR Mean = 7.02 | Top 25% CTR Mean = 7.20 | Diff = 0.19
+
+
+--- Analysis for: TEST_SUITE_A_Images_Trimester_2023_Q1 ---
+Sample Size: 89
+
+Correlations with CTR:
+  engajamentoneural: r = 0.1622, p = 0.1288
+  cognitivedemand: r = 0.0885, p = 0.4097
+  focus: r = -0.0130, p = 0.9037
+  fluency_index: r = 0.0161, p = 0.8807
+
+Correlations with clicks:
+  engajamentoneural: r = 0.1666, p = 0.1187
+  cognitivedemand: r = 0.0971, p = 0.3654
+  focus: r = -0.1154, p = 0.2815
+  fluency_index: r = 0.2101, p = 0.0482
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2023_Q1_fluency_index_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 70.38 | Top 25% CTR Mean = 71.75 | Diff = 1.38
+  cognitivedemand: Bottom 25% CTR Mean = 72.74 | Top 25% CTR Mean = 82.62 | Diff = 9.88
+  focus: Bottom 25% CTR Mean = 17.03 | Top 25% CTR Mean = 15.01 | Diff = -2.01
+  fluency_index: Bottom 25% CTR Mean = 5.48 | Top 25% CTR Mean = 6.49 | Diff = 1.01
+
+
+--- Analysis for: TEST_SUITE_A_Images_Trimester_2024_Q2 ---
+Sample Size: 262
+
+Correlations with CTR:
+  engajamentoneural: r = 0.2794, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2024_Q2_engajamentoneural_vs_CTR.png
+  cognitivedemand: r = -0.1599, p = 0.0095
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2024_Q2_cognitivedemand_vs_CTR.png
+  focus: r = -0.0381, p = 0.5390
+  fluency_index: r = 0.0519, p = 0.4028
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0560, p = 0.3669
+  cognitivedemand: r = -0.0973, p = 0.1160
+  focus: r = -0.0452, p = 0.4664
+  fluency_index: r = 0.0846, p = 0.1723
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 73.94 | Top 25% CTR Mean = 79.93 | Diff = 5.99
+  cognitivedemand: Bottom 25% CTR Mean = 80.89 | Top 25% CTR Mean = 71.96 | Diff = -8.94
+  focus: Bottom 25% CTR Mean = 13.51 | Top 25% CTR Mean = 13.38 | Diff = -0.13
+  fluency_index: Bottom 25% CTR Mean = 7.41 | Top 25% CTR Mean = 7.48 | Diff = 0.07
+
+
+--- Analysis for: TEST_SUITE_A_Images_Trimester_2024_Q4 ---
+Sample Size: 485
+
+Correlations with CTR:
+  engajamentoneural: r = -0.0641, p = 0.1587
+  cognitivedemand: r = -0.1611, p = 0.0004
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2024_Q4_cognitivedemand_vs_CTR.png
+  focus: r = 0.1451, p = 0.0014
+  fluency_index: r = -0.1545, p = 0.0006
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2024_Q4_fluency_index_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural: r = -0.0437, p = 0.3364
+  cognitivedemand: r = -0.1574, p = 0.0005
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2024_Q4_cognitivedemand_vs_clicks.png
+  focus: r = 0.0122, p = 0.7889
+  fluency_index: r = -0.0073, p = 0.8728
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 79.58 | Top 25% CTR Mean = 77.64 | Diff = -1.94
+  cognitivedemand: Bottom 25% CTR Mean = 78.24 | Top 25% CTR Mean = 72.77 | Diff = -5.47
+  focus: Bottom 25% CTR Mean = 11.17 | Top 25% CTR Mean = 14.76 | Diff = 3.59
+  fluency_index: Bottom 25% CTR Mean = 8.10 | Top 25% CTR Mean = 6.94 | Diff = -1.16
+
+
+--- Analysis for: TEST_SUITE_A_Images_Trimester_2023_Q4 ---
+Sample Size: 294
+
+Correlations with CTR:
+  engajamentoneural: r = -0.0260, p = 0.6568
+  cognitivedemand: r = -0.1251, p = 0.0320
+  focus: r = 0.0212, p = 0.7168
+  fluency_index: r = -0.1070, p = 0.0669
+
+Correlations with clicks:
+  engajamentoneural: r = -0.0312, p = 0.5939
+  cognitivedemand: r = -0.0502, p = 0.3906
+  focus: r = -0.0222, p = 0.7044
+  fluency_index: r = 0.0314, p = 0.5921
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 73.07 | Top 25% CTR Mean = 73.25 | Diff = 0.17
+  cognitivedemand: Bottom 25% CTR Mean = 72.87 | Top 25% CTR Mean = 71.06 | Diff = -1.82
+  focus: Bottom 25% CTR Mean = 13.64 | Top 25% CTR Mean = 15.89 | Diff = 2.25
+  fluency_index: Bottom 25% CTR Mean = 6.72 | Top 25% CTR Mean = 6.21 | Diff = -0.52
+
+
+--- Analysis for: TEST_SUITE_A_Images_Trimester_2024_Q3 ---
+Sample Size: 345
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0560, p = 0.3000
+  cognitivedemand: r = -0.0746, p = 0.1673
+  focus: r = 0.0499, p = 0.3559
+  fluency_index: r = 0.0026, p = 0.9623
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0814, p = 0.1315
+  cognitivedemand: r = -0.0195, p = 0.7185
+  focus: r = -0.1161, p = 0.0311
+  fluency_index: r = 0.1454, p = 0.0068
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 77.75 | Top 25% CTR Mean = 79.06 | Diff = 1.30
+  cognitivedemand: Bottom 25% CTR Mean = 74.40 | Top 25% CTR Mean = 70.11 | Diff = -4.29
+  focus: Bottom 25% CTR Mean = 12.97 | Top 25% CTR Mean = 17.50 | Diff = 4.53
+  fluency_index: Bottom 25% CTR Mean = 7.16 | Top 25% CTR Mean = 6.69 | Diff = -0.47
+
+
+--- Analysis for: TEST_SUITE_A_Images_Trimester_2025_Q2 ---
+Sample Size: 527
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0859, p = 0.0487
+  cognitivedemand: r = -0.1758, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2025_Q2_cognitivedemand_vs_CTR.png
+  focus: r = 0.0124, p = 0.7766
+  fluency_index: r = 0.0853, p = 0.0502
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0295, p = 0.4997
+  cognitivedemand: r = 0.0411, p = 0.3462
+  focus: r = 0.0125, p = 0.7744
+  fluency_index: r = 0.0188, p = 0.6664
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 78.50 | Top 25% CTR Mean = 79.72 | Diff = 1.22
+  cognitivedemand: Bottom 25% CTR Mean = 84.40 | Top 25% CTR Mean = 80.19 | Diff = -4.22
+  focus: Bottom 25% CTR Mean = 12.06 | Top 25% CTR Mean = 12.40 | Diff = 0.34
+  fluency_index: Bottom 25% CTR Mean = 7.57 | Top 25% CTR Mean = 8.36 | Diff = 0.78
+
+
+--- Analysis for: TEST_SUITE_A_Images_Trimester_2025_Q1 ---
+Sample Size: 415
+
+Correlations with CTR:
+  engajamentoneural: r = -0.3183, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2025_Q1_engajamentoneural_vs_CTR.png
+  cognitivedemand: r = -0.2995, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2025_Q1_cognitivedemand_vs_CTR.png
+  focus: r = 0.3844, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2025_Q1_focus_vs_CTR.png
+  fluency_index: r = -0.2279, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2025_Q1_fluency_index_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural: r = -0.1335, p = 0.0064
+  cognitivedemand: r = -0.0920, p = 0.0611
+  focus: r = -0.0105, p = 0.8316
+  fluency_index: r = -0.0164, p = 0.7389
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 83.14 | Top 25% CTR Mean = 74.55 | Diff = -8.60
+  cognitivedemand: Bottom 25% CTR Mean = 83.83 | Top 25% CTR Mean = 78.11 | Diff = -5.72
+  focus: Bottom 25% CTR Mean = 13.23 | Top 25% CTR Mean = 22.16 | Diff = 8.94
+  fluency_index: Bottom 25% CTR Mean = 7.37 | Top 25% CTR Mean = 5.69 | Diff = -1.68
+
+
+--- Analysis for: TEST_SUITE_A_Images_Trimester_2023_Q3 ---
+Sample Size: 251
+
+Correlations with CTR:
+  engajamentoneural: r = 0.1601, p = 0.0111
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2023_Q3_engajamentoneural_vs_CTR.png
+  cognitivedemand: r = 0.0490, p = 0.4398
+  focus: r = -0.1341, p = 0.0336
+  fluency_index: r = 0.2147, p = 0.0006
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2023_Q3_fluency_index_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural: r = -0.0438, p = 0.4897
+  cognitivedemand: r = -0.0974, p = 0.1238
+  focus: r = -0.0723, p = 0.2537
+  fluency_index: r = 0.0589, p = 0.3527
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 71.79 | Top 25% CTR Mean = 78.68 | Diff = 6.89
+  cognitivedemand: Bottom 25% CTR Mean = 80.46 | Top 25% CTR Mean = 81.80 | Diff = 1.34
+  focus: Bottom 25% CTR Mean = 12.60 | Top 25% CTR Mean = 9.24 | Diff = -3.36
+  fluency_index: Bottom 25% CTR Mean = 6.93 | Top 25% CTR Mean = 8.86 | Diff = 1.92
+
+
+--- Analysis for: TEST_SUITE_A_Images_Trimester_2025_Q3 ---
+Sample Size: 346
+
+Correlations with CTR:
+  engajamentoneural: r = 0.2017, p = 0.0002
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2025_Q3_engajamentoneural_vs_CTR.png
+  cognitivedemand: r = -0.0111, p = 0.8377
+  focus: r = -0.0531, p = 0.3245
+  fluency_index: r = 0.0755, p = 0.1613
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0431, p = 0.4243
+  cognitivedemand: r = 0.0385, p = 0.4754
+  focus: r = 0.0882, p = 0.1013
+  fluency_index: r = -0.0136, p = 0.8006
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 75.09 | Top 25% CTR Mean = 78.92 | Diff = 3.83
+  cognitivedemand: Bottom 25% CTR Mean = 81.79 | Top 25% CTR Mean = 79.79 | Diff = -1.99
+  focus: Bottom 25% CTR Mean = 15.69 | Top 25% CTR Mean = 13.06 | Diff = -2.63
+  fluency_index: Bottom 25% CTR Mean = 6.82 | Top 25% CTR Mean = 7.43 | Diff = 0.61
+
+
+--- Analysis for: TEST_SUITE_A_Images_Trimester_2024_Q1 ---
+Sample Size: 363
+
+Correlations with CTR:
+  engajamentoneural: r = 0.1225, p = 0.0200
+  cognitivedemand: r = -0.0148, p = 0.7793
+  focus: r = -0.0610, p = 0.2486
+  fluency_index: r = 0.1052, p = 0.0460
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0970, p = 0.0650
+  cognitivedemand: r = 0.0654, p = 0.2141
+  focus: r = -0.1081, p = 0.0395
+  fluency_index: r = 0.1498, p = 0.0042
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 71.01 | Top 25% CTR Mean = 78.46 | Diff = 7.45
+  cognitivedemand: Bottom 25% CTR Mean = 67.76 | Top 25% CTR Mean = 70.01 | Diff = 2.25
+  focus: Bottom 25% CTR Mean = 19.25 | Top 25% CTR Mean = 18.63 | Diff = -0.62
+  fluency_index: Bottom 25% CTR Mean = 5.70 | Top 25% CTR Mean = 6.66 | Diff = 0.96
+
+
+--- Analysis for: TEST_SUITE_A_Images_Trimester_2025_Q4 ---
+Sample Size: 358
+
+Correlations with CTR:
+  engajamentoneural: r = -0.0200, p = 0.7071
+  cognitivedemand: r = -0.1042, p = 0.0492
+  focus: r = 0.2015, p = 0.0001
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2025_Q4_focus_vs_CTR.png
+  fluency_index: r = -0.1221, p = 0.0210
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0791, p = 0.1356
+  cognitivedemand: r = -0.1211, p = 0.0222
+  focus: r = -0.0847, p = 0.1100
+  fluency_index: r = 0.1260, p = 0.0172
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 78.20 | Top 25% CTR Mean = 77.41 | Diff = -0.78
+  cognitivedemand: Bottom 25% CTR Mean = 82.55 | Top 25% CTR Mean = 77.98 | Diff = -4.58
+  focus: Bottom 25% CTR Mean = 11.24 | Top 25% CTR Mean = 14.49 | Diff = 3.25
+  fluency_index: Bottom 25% CTR Mean = 7.71 | Top 25% CTR Mean = 7.16 | Diff = -0.55
+
+
+--- Analysis for: TEST_SUITE_A_Images_Trimester_2026_Q1 ---
+Sample Size: 271
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0253, p = 0.6785
+  cognitivedemand: r = 0.1146, p = 0.0596
+  focus: r = 0.0171, p = 0.7790
+  fluency_index: r = 0.0178, p = 0.7711
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0527, p = 0.3878
+  cognitivedemand: r = -0.0740, p = 0.2245
+  focus: r = -0.0986, p = 0.1052
+  fluency_index: r = 0.1076, p = 0.0770
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 73.62 | Top 25% CTR Mean = 76.33 | Diff = 2.72
+  cognitivedemand: Bottom 25% CTR Mean = 77.65 | Top 25% CTR Mean = 83.55 | Diff = 5.89
+  focus: Bottom 25% CTR Mean = 12.15 | Top 25% CTR Mean = 13.47 | Diff = 1.32
+  fluency_index: Bottom 25% CTR Mean = 7.29 | Top 25% CTR Mean = 7.32 | Diff = 0.04
+
+
+--- Analysis for: TEST_SUITE_A_Images_Trimester_2023_Q2 ---
+Sample Size: 161
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0190, p = 0.8105
+  cognitivedemand: r = 0.2417, p = 0.0020
+    * Generated plot: scatter_TEST_SUITE_A_Images_Trimester_2023_Q2_cognitivedemand_vs_CTR.png
+  focus: r = -0.1035, p = 0.1914
+  fluency_index: r = 0.1461, p = 0.0644
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0266, p = 0.7376
+  cognitivedemand: r = 0.1377, p = 0.0815
+  focus: r = 0.0777, p = 0.3271
+  fluency_index: r = -0.0430, p = 0.5880
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 77.38 | Top 25% CTR Mean = 75.55 | Diff = -1.83
+  cognitivedemand: Bottom 25% CTR Mean = 76.75 | Top 25% CTR Mean = 85.71 | Diff = 8.96
+  focus: Bottom 25% CTR Mean = 11.71 | Top 25% CTR Mean = 9.26 | Diff = -2.45
+  fluency_index: Bottom 25% CTR Mean = 6.97 | Top 25% CTR Mean = 8.44 | Diff = 1.47
+
+
+--- Analysis for: TEST_SUITE_A_Images_Cost_High ---
+Sample Size: 1073
+
+Correlations with CTR:
+  engajamentoneural: r = 0.1033, p = 0.0007
+  cognitivedemand: r = 0.0393, p = 0.1980
+  focus: r = 0.0204, p = 0.5046
+  fluency_index: r = 0.0341, p = 0.2650
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0653, p = 0.0326
+  cognitivedemand: r = -0.0148, p = 0.6287
+  focus: r = -0.0335, p = 0.2735
+  fluency_index: r = 0.0759, p = 0.0129
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 75.17 | Top 25% CTR Mean = 77.93 | Diff = 2.77
+  cognitivedemand: Bottom 25% CTR Mean = 77.31 | Top 25% CTR Mean = 76.64 | Diff = -0.67
+  focus: Bottom 25% CTR Mean = 12.40 | Top 25% CTR Mean = 13.78 | Diff = 1.38
+  fluency_index: Bottom 25% CTR Mean = 7.17 | Top 25% CTR Mean = 7.52 | Diff = 0.34
+
+
+--- Analysis for: TEST_SUITE_A_Images_Cost_Medium ---
+Sample Size: 2126
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0347, p = 0.1100
+  cognitivedemand: r = -0.0924, p = 0.0000
+  focus: r = 0.0411, p = 0.0582
+  fluency_index: r = 0.0141, p = 0.5161
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0059, p = 0.7840
+  cognitivedemand: r = -0.1013, p = 0.0000
+  focus: r = 0.0159, p = 0.4644
+  fluency_index: r = -0.0025, p = 0.9082
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 76.03 | Top 25% CTR Mean = 77.58 | Diff = 1.55
+  cognitivedemand: Bottom 25% CTR Mean = 79.08 | Top 25% CTR Mean = 75.60 | Diff = -3.48
+  focus: Bottom 25% CTR Mean = 14.41 | Top 25% CTR Mean = 14.77 | Diff = 0.35
+  fluency_index: Bottom 25% CTR Mean = 6.97 | Top 25% CTR Mean = 7.20 | Diff = 0.23
+
+
+--- Analysis for: TEST_SUITE_A_Images_Cost_Low ---
+Sample Size: 968
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0246, p = 0.4463
+  cognitivedemand: r = 0.0170, p = 0.5975
+  focus: r = 0.0103, p = 0.7498
+  fluency_index: r = -0.0101, p = 0.7538
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0236, p = 0.4636
+  cognitivedemand: r = -0.0055, p = 0.8654
+  focus: r = -0.0361, p = 0.2625
+  fluency_index: r = 0.0354, p = 0.2713
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 76.05 | Top 25% CTR Mean = 77.07 | Diff = 1.02
+  cognitivedemand: Bottom 25% CTR Mean = 77.68 | Top 25% CTR Mean = 79.15 | Diff = 1.47
+  focus: Bottom 25% CTR Mean = 13.73 | Top 25% CTR Mean = 14.37 | Diff = 0.64
+  fluency_index: Bottom 25% CTR Mean = 6.87 | Top 25% CTR Mean = 7.00 | Diff = 0.13
+
+
+--- Analysis for: TEST_SUITE_A_Images_2023_Q1_High ---
+Sample Size: 26
+
+Correlations with CTR:
+  engajamentoneural: r = 0.3261, p = 0.1040
+  cognitivedemand: r = 0.1358, p = 0.5083
+  focus: r = 0.0308, p = 0.8811
+  fluency_index: r = 0.1147, p = 0.5768
+
+Correlations with clicks:
+  engajamentoneural: r = 0.2088, p = 0.3059
+  cognitivedemand: r = 0.1191, p = 0.5623
+  focus: r = -0.1225, p = 0.5511
+  fluency_index: r = 0.2653, p = 0.1902
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 70.84 | Top 25% CTR Mean = 79.09 | Diff = 8.25
+  cognitivedemand: Bottom 25% CTR Mean = 74.47 | Top 25% CTR Mean = 78.29 | Diff = 3.82
+  focus: Bottom 25% CTR Mean = 10.67 | Top 25% CTR Mean = 9.93 | Diff = -0.75
+  fluency_index: Bottom 25% CTR Mean = 6.89 | Top 25% CTR Mean = 8.38 | Diff = 1.49
+
+
+--- Analysis for: TEST_SUITE_A_Images_2023_Q1_Medium ---
+Sample Size: 47
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0110, p = 0.9416
+  cognitivedemand: r = 0.3985, p = 0.0055
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q1_Medium_cognitivedemand_vs_CTR.png
+  focus: r = -0.0667, p = 0.6561
+  fluency_index: r = 0.2045, p = 0.1680
+
+Correlations with clicks:
+  engajamentoneural: r = -0.0108, p = 0.9423
+  cognitivedemand: r = 0.1594, p = 0.2845
+  focus: r = 0.0334, p = 0.8239
+  fluency_index: r = 0.0364, p = 0.8080
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 68.85 | Top 25% CTR Mean = 69.85 | Diff = 1.00
+  cognitivedemand: Bottom 25% CTR Mean = 70.83 | Top 25% CTR Mean = 87.45 | Diff = 16.62
+  focus: Bottom 25% CTR Mean = 20.43 | Top 25% CTR Mean = 15.37 | Diff = -5.06
+  fluency_index: Bottom 25% CTR Mean = 4.44 | Top 25% CTR Mean = 6.23 | Diff = 1.78
+
+
+--- Analysis for: TEST_SUITE_A_Images_2023_Q1_Low ---
+Sample Size: 16
+
+Correlations with CTR:
+  engajamentoneural: r = 0.4889, p = 0.0546
+  cognitivedemand: r = 0.3354, p = 0.2040
+  focus: r = 0.0774, p = 0.7757
+  fluency_index: r = -0.0658, p = 0.8087
+
+Correlations with clicks:
+  engajamentoneural: r = -0.0597, p = 0.8261
+  cognitivedemand: r = 0.5401, p = 0.0308
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q1_Low_cognitivedemand_vs_clicks.png
+  focus: r = -0.2227, p = 0.4071
+  fluency_index: r = 0.1658, p = 0.5393
+
+
+--- Analysis for: TEST_SUITE_A_Images_2024_Q2_High ---
+Sample Size: 70
+
+Correlations with CTR:
+  engajamentoneural: r = 0.2440, p = 0.0418
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q2_High_engajamentoneural_vs_CTR.png
+  cognitivedemand: r = -0.1048, p = 0.3880
+  focus: r = 0.1800, p = 0.1359
+  fluency_index: r = -0.1255, p = 0.3007
+
+Correlations with clicks:
+  engajamentoneural: r = 0.2988, p = 0.0120
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q2_High_engajamentoneural_vs_clicks.png
+  cognitivedemand: r = 0.1064, p = 0.3807
+  focus: r = -0.1377, p = 0.2556
+  fluency_index: r = 0.2440, p = 0.0418
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q2_High_fluency_index_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 65.60 | Top 25% CTR Mean = 71.57 | Diff = 5.97
+  cognitivedemand: Bottom 25% CTR Mean = 71.84 | Top 25% CTR Mean = 64.53 | Diff = -7.31
+  focus: Bottom 25% CTR Mean = 11.13 | Top 25% CTR Mean = 20.65 | Diff = 9.51
+  fluency_index: Bottom 25% CTR Mean = 6.66 | Top 25% CTR Mean = 4.94 | Diff = -1.73
+
+
+--- Analysis for: TEST_SUITE_A_Images_2024_Q2_Medium ---
+Sample Size: 150
+
+Correlations with CTR:
+  engajamentoneural: r = 0.3026, p = 0.0002
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q2_Medium_engajamentoneural_vs_CTR.png
+  cognitivedemand: r = -0.3703, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q2_Medium_cognitivedemand_vs_CTR.png
+  focus: r = -0.0444, p = 0.5892
+  fluency_index: r = 0.0299, p = 0.7161
+
+Correlations with clicks:
+  engajamentoneural: r = -0.0064, p = 0.9378
+  cognitivedemand: r = -0.2685, p = 0.0009
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q2_Medium_cognitivedemand_vs_clicks.png
+  focus: r = 0.0619, p = 0.4519
+  fluency_index: r = -0.1286, p = 0.1167
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 76.24 | Top 25% CTR Mean = 81.95 | Diff = 5.72
+  cognitivedemand: Bottom 25% CTR Mean = 82.15 | Top 25% CTR Mean = 66.65 | Diff = -15.50
+  focus: Bottom 25% CTR Mean = 14.32 | Top 25% CTR Mean = 14.02 | Diff = -0.30
+  fluency_index: Bottom 25% CTR Mean = 7.64 | Top 25% CTR Mean = 7.54 | Diff = -0.10
+
+
+--- Analysis for: TEST_SUITE_A_Images_2024_Q2_Low ---
+Sample Size: 42
+
+Correlations with CTR:
+  engajamentoneural: r = 0.1756, p = 0.2661
+  cognitivedemand: r = -0.1469, p = 0.3532
+  focus: r = 0.0176, p = 0.9119
+  fluency_index: r = 0.0502, p = 0.7523
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0751, p = 0.6363
+  cognitivedemand: r = -0.1749, p = 0.2679
+  focus: r = 0.0253, p = 0.8734
+  fluency_index: r = -0.0371, p = 0.8158
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 76.18 | Top 25% CTR Mean = 81.11 | Diff = 4.92
+  cognitivedemand: Bottom 25% CTR Mean = 86.20 | Top 25% CTR Mean = 76.65 | Diff = -9.55
+  focus: Bottom 25% CTR Mean = 14.00 | Top 25% CTR Mean = 13.17 | Diff = -0.83
+  fluency_index: Bottom 25% CTR Mean = 7.67 | Top 25% CTR Mean = 7.96 | Diff = 0.29
+
+
+--- Analysis for: TEST_SUITE_A_Images_2024_Q4_High ---
+Sample Size: 136
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0602, p = 0.4864
+  cognitivedemand: r = -0.0365, p = 0.6729
+  focus: r = 0.0873, p = 0.3124
+  fluency_index: r = -0.0427, p = 0.6216
+
+Correlations with clicks:
+  engajamentoneural: r = -0.0261, p = 0.7628
+  cognitivedemand: r = -0.1377, p = 0.1099
+  focus: r = 0.0401, p = 0.6427
+  fluency_index: r = -0.0265, p = 0.7590
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 75.07 | Top 25% CTR Mean = 78.06 | Diff = 2.99
+  cognitivedemand: Bottom 25% CTR Mean = 76.67 | Top 25% CTR Mean = 74.03 | Diff = -2.64
+  focus: Bottom 25% CTR Mean = 11.90 | Top 25% CTR Mean = 12.14 | Diff = 0.24
+  fluency_index: Bottom 25% CTR Mean = 7.45 | Top 25% CTR Mean = 7.74 | Diff = 0.29
+
+
+--- Analysis for: TEST_SUITE_A_Images_2024_Q4_Medium ---
+Sample Size: 227
+
+Correlations with CTR:
+  engajamentoneural: r = -0.0617, p = 0.3549
+  cognitivedemand: r = -0.2518, p = 0.0001
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q4_Medium_cognitivedemand_vs_CTR.png
+  focus: r = 0.0740, p = 0.2672
+  fluency_index: r = -0.0876, p = 0.1886
+
+Correlations with clicks:
+  engajamentoneural: r = -0.1436, p = 0.0306
+  cognitivedemand: r = -0.3221, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q4_Medium_cognitivedemand_vs_clicks.png
+  focus: r = 0.1450, p = 0.0290
+  fluency_index: r = -0.1654, p = 0.0126
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q4_Medium_fluency_index_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 80.43 | Top 25% CTR Mean = 77.83 | Diff = -2.60
+  cognitivedemand: Bottom 25% CTR Mean = 83.24 | Top 25% CTR Mean = 72.90 | Diff = -10.34
+  focus: Bottom 25% CTR Mean = 11.33 | Top 25% CTR Mean = 14.30 | Diff = 2.98
+  fluency_index: Bottom 25% CTR Mean = 8.25 | Top 25% CTR Mean = 7.16 | Diff = -1.09
+
+
+--- Analysis for: TEST_SUITE_A_Images_2024_Q4_Low ---
+Sample Size: 122
+
+Correlations with CTR:
+  engajamentoneural: r = -0.2259, p = 0.0123
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q4_Low_engajamentoneural_vs_CTR.png
+  cognitivedemand: r = -0.2495, p = 0.0056
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q4_Low_cognitivedemand_vs_CTR.png
+  focus: r = 0.2510, p = 0.0053
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q4_Low_focus_vs_CTR.png
+  fluency_index: r = -0.3357, p = 0.0002
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q4_Low_fluency_index_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural: r = -0.2102, p = 0.0201
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q4_Low_engajamentoneural_vs_clicks.png
+  cognitivedemand: r = -0.2481, p = 0.0059
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q4_Low_cognitivedemand_vs_clicks.png
+  focus: r = 0.1012, p = 0.2671
+  fluency_index: r = -0.1726, p = 0.0573
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 81.34 | Top 25% CTR Mean = 76.48 | Diff = -4.86
+  cognitivedemand: Bottom 25% CTR Mean = 80.43 | Top 25% CTR Mean = 72.82 | Diff = -7.62
+  focus: Bottom 25% CTR Mean = 10.39 | Top 25% CTR Mean = 16.55 | Diff = 6.16
+  fluency_index: Bottom 25% CTR Mean = 8.61 | Top 25% CTR Mean = 6.15 | Diff = -2.46
+
+
+--- Analysis for: TEST_SUITE_A_Images_2023_Q4_High ---
+Sample Size: 108
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0591, p = 0.5432
+  cognitivedemand: r = 0.0086, p = 0.9295
+  focus: r = -0.0114, p = 0.9068
+  fluency_index: r = 0.0571, p = 0.5574
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0205, p = 0.8333
+  cognitivedemand: r = -0.0524, p = 0.5898
+  focus: r = -0.0551, p = 0.5708
+  fluency_index: r = 0.0466, p = 0.6320
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 69.53 | Top 25% CTR Mean = 72.37 | Diff = 2.84
+  cognitivedemand: Bottom 25% CTR Mean = 69.34 | Top 25% CTR Mean = 73.11 | Diff = 3.77
+  focus: Bottom 25% CTR Mean = 16.78 | Top 25% CTR Mean = 17.80 | Diff = 1.02
+  fluency_index: Bottom 25% CTR Mean = 5.89 | Top 25% CTR Mean = 6.51 | Diff = 0.62
+
+
+--- Analysis for: TEST_SUITE_A_Images_2023_Q4_Medium ---
+Sample Size: 150
+
+Correlations with CTR:
+  engajamentoneural: r = -0.0918, p = 0.2638
+  cognitivedemand: r = -0.2453, p = 0.0025
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q4_Medium_cognitivedemand_vs_CTR.png
+  focus: r = 0.0487, p = 0.5544
+  fluency_index: r = -0.2079, p = 0.0107
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q4_Medium_fluency_index_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural: r = -0.1176, p = 0.1520
+  cognitivedemand: r = -0.2820, p = 0.0005
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q4_Medium_cognitivedemand_vs_clicks.png
+  focus: r = -0.0853, p = 0.2994
+  fluency_index: r = -0.0109, p = 0.8950
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 75.16 | Top 25% CTR Mean = 72.78 | Diff = -2.37
+  cognitivedemand: Bottom 25% CTR Mean = 76.06 | Top 25% CTR Mean = 68.87 | Diff = -7.19
+  focus: Bottom 25% CTR Mean = 13.13 | Top 25% CTR Mean = 12.80 | Diff = -0.33
+  fluency_index: Bottom 25% CTR Mean = 6.94 | Top 25% CTR Mean = 6.16 | Diff = -0.78
+
+
+--- Analysis for: TEST_SUITE_A_Images_2023_Q4_Low ---
+Sample Size: 36
+
+Correlations with CTR:
+  engajamentoneural: r = -0.1216, p = 0.4800
+  cognitivedemand: r = -0.2377, p = 0.1626
+  focus: r = 0.0675, p = 0.6958
+  fluency_index: r = -0.1693, p = 0.3235
+
+Correlations with clicks:
+  engajamentoneural: r = 0.3110, p = 0.0649
+  cognitivedemand: r = 0.2310, p = 0.1752
+  focus: r = 0.2942, p = 0.0815
+  fluency_index: r = -0.0556, p = 0.7473
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 75.42 | Top 25% CTR Mean = 77.65 | Diff = 2.23
+  cognitivedemand: Bottom 25% CTR Mean = 72.80 | Top 25% CTR Mean = 71.18 | Diff = -1.61
+  focus: Bottom 25% CTR Mean = 11.00 | Top 25% CTR Mean = 19.03 | Diff = 8.03
+  fluency_index: Bottom 25% CTR Mean = 7.68 | Top 25% CTR Mean = 6.14 | Diff = -1.55
+
+
+--- Analysis for: TEST_SUITE_A_Images_2024_Q3_High ---
+Sample Size: 124
+
+Correlations with CTR:
+  engajamentoneural: r = 0.1161, p = 0.1993
+  cognitivedemand: r = 0.2243, p = 0.0123
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q3_High_cognitivedemand_vs_CTR.png
+  focus: r = -0.0299, p = 0.7416
+  fluency_index: r = 0.0732, p = 0.4192
+
+Correlations with clicks:
+  engajamentoneural: r = 0.1750, p = 0.0519
+  cognitivedemand: r = 0.0709, p = 0.4341
+  focus: r = -0.1096, p = 0.2256
+  fluency_index: r = 0.1565, p = 0.0826
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 70.52 | Top 25% CTR Mean = 79.62 | Diff = 9.10
+  cognitivedemand: Bottom 25% CTR Mean = 56.95 | Top 25% CTR Mean = 75.76 | Diff = 18.81
+  focus: Bottom 25% CTR Mean = 12.47 | Top 25% CTR Mean = 12.05 | Diff = -0.42
+  fluency_index: Bottom 25% CTR Mean = 6.87 | Top 25% CTR Mean = 8.13 | Diff = 1.26
+
+
+--- Analysis for: TEST_SUITE_A_Images_2024_Q3_Medium ---
+Sample Size: 185
+
+Correlations with CTR:
+  engajamentoneural: r = -0.0046, p = 0.9510
+  cognitivedemand: r = -0.2452, p = 0.0008
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q3_Medium_cognitivedemand_vs_CTR.png
+  focus: r = -0.0047, p = 0.9490
+  fluency_index: r = 0.0311, p = 0.6743
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0111, p = 0.8804
+  cognitivedemand: r = -0.1403, p = 0.0568
+  focus: r = -0.0871, p = 0.2383
+  fluency_index: r = 0.1559, p = 0.0341
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q3_Medium_fluency_index_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 79.00 | Top 25% CTR Mean = 78.34 | Diff = -0.66
+  cognitivedemand: Bottom 25% CTR Mean = 83.67 | Top 25% CTR Mean = 66.85 | Diff = -16.82
+  focus: Bottom 25% CTR Mean = 14.98 | Top 25% CTR Mean = 15.69 | Diff = 0.71
+  fluency_index: Bottom 25% CTR Mean = 6.92 | Top 25% CTR Mean = 7.00 | Diff = 0.08
+
+
+--- Analysis for: TEST_SUITE_A_Images_2024_Q3_Low ---
+Sample Size: 36
+
+Correlations with CTR:
+  engajamentoneural: r = 0.2377, p = 0.1692
+  cognitivedemand: r = -0.1273, p = 0.4660
+  focus: r = 0.2546, p = 0.1399
+  fluency_index: r = -0.1062, p = 0.5438
+
+Correlations with clicks:
+  engajamentoneural: r = 0.2010, p = 0.2397
+  cognitivedemand: r = -0.3703, p = 0.0262
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q3_Low_cognitivedemand_vs_clicks.png
+  focus: r = 0.3426, p = 0.0408
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q3_Low_focus_vs_clicks.png
+  fluency_index: r = -0.2535, p = 0.1358
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 75.15 | Top 25% CTR Mean = 82.19 | Diff = 7.04
+  cognitivedemand: Bottom 25% CTR Mean = 76.46 | Top 25% CTR Mean = 72.02 | Diff = -4.44
+  focus: Bottom 25% CTR Mean = 17.54 | Top 25% CTR Mean = 28.49 | Diff = 10.96
+  fluency_index: Bottom 25% CTR Mean = 5.79 | Top 25% CTR Mean = 4.76 | Diff = -1.03
+
+
+--- Analysis for: TEST_SUITE_A_Images_2025_Q2_High ---
+Sample Size: 154
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0774, p = 0.3398
+  cognitivedemand: r = -0.1306, p = 0.1064
+  focus: r = -0.0418, p = 0.6071
+  fluency_index: r = 0.1116, p = 0.1682
+
+Correlations with clicks:
+  engajamentoneural: r = 0.1012, p = 0.2118
+  cognitivedemand: r = 0.0363, p = 0.6547
+  focus: r = -0.0338, p = 0.6776
+  fluency_index: r = 0.0419, p = 0.6059
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 78.38 | Top 25% CTR Mean = 80.59 | Diff = 2.21
+  cognitivedemand: Bottom 25% CTR Mean = 83.69 | Top 25% CTR Mean = 81.30 | Diff = -2.39
+  focus: Bottom 25% CTR Mean = 13.13 | Top 25% CTR Mean = 12.61 | Diff = -0.52
+  fluency_index: Bottom 25% CTR Mean = 7.52 | Top 25% CTR Mean = 8.53 | Diff = 1.01
+
+
+--- Analysis for: TEST_SUITE_A_Images_2025_Q2_Medium ---
+Sample Size: 286
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0643, p = 0.2784
+  cognitivedemand: r = -0.2761, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q2_Medium_cognitivedemand_vs_CTR.png
+  focus: r = 0.0027, p = 0.9641
+  fluency_index: r = 0.1133, p = 0.0557
+
+Correlations with clicks:
+  engajamentoneural: r = -0.0654, p = 0.2701
+  cognitivedemand: r = -0.1373, p = 0.0202
+  focus: r = 0.1497, p = 0.0112
+  fluency_index: r = -0.0733, p = 0.2164
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 78.62 | Top 25% CTR Mean = 79.61 | Diff = 0.99
+  cognitivedemand: Bottom 25% CTR Mean = 85.11 | Top 25% CTR Mean = 78.32 | Diff = -6.79
+  focus: Bottom 25% CTR Mean = 11.36 | Top 25% CTR Mean = 11.80 | Diff = 0.43
+  fluency_index: Bottom 25% CTR Mean = 7.75 | Top 25% CTR Mean = 8.62 | Diff = 0.87
+
+
+--- Analysis for: TEST_SUITE_A_Images_2025_Q2_Low ---
+Sample Size: 87
+
+Correlations with CTR:
+  engajamentoneural: r = 0.1283, p = 0.2363
+  cognitivedemand: r = 0.0382, p = 0.7252
+  focus: r = 0.2012, p = 0.0616
+  fluency_index: r = -0.0134, p = 0.9020
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0612, p = 0.5735
+  cognitivedemand: r = -0.0046, p = 0.9662
+  focus: r = -0.1654, p = 0.1258
+  fluency_index: r = 0.2508, p = 0.0191
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q2_Low_fluency_index_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 76.86 | Top 25% CTR Mean = 79.43 | Diff = 2.56
+  cognitivedemand: Bottom 25% CTR Mean = 81.54 | Top 25% CTR Mean = 83.02 | Diff = 1.48
+  focus: Bottom 25% CTR Mean = 13.67 | Top 25% CTR Mean = 13.89 | Diff = 0.22
+  fluency_index: Bottom 25% CTR Mean = 6.66 | Top 25% CTR Mean = 7.60 | Diff = 0.94
+
+
+--- Analysis for: TEST_SUITE_A_Images_2025_Q1_High ---
+Sample Size: 84
+
+Correlations with CTR:
+  engajamentoneural: r = -0.3102, p = 0.0041
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q1_High_engajamentoneural_vs_CTR.png
+  cognitivedemand: r = 0.0413, p = 0.7090
+  focus: r = 0.0354, p = 0.7494
+  fluency_index: r = -0.0096, p = 0.9312
+
+Correlations with clicks:
+  engajamentoneural: r = -0.3030, p = 0.0051
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q1_High_engajamentoneural_vs_clicks.png
+  cognitivedemand: r = -0.1593, p = 0.1478
+  focus: r = 0.0328, p = 0.7673
+  fluency_index: r = -0.0386, p = 0.7271
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 84.81 | Top 25% CTR Mean = 77.32 | Diff = -7.48
+  cognitivedemand: Bottom 25% CTR Mean = 85.18 | Top 25% CTR Mean = 86.59 | Diff = 1.40
+  focus: Bottom 25% CTR Mean = 13.22 | Top 25% CTR Mean = 13.23 | Diff = 0.01
+  fluency_index: Bottom 25% CTR Mean = 7.35 | Top 25% CTR Mean = 7.71 | Diff = 0.36
+
+
+--- Analysis for: TEST_SUITE_A_Images_2025_Q1_Medium ---
+Sample Size: 201
+
+Correlations with CTR:
+  engajamentoneural: r = -0.4247, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q1_Medium_engajamentoneural_vs_CTR.png
+  cognitivedemand: r = -0.4838, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q1_Medium_cognitivedemand_vs_CTR.png
+  focus: r = 0.6407, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q1_Medium_focus_vs_CTR.png
+  fluency_index: r = -0.4328, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q1_Medium_fluency_index_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural: r = -0.1094, p = 0.1219
+  cognitivedemand: r = -0.0977, p = 0.1675
+  focus: r = 0.0591, p = 0.4043
+  fluency_index: r = -0.1167, p = 0.0989
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 81.57 | Top 25% CTR Mean = 72.25 | Diff = -9.32
+  cognitivedemand: Bottom 25% CTR Mean = 83.97 | Top 25% CTR Mean = 73.97 | Diff = -10.00
+  focus: Bottom 25% CTR Mean = 13.50 | Top 25% CTR Mean = 28.74 | Diff = 15.23
+  fluency_index: Bottom 25% CTR Mean = 7.55 | Top 25% CTR Mean = 4.58 | Diff = -2.97
+
+
+--- Analysis for: TEST_SUITE_A_Images_2025_Q1_Low ---
+Sample Size: 130
+
+Correlations with CTR:
+  engajamentoneural: r = -0.2882, p = 0.0009
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q1_Low_engajamentoneural_vs_CTR.png
+  cognitivedemand: r = -0.2714, p = 0.0018
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q1_Low_cognitivedemand_vs_CTR.png
+  focus: r = 0.2345, p = 0.0073
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q1_Low_focus_vs_CTR.png
+  fluency_index: r = -0.1026, p = 0.2455
+
+Correlations with clicks:
+  engajamentoneural: r = -0.2724, p = 0.0017
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q1_Low_engajamentoneural_vs_clicks.png
+  cognitivedemand: r = 0.0182, p = 0.8368
+  focus: r = 0.0727, p = 0.4113
+  fluency_index: r = -0.1101, p = 0.2125
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 84.37 | Top 25% CTR Mean = 75.58 | Diff = -8.78
+  cognitivedemand: Bottom 25% CTR Mean = 84.11 | Top 25% CTR Mean = 80.34 | Diff = -3.77
+  focus: Bottom 25% CTR Mean = 12.81 | Top 25% CTR Mean = 20.77 | Diff = 7.96
+  fluency_index: Bottom 25% CTR Mean = 7.35 | Top 25% CTR Mean = 5.81 | Diff = -1.55
+
+
+--- Analysis for: TEST_SUITE_A_Images_2023_Q3_High ---
+Sample Size: 82
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0643, p = 0.5659
+  cognitivedemand: r = 0.0916, p = 0.4129
+  focus: r = 0.0748, p = 0.5042
+  fluency_index: r = 0.0106, p = 0.9250
+
+Correlations with clicks:
+  engajamentoneural: r = -0.0691, p = 0.5374
+  cognitivedemand: r = 0.0871, p = 0.4365
+  focus: r = -0.0661, p = 0.5550
+  fluency_index: r = 0.0519, p = 0.6431
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 72.92 | Top 25% CTR Mean = 75.38 | Diff = 2.46
+  cognitivedemand: Bottom 25% CTR Mean = 75.92 | Top 25% CTR Mean = 73.25 | Diff = -2.67
+  focus: Bottom 25% CTR Mean = 9.21 | Top 25% CTR Mean = 13.81 | Diff = 4.60
+  fluency_index: Bottom 25% CTR Mean = 8.12 | Top 25% CTR Mean = 7.60 | Diff = -0.52
+
+
+--- Analysis for: TEST_SUITE_A_Images_2023_Q3_Medium ---
+Sample Size: 123
+
+Correlations with CTR:
+  engajamentoneural: r = 0.1304, p = 0.1505
+  cognitivedemand: r = -0.0584, p = 0.5211
+  focus: r = -0.0840, p = 0.3554
+  fluency_index: r = 0.1560, p = 0.0848
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0502, p = 0.5815
+  cognitivedemand: r = -0.1525, p = 0.0923
+  focus: r = -0.0085, p = 0.9252
+  fluency_index: r = 0.0511, p = 0.5749
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 72.85 | Top 25% CTR Mean = 78.21 | Diff = 5.37
+  cognitivedemand: Bottom 25% CTR Mean = 81.04 | Top 25% CTR Mean = 81.52 | Diff = 0.48
+  focus: Bottom 25% CTR Mean = 10.14 | Top 25% CTR Mean = 9.53 | Diff = -0.61
+  fluency_index: Bottom 25% CTR Mean = 7.48 | Top 25% CTR Mean = 8.71 | Diff = 1.22
+
+
+--- Analysis for: TEST_SUITE_A_Images_2023_Q3_Low ---
+Sample Size: 46
+
+Correlations with CTR:
+  engajamentoneural: r = 0.3192, p = 0.0306
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q3_Low_engajamentoneural_vs_CTR.png
+  cognitivedemand: r = 0.1046, p = 0.4889
+  focus: r = -0.3564, p = 0.0151
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q3_Low_focus_vs_CTR.png
+  fluency_index: r = 0.4892, p = 0.0006
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q3_Low_fluency_index_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural: r = 0.1873, p = 0.2126
+  cognitivedemand: r = -0.0743, p = 0.6237
+  focus: r = -0.2420, p = 0.1052
+  fluency_index: r = 0.3227, p = 0.0287
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q3_Low_fluency_index_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 70.90 | Top 25% CTR Mean = 81.42 | Diff = 10.52
+  cognitivedemand: Bottom 25% CTR Mean = 86.89 | Top 25% CTR Mean = 87.23 | Diff = 0.33
+  focus: Bottom 25% CTR Mean = 19.71 | Top 25% CTR Mean = 8.57 | Diff = -11.14
+  fluency_index: Bottom 25% CTR Mean = 5.61 | Top 25% CTR Mean = 9.52 | Diff = 3.91
+
+
+--- Analysis for: TEST_SUITE_A_Images_2025_Q3_High ---
+Sample Size: 104
+
+Correlations with CTR:
+  engajamentoneural: r = 0.4456, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q3_High_engajamentoneural_vs_CTR.png
+  cognitivedemand: r = -0.0163, p = 0.8699
+  focus: r = 0.0441, p = 0.6567
+  fluency_index: r = -0.0062, p = 0.9499
+
+Correlations with clicks:
+  engajamentoneural: r = 0.1379, p = 0.1627
+  cognitivedemand: r = -0.0225, p = 0.8207
+  focus: r = -0.0059, p = 0.9522
+  fluency_index: r = 0.0387, p = 0.6967
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 74.99 | Top 25% CTR Mean = 79.70 | Diff = 4.70
+  cognitivedemand: Bottom 25% CTR Mean = 83.10 | Top 25% CTR Mean = 77.07 | Diff = -6.03
+  focus: Bottom 25% CTR Mean = 15.77 | Top 25% CTR Mean = 16.61 | Diff = 0.83
+  fluency_index: Bottom 25% CTR Mean = 7.07 | Top 25% CTR Mean = 6.86 | Diff = -0.21
+
+
+--- Analysis for: TEST_SUITE_A_Images_2025_Q3_Medium ---
+Sample Size: 151
+
+Correlations with CTR:
+  engajamentoneural: r = 0.1809, p = 0.0262
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q3_Medium_engajamentoneural_vs_CTR.png
+  cognitivedemand: r = -0.0262, p = 0.7498
+  focus: r = 0.0243, p = 0.7674
+  fluency_index: r = -0.0481, p = 0.5576
+
+Correlations with clicks:
+  engajamentoneural: r = 0.1358, p = 0.0964
+  cognitivedemand: r = 0.0668, p = 0.4151
+  focus: r = 0.1725, p = 0.0342
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q3_Medium_focus_vs_clicks.png
+  fluency_index: r = -0.0094, p = 0.9084
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 75.93 | Top 25% CTR Mean = 78.97 | Diff = 3.03
+  cognitivedemand: Bottom 25% CTR Mean = 80.49 | Top 25% CTR Mean = 79.34 | Diff = -1.15
+  focus: Bottom 25% CTR Mean = 12.12 | Top 25% CTR Mean = 13.44 | Diff = 1.32
+  fluency_index: Bottom 25% CTR Mean = 7.88 | Top 25% CTR Mean = 7.34 | Diff = -0.54
+
+
+--- Analysis for: TEST_SUITE_A_Images_2025_Q3_Low ---
+Sample Size: 91
+
+Correlations with CTR:
+  engajamentoneural: r = 0.1657, p = 0.1165
+  cognitivedemand: r = 0.0585, p = 0.5817
+  focus: r = -0.1127, p = 0.2873
+  fluency_index: r = 0.2310, p = 0.0276
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q3_Low_fluency_index_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0621, p = 0.5585
+  cognitivedemand: r = -0.0067, p = 0.9496
+  focus: r = 0.0035, p = 0.9737
+  fluency_index: r = 0.0165, p = 0.8765
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 75.97 | Top 25% CTR Mean = 78.34 | Diff = 2.37
+  cognitivedemand: Bottom 25% CTR Mean = 78.69 | Top 25% CTR Mean = 78.74 | Diff = 0.05
+  focus: Bottom 25% CTR Mean = 13.17 | Top 25% CTR Mean = 10.69 | Diff = -2.48
+  fluency_index: Bottom 25% CTR Mean = 6.60 | Top 25% CTR Mean = 8.02 | Diff = 1.42
+
+
+--- Analysis for: TEST_SUITE_A_Images_2024_Q1_High ---
+Sample Size: 66
+
+Correlations with CTR:
+  engajamentoneural: r = 0.2775, p = 0.0241
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q1_High_engajamentoneural_vs_CTR.png
+  cognitivedemand: r = 0.1117, p = 0.3720
+  focus: r = -0.1325, p = 0.2889
+  fluency_index: r = 0.2277, p = 0.0659
+
+Correlations with clicks:
+  engajamentoneural: r = 0.2287, p = 0.0648
+  cognitivedemand: r = 0.1527, p = 0.2211
+  focus: r = -0.1229, p = 0.3256
+  fluency_index: r = 0.2722, p = 0.0270
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q1_High_fluency_index_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 61.54 | Top 25% CTR Mean = 78.37 | Diff = 16.83
+  cognitivedemand: Bottom 25% CTR Mean = 68.25 | Top 25% CTR Mean = 75.84 | Diff = 7.59
+  focus: Bottom 25% CTR Mean = 13.48 | Top 25% CTR Mean = 11.38 | Diff = -2.10
+  fluency_index: Bottom 25% CTR Mean = 5.92 | Top 25% CTR Mean = 7.94 | Diff = 2.02
+
+
+--- Analysis for: TEST_SUITE_A_Images_2024_Q1_Medium ---
+Sample Size: 234
+
+Correlations with CTR:
+  engajamentoneural: r = 0.1198, p = 0.0675
+  cognitivedemand: r = -0.0408, p = 0.5346
+  focus: r = -0.0623, p = 0.3428
+  fluency_index: r = 0.1065, p = 0.1040
+
+Correlations with clicks:
+  engajamentoneural: r = 0.1674, p = 0.0103
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q1_Medium_engajamentoneural_vs_clicks.png
+  cognitivedemand: r = -0.0336, p = 0.6092
+  focus: r = -0.0289, p = 0.6596
+  fluency_index: r = 0.1023, p = 0.1185
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 73.64 | Top 25% CTR Mean = 79.13 | Diff = 5.49
+  cognitivedemand: Bottom 25% CTR Mean = 69.60 | Top 25% CTR Mean = 68.51 | Diff = -1.09
+  focus: Bottom 25% CTR Mean = 19.83 | Top 25% CTR Mean = 19.79 | Diff = -0.03
+  fluency_index: Bottom 25% CTR Mean = 5.82 | Top 25% CTR Mean = 6.41 | Diff = 0.59
+
+
+--- Analysis for: TEST_SUITE_A_Images_2024_Q1_Low ---
+Sample Size: 63
+
+Correlations with CTR:
+  engajamentoneural: r = 0.1035, p = 0.4315
+  cognitivedemand: r = 0.0207, p = 0.8752
+  focus: r = 0.0725, p = 0.5819
+  fluency_index: r = 0.0053, p = 0.9678
+
+Correlations with clicks:
+  engajamentoneural: r = 0.1391, p = 0.2771
+  cognitivedemand: r = 0.0297, p = 0.8172
+  focus: r = -0.2992, p = 0.0172
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q1_Low_focus_vs_clicks.png
+  fluency_index: r = 0.3256, p = 0.0092
+    * Generated plot: scatter_TEST_SUITE_A_Images_2024_Q1_Low_fluency_index_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 73.56 | Top 25% CTR Mean = 76.04 | Diff = 2.48
+  cognitivedemand: Bottom 25% CTR Mean = 67.12 | Top 25% CTR Mean = 69.32 | Diff = 2.20
+  focus: Bottom 25% CTR Mean = 21.03 | Top 25% CTR Mean = 22.61 | Diff = 1.58
+  fluency_index: Bottom 25% CTR Mean = 5.94 | Top 25% CTR Mean = 6.11 | Diff = 0.17
+
+
+--- Analysis for: TEST_SUITE_A_Images_2025_Q4_High ---
+Sample Size: 66
+
+Correlations with CTR:
+  engajamentoneural: r = -0.3685, p = 0.0023
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q4_High_engajamentoneural_vs_CTR.png
+  cognitivedemand: r = -0.4371, p = 0.0002
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q4_High_cognitivedemand_vs_CTR.png
+  focus: r = 0.2309, p = 0.0621
+  fluency_index: r = -0.3205, p = 0.0087
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q4_High_fluency_index_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural: r = 0.1127, p = 0.3674
+  cognitivedemand: r = -0.3015, p = 0.0139
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q4_High_cognitivedemand_vs_clicks.png
+  focus: r = -0.1059, p = 0.3972
+  fluency_index: r = 0.1376, p = 0.2707
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 84.00 | Top 25% CTR Mean = 74.31 | Diff = -9.69
+  cognitivedemand: Bottom 25% CTR Mean = 88.92 | Top 25% CTR Mean = 73.23 | Diff = -15.68
+  focus: Bottom 25% CTR Mean = 9.71 | Top 25% CTR Mean = 12.45 | Diff = 2.74
+  fluency_index: Bottom 25% CTR Mean = 8.95 | Top 25% CTR Mean = 6.85 | Diff = -2.10
+
+
+--- Analysis for: TEST_SUITE_A_Images_2025_Q4_Medium ---
+Sample Size: 148
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0584, p = 0.4808
+  cognitivedemand: r = -0.0627, p = 0.4491
+  focus: r = 0.0144, p = 0.8620
+  fluency_index: r = 0.1137, p = 0.1689
+
+Correlations with clicks:
+  engajamentoneural: r = -0.0657, p = 0.4274
+  cognitivedemand: r = -0.1860, p = 0.0236
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q4_Medium_cognitivedemand_vs_clicks.png
+  focus: r = 0.0094, p = 0.9096
+  fluency_index: r = -0.0644, p = 0.4367
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 77.63 | Top 25% CTR Mean = 77.61 | Diff = -0.02
+  cognitivedemand: Bottom 25% CTR Mean = 82.89 | Top 25% CTR Mean = 79.70 | Diff = -3.19
+  focus: Bottom 25% CTR Mean = 11.39 | Top 25% CTR Mean = 11.88 | Diff = 0.50
+  fluency_index: Bottom 25% CTR Mean = 7.56 | Top 25% CTR Mean = 8.00 | Diff = 0.44
+
+
+--- Analysis for: TEST_SUITE_A_Images_2025_Q4_Low ---
+Sample Size: 144
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0330, p = 0.6955
+  cognitivedemand: r = -0.1200, p = 0.1533
+  focus: r = 0.2292, p = 0.0059
+    * Generated plot: scatter_TEST_SUITE_A_Images_2025_Q4_Low_focus_vs_CTR.png
+  fluency_index: r = -0.1570, p = 0.0612
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0527, p = 0.5322
+  cognitivedemand: r = -0.0993, p = 0.2380
+  focus: r = -0.0907, p = 0.2815
+  fluency_index: r = 0.0941, p = 0.2634
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 76.08 | Top 25% CTR Mean = 76.76 | Diff = 0.68
+  cognitivedemand: Bottom 25% CTR Mean = 78.99 | Top 25% CTR Mean = 75.88 | Diff = -3.11
+  focus: Bottom 25% CTR Mean = 11.93 | Top 25% CTR Mean = 16.06 | Diff = 4.13
+  fluency_index: Bottom 25% CTR Mean = 7.23 | Top 25% CTR Mean = 6.51 | Diff = -0.72
+
+
+--- Analysis for: TEST_SUITE_A_Images_2026_Q1_High ---
+Sample Size: 37
+
+Correlations with CTR:
+  engajamentoneural: r = 0.3038, p = 0.0676
+  cognitivedemand: r = -0.3900, p = 0.0170
+    * Generated plot: scatter_TEST_SUITE_A_Images_2026_Q1_High_cognitivedemand_vs_CTR.png
+  focus: r = -0.1678, p = 0.3208
+  fluency_index: r = 0.2985, p = 0.0727
+
+Correlations with clicks:
+  engajamentoneural: r = -0.1242, p = 0.4640
+  cognitivedemand: r = -0.2366, p = 0.1586
+  focus: r = -0.2251, p = 0.1804
+  fluency_index: r = 0.1901, p = 0.2599
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 77.13 | Top 25% CTR Mean = 81.41 | Diff = 4.29
+  cognitivedemand: Bottom 25% CTR Mean = 83.24 | Top 25% CTR Mean = 71.16 | Diff = -12.08
+  focus: Bottom 25% CTR Mean = 10.23 | Top 25% CTR Mean = 9.15 | Diff = -1.08
+  fluency_index: Bottom 25% CTR Mean = 7.92 | Top 25% CTR Mean = 8.97 | Diff = 1.05
+
+
+--- Analysis for: TEST_SUITE_A_Images_2026_Q1_Medium ---
+Sample Size: 123
+
+Correlations with CTR:
+  engajamentoneural: r = -0.0323, p = 0.7229
+  cognitivedemand: r = 0.2630, p = 0.0033
+    * Generated plot: scatter_TEST_SUITE_A_Images_2026_Q1_Medium_cognitivedemand_vs_CTR.png
+  focus: r = 0.0813, p = 0.3713
+  fluency_index: r = -0.0197, p = 0.8291
+
+Correlations with clicks:
+  engajamentoneural: r = -0.1701, p = 0.0599
+  cognitivedemand: r = -0.1512, p = 0.0950
+  focus: r = 0.1932, p = 0.0323
+    * Generated plot: scatter_TEST_SUITE_A_Images_2026_Q1_Medium_focus_vs_clicks.png
+  fluency_index: r = -0.2140, p = 0.0175
+    * Generated plot: scatter_TEST_SUITE_A_Images_2026_Q1_Medium_fluency_index_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 78.60 | Top 25% CTR Mean = 76.91 | Diff = -1.69
+  cognitivedemand: Bottom 25% CTR Mean = 79.60 | Top 25% CTR Mean = 87.41 | Diff = 7.80
+  focus: Bottom 25% CTR Mean = 10.82 | Top 25% CTR Mean = 14.69 | Diff = 3.86
+  fluency_index: Bottom 25% CTR Mean = 7.63 | Top 25% CTR Mean = 7.22 | Diff = -0.41
+
+
+--- Analysis for: TEST_SUITE_A_Images_2026_Q1_Low ---
+Sample Size: 111
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0360, p = 0.7077
+  cognitivedemand: r = 0.0397, p = 0.6788
+  focus: r = -0.0887, p = 0.3547
+  fluency_index: r = 0.0583, p = 0.5432
+
+Correlations with clicks:
+  engajamentoneural: r = 0.1544, p = 0.1056
+  cognitivedemand: r = 0.1701, p = 0.0743
+  focus: r = -0.1216, p = 0.2035
+  fluency_index: r = 0.0642, p = 0.5034
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 69.67 | Top 25% CTR Mean = 75.10 | Diff = 5.44
+  cognitivedemand: Bottom 25% CTR Mean = 72.76 | Top 25% CTR Mean = 80.32 | Diff = 7.56
+  focus: Bottom 25% CTR Mean = 13.75 | Top 25% CTR Mean = 12.66 | Diff = -1.09
+  fluency_index: Bottom 25% CTR Mean = 6.47 | Top 25% CTR Mean = 7.34 | Diff = 0.87
+
+
+--- Analysis for: TEST_SUITE_A_Images_2023_Q2_High ---
+Sample Size: 16
+
+Correlations with CTR:
+  engajamentoneural: r = 0.2599, p = 0.3311
+  cognitivedemand: r = -0.2492, p = 0.3520
+  focus: r = -0.1134, p = 0.6760
+  fluency_index: r = 0.3318, p = 0.2092
+
+Correlations with clicks:
+  engajamentoneural: r = 0.0676, p = 0.8036
+  cognitivedemand: r = 0.4109, p = 0.1139
+  focus: r = 0.5419, p = 0.0301
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q2_High_focus_vs_clicks.png
+  fluency_index: r = -0.3406, p = 0.1967
+
+
+--- Analysis for: TEST_SUITE_A_Images_2023_Q2_Medium ---
+Sample Size: 101
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0058, p = 0.9544
+  cognitivedemand: r = 0.2835, p = 0.0041
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q2_Medium_cognitivedemand_vs_CTR.png
+  focus: r = -0.2673, p = 0.0069
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q2_Medium_focus_vs_CTR.png
+  fluency_index: r = 0.3997, p = 0.0000
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q2_Medium_fluency_index_vs_CTR.png
+
+Correlations with clicks:
+  engajamentoneural: r = -0.0464, p = 0.6446
+  cognitivedemand: r = 0.3538, p = 0.0003
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q2_Medium_cognitivedemand_vs_clicks.png
+  focus: r = -0.2047, p = 0.0400
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q2_Medium_focus_vs_clicks.png
+  fluency_index: r = 0.2396, p = 0.0158
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q2_Medium_fluency_index_vs_clicks.png
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 79.45 | Top 25% CTR Mean = 76.04 | Diff = -3.41
+  cognitivedemand: Bottom 25% CTR Mean = 76.90 | Top 25% CTR Mean = 83.47 | Diff = 6.57
+  focus: Bottom 25% CTR Mean = 11.94 | Top 25% CTR Mean = 8.73 | Diff = -3.21
+  fluency_index: Bottom 25% CTR Mean = 7.11 | Top 25% CTR Mean = 8.81 | Diff = 1.70
+
+
+--- Analysis for: TEST_SUITE_A_Images_2023_Q2_Low ---
+Sample Size: 44
+
+Correlations with CTR:
+  engajamentoneural: r = 0.0591, p = 0.7033
+  cognitivedemand: r = 0.3190, p = 0.0348
+    * Generated plot: scatter_TEST_SUITE_A_Images_2023_Q2_Low_cognitivedemand_vs_CTR.png
+  focus: r = 0.0606, p = 0.6959
+  fluency_index: r = -0.0040, p = 0.9795
+
+Correlations with clicks:
+  engajamentoneural: r = 0.1073, p = 0.4881
+  cognitivedemand: r = 0.2506, p = 0.1008
+  focus: r = -0.1060, p = 0.4933
+  fluency_index: r = 0.1732, p = 0.2609
+
+Quartile Analysis on CTR:
+  engajamentoneural: Bottom 25% CTR Mean = 72.25 | Top 25% CTR Mean = 73.11 | Diff = 0.86
+  cognitivedemand: Bottom 25% CTR Mean = 71.62 | Top 25% CTR Mean = 90.12 | Diff = 18.51
+  focus: Bottom 25% CTR Mean = 11.73 | Top 25% CTR Mean = 9.93 | Diff = -1.80
+  fluency_index: Bottom 25% CTR Mean = 6.34 | Top 25% CTR Mean = 7.78 | Diff = 1.44
+

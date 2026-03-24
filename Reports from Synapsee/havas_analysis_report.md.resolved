@@ -1,0 +1,120 @@
+# Havas.2 Neuro-Metric Analysis Report (Comprehensive)
+
+## Overview
+This report details the full battery of tests applied to the `Havas.2` dataset to replicate the Tunad/Gaia analysis methodologies.
+It separates the analysis into **Images** (static neuro-metrics) and **Videos** (time-series derived metrics).
+
+## 1. Methodology & Hypothesis Testing
+
+| Hypothesis / Test | Description | Applied to | Status |
+| :--- | :--- | :--- | :--- |
+| **Central Hypothesis** | Do neural indices explain sales/conversion (CTR)? | Image & Video | **Done** |
+| **"5 Seconds" Rule** | Do the first 5 seconds explain performance better than the whole? | Video | **Done** |
+| **Peak Score** | Do high-intensity moments (Peak Engagement) drive performance? | Video | **Done** |
+| **Fluency Index** | Does ease of processing (Engagement / Focus) drive performance? | Image & Video | **Done** |
+| **Quartile Analysis** | Do top-performing creatives (Top 25% CTR) have different neuro profiles than bottom ones? | Image & Video | **Done** |
+
+---
+
+## 2. Video Analysis Results
+*Sample: 2076 creatives*
+
+### A. Central Hypothesis (Correlation)
+*Goal: measure linear relationship between neuro-metrics and CTR.*
+- **Fluency Index**: `r = 0.08` (**Positive & Significant**, p<0.001).
+- **Neural Engagement (Mean)**: `r = 0.05` (**Positive & Significant**, p=0.03).
+- **Focus (Mean)**: `r = -0.07` (**Negative & Significant**, p=0.002).
+- *Observation*: Higher engagement and "fluency" (ease of processing) correlate with better performance. High sustained focus correlates with worse performance (perhaps indicating confusion or cognitive load).
+
+### B. Advanced Methodologies
+#### "5 Seconds" Hypothesis
+*Goal: Test if the start of the video is more predictive.*
+- **Neural Engagement (5s)**: `r = -0.03` (Not significant, p=0.11).
+- **Conclusion**: For this dataset, variables from the first 5 seconds were **less predictive** than the full video average. The "5 Second Rule" was **refuted** in this specific context.
+
+#### Peak Score
+*Goal: Test if peak emotional moments matter more than averages.*
+- **Peak Engagement**: `r = -0.05` (**Negative & Significant**, p=0.01).
+- **Conclusion**: Surprisingly, higher *peak* engagement was associated with slightly *lower* CTR, whereas higher *average* engagement was positive. This might suggest consistency is more important than spikes.
+
+#### Quartile Analysis (Top 25% vs Bottom 25%)
+*Goal: Compare neuro profiles of the best vs worst performers.*
+
+| Metric | Top 25% CTR (Mean) | Bottom 25% CTR (Mean) | Difference |
+| :--- | :--- | :--- | :--- |
+| **Fluency Index** | **3.26** | 2.69 | **+21.2%** |
+| **Neural Engagement** | **69.23** | 65.76 | **+5.3%** |
+| **Focus** | 28.08 | 31.53 | -11.0% |
+
+- **Insight**: The most successful videos are processed significantly more "fluently" (+21%) and have higher overall engagement (+5%), but require less sustained focus (-11%).
+
+![Video Quartile Analysis](/Users/tomasdefreitascarvalho/.gemini/antigravity/brain/40f72a65-5efc-416f-89ef-18ca4422368b/quartile_Video.png)
+
+### C. Machine Learning & Regression
+#### Linear Regression (OLS)
+- **R-squared**: `0.03` (Model explains 3% of variance).
+- **Significant Predictors**:
+    - **Fluency Index**: Positive coefficient (p=0.045).
+    - **Engagement (Mean)**: Positive coefficient (p<0.001).
+    - **Peak Engagement**: Negative coefficient (p<0.001).
+
+#### Gradient Boosting (XGBoost)
+- **R-squared**: `-0.23` (Model performs worse than a simple mean baseline).
+- **Interpretation**: The lack of improvement with a non-linear model suggests the relationship is either very weak linear or dominated by noise/other factors not captured in the neuro-metrics.
+- **Top Features**: Despite poor performance, the model prioritized **engajamentoneural** and **focus**.
+
+![XGBoost Importance Video](/Users/tomasdefreitascarvalho/.gemini/antigravity/brain/40f72a65-5efc-416f-89ef-18ca4422368b/xgboost_importance_Video.png)
+
+---
+
+## 3. Image Analysis Results
+*Sample: 4167 creatives*
+
+### A. Central Hypothesis (Correlation)
+- **None of the neuro-metrics (Engagement, Focus, Fluency) showed statistically significant correlations with CTR.**
+- Pearson r values were all close to 0 (e.g., Fluency `r = -0.003`, p=0.83).
+
+### B. Quartile Analysis
+- **Difference between Top and Bottom groups was negligible (< 5%) for all metrics.**
+- **Conclusion**: The current static neuro-metrics do not differentiate high-performing images from low-performing ones in this dataset.
+
+![Image Quartile Analysis](/Users/tomasdefreitascarvalho/.gemini/antigravity/brain/40f72a65-5efc-416f-89ef-18ca4422368b/quartile_Image.png)
+
+### C. Machine Learning (XGBoost)
+- **R-squared**: `-0.79` (Very poor performance).
+- **Conclusion**: Confirming the correlation results, there is no extractable signal in the current set of static neuro-metrics for optimizing Image CTR.
+
+![XGBoost Importance Image](/Users/tomasdefreitascarvalho/.gemini/antigravity/brain/40f72a65-5efc-416f-89ef-18ca4422368b/xgboost_importance_Image.png)
+
+---
+
+## 4. Brand Lift Analysis (Tunad Dataset)
+*Analysis of 307 videos from the Tunad internal dataset.*
+
+Since the main dataset lacked Lift metrics, we analyzed the `Tunad_Forebrain` dataset to test correlations between Neuro-Metrics and Brand Lift KPIs (`Total Lift`, `Avg Lift`, `Call to Action`).
+
+### A. Key Findings
+- **Focus vs. Call to Action**: Significant **negative correlation** (`r = -0.171`, `p = 0.002`).
+    - **Interpretation**: Videos that require **less visual effort (Lower Focus)** tend to drive higher **Call to Action** performance. This aligns with the "Fluency" hypothesis found in the CTR analysis—easier-to-process content triggers more action.
+- **Cognitive Demand vs. Call to Action**: Weak positive correlation (`r = 0.113`, `p = 0.047`).
+    - **Interpretation**: A slight increase in cognitive demand might be necessary for the specific task of "acting" (understanding what to do), but high focus (visual strain) is detrimental.
+- **General Lift**: No significant correlations were found for `Total Lift` or `Avg Lift` with the current neuro-metrics.
+
+![Lift Correlation Heatmap](/Users/tomasdefreitascarvalho/.gemini/antigravity/brain/40f72a65-5efc-416f-89ef-18ca4422368b/heatmap_lift.png)
+
+---
+
+## 5. Final Conclusion & Recommendations
+
+### Videos
+- **Validated**: **Fluency Index** is the strongest predictor. The hypothesis that "easier to process" videos perform better is supported by the +21% difference in the Top Quartile.
+- **Validated**: **Sustained Engagement** matters.
+- **Refuted**: "5 Second Rule" and "Peak Score" did not show positive predictive power in this specific analysis (peaks actually correlated negatively).
+
+### Images
+- **Null Result**: Static neuro-metrics (Focus, Engagement) derived from these images did not explain performance variance.
+
+### Recommendations
+1.  **Adopt Fluency Index**: Use `Engagement / Focus` as a primary KPI for video pre-testing.
+2.  **Focus on Consistency**: Prioritize videos with sustained engagement over those with single high spikes (peaks).
+3.  **Re-evaluate Image Metrics**: The current image analysis pipeline needs review. Consider metrics based on object saliency, text density, or other visual features, as pure "neuro" proxies are not working for static content here.

@@ -1,0 +1,103 @@
+Loading data from /Users/tomasdefreitascarvalho/Desktop/Work Space/Rubens/synapsee/Tunad/Tunad_Timeline_Metrics_Fixed.csv...
+Rows loaded: 470
+
+==================================================
+   CORRELATION TEST: FULL VIDEO METRICS
+==================================================
+
+--- Target KPI: AvgLift ---
+  EngNeural:                     r =  0.0102, p = 0.8252  
+  Índice de Foco:                r = -0.0653, p = 0.1574  
+  Demanda Cognitiva:             r = -0.0832, p = 0.0714  
+
+--- Target KPI: AvgCallToAction ---
+  EngNeural:                     r =  0.0475, p = 0.4065  
+  Índice de Foco:                r = -0.1713, p = 0.0026  ⭐ STATISTICALLY SIGNIFICANT
+  Demanda Cognitiva:             r =  0.1134, p = 0.0470  ⭐ STATISTICALLY SIGNIFICANT
+
+--- Target KPI: AvgUpliftProportional ---
+  EngNeural:                     r =  0.0025, p = 0.9577  
+  Índice de Foco:                r = -0.0698, p = 0.1309  
+  Demanda Cognitiva:             r = -0.0525, p = 0.2560  
+
+==================================================
+   CORRELATION TEST: FIRST 5 SECONDS
+==================================================
+
+--- Target KPI: AvgLift ---
+  engajamentoneural_5sec:        r =  0.0260, p = 0.5734  
+  focus_5sec:                    r = -0.0849, p = 0.0660  
+  cognitivedemand_5sec:          r = -0.0588, p = 0.2033  
+
+--- Target KPI: AvgCallToAction ---
+  engajamentoneural_5sec:        r =  0.0540, p = 0.3460  
+  focus_5sec:                    r = -0.1200, p = 0.0356  ⭐ STATISTICALLY SIGNIFICANT
+  cognitivedemand_5sec:          r =  0.0863, p = 0.1314  
+
+--- Target KPI: AvgUpliftProportional ---
+  engajamentoneural_5sec:        r = -0.0006, p = 0.9898  
+  focus_5sec:                    r = -0.0248, p = 0.5924  
+  cognitivedemand_5sec:          r = -0.0411, p = 0.3736  
+
+==================================================
+   CORRELATION TEST: LAST 5 SECONDS
+==================================================
+
+--- Target KPI: AvgLift ---
+  engajamentoneural_last_5sec:   r =  0.0139, p = 0.7635  
+  focus_last_5sec:               r = -0.0514, p = 0.2664  
+  cognitivedemand_last_5sec:     r = -0.0424, p = 0.3593  
+
+--- Target KPI: AvgCallToAction ---
+  engajamentoneural_last_5sec:   r =  0.0587, p = 0.3052  
+  focus_last_5sec:               r = -0.1948, p = 0.0006  ⭐ STATISTICALLY SIGNIFICANT
+  cognitivedemand_last_5sec:     r =  0.1244, p = 0.0293  ⭐ STATISTICALLY SIGNIFICANT
+
+--- Target KPI: AvgUpliftProportional ---
+  engajamentoneural_last_5sec:   r = -0.0033, p = 0.9433  
+  focus_last_5sec:               r = -0.0140, p = 0.7616  
+  cognitivedemand_last_5sec:     r = -0.0700, p = 0.1299  
+
+==================================================
+   QUARTILE ANALYSIS: FIRST 5 SECONDS
+==================================================
+
+--- Target KPI: AvgLift ---
+Comparing Top 25% (N=118) vs Bottom 25% (N=163)
+  engajamentoneural_5sec:        Top =  61.71 | Bot =  60.96 | Diff =   +1.2% 📈 Higher in Winners
+  focus_5sec:                    Top =  55.01 | Bot =  57.29 | Diff =   -4.0% 📉 Lower in Winners
+  cognitivedemand_5sec:          Top =  51.58 | Bot =  54.57 | Diff =   -5.5% 📉 Lower in Winners
+
+--- Target KPI: AvgCallToAction ---
+Comparing Top 25% (N=119) vs Bottom 25% (N=132)
+  engajamentoneural_5sec:        Top =  60.77 | Bot =  60.39 | Diff =   +0.6% 📈 Higher in Winners
+  focus_5sec:                    Top =  53.96 | Bot =  58.75 | Diff =   -8.1% 📉 Lower in Winners
+  cognitivedemand_5sec:          Top =  51.34 | Bot =  49.39 | Diff =   +3.9% 📈 Higher in Winners
+
+--- Target KPI: AvgUpliftProportional ---
+Comparing Top 25% (N=118) vs Bottom 25% (N=270)
+  engajamentoneural_5sec:        Top =  59.87 | Bot =  61.20 | Diff =   -2.2% 📉 Lower in Winners
+  focus_5sec:                    Top =  58.94 | Bot =  57.62 | Diff =   +2.3% 📈 Higher in Winners
+  cognitivedemand_5sec:          Top =  48.63 | Bot =  53.47 | Diff =   -9.0% 📉 Lower in Winners
+
+==================================================
+   QUARTILE ANALYSIS: LAST 5 SECONDS
+==================================================
+
+--- Target KPI: AvgLift ---
+Comparing Top 25% (N=118) vs Bottom 25% (N=163)
+  engajamentoneural_last_5sec:   Top =  55.00 | Bot =  54.61 | Diff =   +0.7% 📈 Higher in Winners
+  focus_last_5sec:               Top =  50.84 | Bot =  56.05 | Diff =   -9.3% 📉 Lower in Winners
+  cognitivedemand_last_5sec:     Top =  53.21 | Bot =  56.49 | Diff =   -5.8% 📉 Lower in Winners
+
+--- Target KPI: AvgCallToAction ---
+Comparing Top 25% (N=119) vs Bottom 25% (N=132)
+  engajamentoneural_last_5sec:   Top =  55.55 | Bot =  54.00 | Diff =   +2.9% 📈 Higher in Winners
+  focus_last_5sec:               Top =  49.54 | Bot =  57.46 | Diff =  -13.8% 📉 Lower in Winners
+  cognitivedemand_last_5sec:     Top =  54.82 | Bot =  51.58 | Diff =   +6.3% 📈 Higher in Winners
+
+--- Target KPI: AvgUpliftProportional ---
+Comparing Top 25% (N=118) vs Bottom 25% (N=270)
+  engajamentoneural_last_5sec:   Top =  53.88 | Bot =  54.90 | Diff =   -1.9% 📉 Lower in Winners
+  focus_last_5sec:               Top =  56.87 | Bot =  54.70 | Diff =   +4.0% 📈 Higher in Winners
+  cognitivedemand_last_5sec:     Top =  50.47 | Bot =  55.94 | Diff =   -9.8% 📉 Lower in Winners
