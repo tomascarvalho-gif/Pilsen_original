@@ -1,0 +1,27 @@
+# Segredos e credenciais
+.env
+*.env
+.env.*
+
+# Sistema
+.DS_Store
+.Rhistory
+__pycache__/
+*.pyc
+
+# Ambiente virtual
+.venv/
+
+# Vídeos brutos (pesados)
+*.mp4
+*.mov
+*.avi
+
+# Pastas de dados brutos pesados
+Havas.2/video_public_storage_url-3/
+Havas.2/public_storage_url-5/
+GAIA/
+Tunad/
+
+# ZIPs
+*.zip
